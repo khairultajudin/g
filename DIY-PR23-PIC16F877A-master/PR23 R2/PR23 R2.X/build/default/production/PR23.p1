@@ -1,0 +1,4527 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"2526 C:\Program Files (x86)\Microchip\xc8\v1.11\include\pic16f877a.h
+[v _RBIF `Vb ~T0 @X0 0 e@88 ]
+"2516
+[v _RB4 `Vb ~T0 @X0 0 e@52 ]
+"626
+[v _TMR1H `Vuc ~T0 @X0 0 e@15 ]
+"620
+[v _TMR1L `Vuc ~T0 @X0 0 e@14 ]
+"2654
+[v _TMR1ON `Vb ~T0 @X0 0 e@128 ]
+"2554
+[v _RCIF `Vb ~T0 @X0 0 e@101 ]
+"2468
+[v _OERR `Vb ~T0 @X0 0 e@193 ]
+"2402
+[v _CREN `Vb ~T0 @X0 0 e@196 ]
+"1032
+[v _RCREG `Vuc ~T0 @X0 0 e@26 ]
+[p mainexit ]
+"130 PR23.c
+[v _init `(v ~T0 @X0 0 ef ]
+"136
+[v _lcd_init `(v ~T0 @X0 0 ef ]
+"133
+[v _beep `(v ~T0 @X0 0 ef1`uc ]
+"2518 C:\Program Files (x86)\Microchip\xc8\v1.11\include\pic16f877a.h
+[v _RB5 `Vb ~T0 @X0 0 e@53 ]
+"143 PR23.c
+[v _lcd_clr `(v ~T0 @X0 0 ef ]
+"145
+[v _lcd_string `(v ~T0 @X0 0 ef1`*Cuc ]
+"142
+[v _lcd_2ndline `(v ~T0 @X0 0 ef ]
+"132
+[v _delay_ms `(v ~T0 @X0 0 ef1`ul ]
+"2574 C:\Program Files (x86)\Microchip\xc8\v1.11\include\pic16f877a.h
+[v _RE0 `Vb ~T0 @X0 0 e@72 ]
+"144 PR23.c
+[v _lcd_clr_line `(v ~T0 @X0 0 ef1`uc ]
+"141
+[v _lcd_home `(v ~T0 @X0 0 ef ]
+"2576 C:\Program Files (x86)\Microchip\xc8\v1.11\include\pic16f877a.h
+[v _RE1 `Vb ~T0 @X0 0 e@73 ]
+"149 PR23.c
+[v _line_follow `(v ~T0 @X0 0 ef ]
+"150
+[v _ultrasonic `(v ~T0 @X0 0 ef ]
+"151
+[v _analog_sen `(v ~T0 @X0 0 ef ]
+"152
+[v _wireless_xbee `(v ~T0 @X0 0 ef ]
+"153
+[v _SKPS_PScon `(v ~T0 @X0 0 ef ]
+"151 C:\Program Files (x86)\Microchip\xc8\v1.11\include\pic.h
+[v __delay `(v ~T0 @X0 0 ef1`ul ]
+[p i __delay ]
+"2578 C:\Program Files (x86)\Microchip\xc8\v1.11\include\pic16f877a.h
+[v _RE2 `Vb ~T0 @X0 0 e@74 ]
+"2520
+[v _RB6 `Vb ~T0 @X0 0 e@54 ]
+"137 PR23.c
+[v _lcd_config `(v ~T0 @X0 0 ef1`uc ]
+"2522 C:\Program Files (x86)\Microchip\xc8\v1.11\include\pic16f877a.h
+[v _RB7 `Vb ~T0 @X0 0 e@55 ]
+"326
+[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"139 PR23.c
+[v _e_pulse `(v ~T0 @X0 0 ef ]
+"2025 C:\Program Files (x86)\Microchip\xc8\v1.11\include\pic16f877a.h
+[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"2336
+[v _BRGH `Vb ~T0 @X0 0 e@1218 ]
+"2746
+[v _TXEN `Vb ~T0 @X0 0 e@1221 ]
+"2740
+[v _TX9 `Vb ~T0 @X0 0 e@1222 ]
+"2600
+[v _SPEN `Vb ~T0 @X0 0 e@199 ]
+"2588
+[v _RX9 `Vb ~T0 @X0 0 e@198 ]
+"2552
+[v _RCIE `Vb ~T0 @X0 0 e@1125 ]
+"2750
+[v _TXIF `Vb ~T0 @X0 0 e@100 ]
+"1026
+[v _TXREG `Vuc ~T0 @X0 0 e@25 ]
+"1119
+[v _ADCON0 `Vuc ~T0 @X0 0 e@31 ]
+"2170
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"2442
+[v _GO_DONE `Vb ~T0 @X0 0 e@250 ]
+"1113
+[v _ADRESH `Vuc ~T0 @X0 0 e@30 ]
+"2164
+[v _ADRESL `Vuc ~T0 @X0 0 e@158 ]
+"2328
+[v _ADON `Vb ~T0 @X0 0 e@248 ]
+"632
+[v _T1CON `Vuc ~T0 @X0 0 e@16 ]
+"2524
+[v _RBIE `Vb ~T0 @X0 0 e@91 ]
+"2650
+[v _TMR1IE `Vb ~T0 @X0 0 e@1120 ]
+"2438
+[v _GIE `Vb ~T0 @X0 0 e@95 ]
+"2478
+[v _PEIE `Vb ~T0 @X0 0 e@94 ]
+"155
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"204
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"265
+[v _PORTC `Vuc ~T0 @X0 0 e@7 ]
+"387
+[v _PORTE `Vuc ~T0 @X0 0 e@9 ]
+"1283
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"1332
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"1393
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"1454
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"1515
+[v _TRISE `Vuc ~T0 @X0 0 e@137 ]
+"1765
+[v _PR2 `Vuc ~T0 @X0 0 e@146 ]
+"712
+[v _T2CON `Vuc ~T0 @X0 0 e@18 ]
+"875
+[v _CCP1CON `Vuc ~T0 @X0 0 e@23 ]
+"1056
+[v _CCP2CON `Vuc ~T0 @X0 0 e@29 ]
+"863
+[v _CCPR1L `Vuc ~T0 @X0 0 e@21 ]
+"1044
+[v _CCPR2L `Vuc ~T0 @X0 0 e@27 ]
+"157 PR23.c
+[v _stop `(v ~T0 @X0 0 ef ]
+"156
+[v _forward `(v ~T0 @X0 0 ef ]
+"2508 C:\Program Files (x86)\Microchip\xc8\v1.11\include\pic16f877a.h
+[v _RB0 `Vb ~T0 @X0 0 e@48 ]
+"2510
+[v _RB1 `Vb ~T0 @X0 0 e@49 ]
+"2512
+[v _RB2 `Vb ~T0 @X0 0 e@50 ]
+"2514
+[v _RB3 `Vb ~T0 @X0 0 e@51 ]
+"181 PR23.c
+[v _us_value `(ui ~T0 @X0 0 ef1`uc ]
+"158
+[v _backward `(v ~T0 @X0 0 ef ]
+"161
+[v _right `(v ~T0 @X0 0 ef ]
+"160
+[v _left `(v ~T0 @X0 0 ef ]
+"2528 C:\Program Files (x86)\Microchip\xc8\v1.11\include\pic16f877a.h
+[v _RC0 `Vb ~T0 @X0 0 e@56 ]
+"2534
+[v _RC3 `Vb ~T0 @X0 0 e@59 ]
+"2536
+[v _RC4 `Vb ~T0 @X0 0 e@60 ]
+"2538
+[v _RC5 `Vb ~T0 @X0 0 e@61 ]
+[; ;pic16f877a.h: 44: extern volatile unsigned char INDF @ 0x000;
+"46 C:\Program Files (x86)\Microchip\xc8\v1.11\include\pic16f877a.h
+[; ;pic16f877a.h: 46: asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+[; ;pic16f877a.h: 50: extern volatile unsigned char TMR0 @ 0x001;
+"52
+[; ;pic16f877a.h: 52: asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+[; ;pic16f877a.h: 56: extern volatile unsigned char PCL @ 0x002;
+"58
+[; ;pic16f877a.h: 58: asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+[; ;pic16f877a.h: 62: extern volatile unsigned char STATUS @ 0x003;
+"64
+[; ;pic16f877a.h: 64: asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+[; ;pic16f877a.h: 67: typedef union {
+[; ;pic16f877a.h: 68: struct {
+[; ;pic16f877a.h: 69: unsigned C :1;
+[; ;pic16f877a.h: 70: unsigned DC :1;
+[; ;pic16f877a.h: 71: unsigned Z :1;
+[; ;pic16f877a.h: 72: unsigned nPD :1;
+[; ;pic16f877a.h: 73: unsigned nTO :1;
+[; ;pic16f877a.h: 74: unsigned RP :2;
+[; ;pic16f877a.h: 75: unsigned IRP :1;
+[; ;pic16f877a.h: 76: };
+[; ;pic16f877a.h: 77: struct {
+[; ;pic16f877a.h: 78: unsigned :5;
+[; ;pic16f877a.h: 79: unsigned RP0 :1;
+[; ;pic16f877a.h: 80: unsigned RP1 :1;
+[; ;pic16f877a.h: 81: };
+[; ;pic16f877a.h: 82: struct {
+[; ;pic16f877a.h: 83: unsigned CARRY :1;
+[; ;pic16f877a.h: 84: };
+[; ;pic16f877a.h: 85: struct {
+[; ;pic16f877a.h: 86: unsigned :2;
+[; ;pic16f877a.h: 87: unsigned ZERO :1;
+[; ;pic16f877a.h: 88: };
+[; ;pic16f877a.h: 89: } STATUSbits_t;
+[; ;pic16f877a.h: 90: extern volatile STATUSbits_t STATUSbits @ 0x003;
+[; ;pic16f877a.h: 149: extern volatile unsigned char FSR @ 0x004;
+"151
+[; ;pic16f877a.h: 151: asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+[; ;pic16f877a.h: 155: extern volatile unsigned char PORTA @ 0x005;
+"157
+[; ;pic16f877a.h: 157: asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+[; ;pic16f877a.h: 160: typedef union {
+[; ;pic16f877a.h: 161: struct {
+[; ;pic16f877a.h: 162: unsigned RA0 :1;
+[; ;pic16f877a.h: 163: unsigned RA1 :1;
+[; ;pic16f877a.h: 164: unsigned RA2 :1;
+[; ;pic16f877a.h: 165: unsigned RA3 :1;
+[; ;pic16f877a.h: 166: unsigned RA4 :1;
+[; ;pic16f877a.h: 167: unsigned RA5 :1;
+[; ;pic16f877a.h: 168: };
+[; ;pic16f877a.h: 169: } PORTAbits_t;
+[; ;pic16f877a.h: 170: extern volatile PORTAbits_t PORTAbits @ 0x005;
+[; ;pic16f877a.h: 204: extern volatile unsigned char PORTB @ 0x006;
+"206
+[; ;pic16f877a.h: 206: asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+[; ;pic16f877a.h: 209: typedef union {
+[; ;pic16f877a.h: 210: struct {
+[; ;pic16f877a.h: 211: unsigned RB0 :1;
+[; ;pic16f877a.h: 212: unsigned RB1 :1;
+[; ;pic16f877a.h: 213: unsigned RB2 :1;
+[; ;pic16f877a.h: 214: unsigned RB3 :1;
+[; ;pic16f877a.h: 215: unsigned RB4 :1;
+[; ;pic16f877a.h: 216: unsigned RB5 :1;
+[; ;pic16f877a.h: 217: unsigned RB6 :1;
+[; ;pic16f877a.h: 218: unsigned RB7 :1;
+[; ;pic16f877a.h: 219: };
+[; ;pic16f877a.h: 220: } PORTBbits_t;
+[; ;pic16f877a.h: 221: extern volatile PORTBbits_t PORTBbits @ 0x006;
+[; ;pic16f877a.h: 265: extern volatile unsigned char PORTC @ 0x007;
+"267
+[; ;pic16f877a.h: 267: asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+[; ;pic16f877a.h: 270: typedef union {
+[; ;pic16f877a.h: 271: struct {
+[; ;pic16f877a.h: 272: unsigned RC0 :1;
+[; ;pic16f877a.h: 273: unsigned RC1 :1;
+[; ;pic16f877a.h: 274: unsigned RC2 :1;
+[; ;pic16f877a.h: 275: unsigned RC3 :1;
+[; ;pic16f877a.h: 276: unsigned RC4 :1;
+[; ;pic16f877a.h: 277: unsigned RC5 :1;
+[; ;pic16f877a.h: 278: unsigned RC6 :1;
+[; ;pic16f877a.h: 279: unsigned RC7 :1;
+[; ;pic16f877a.h: 280: };
+[; ;pic16f877a.h: 281: } PORTCbits_t;
+[; ;pic16f877a.h: 282: extern volatile PORTCbits_t PORTCbits @ 0x007;
+[; ;pic16f877a.h: 326: extern volatile unsigned char PORTD @ 0x008;
+"328
+[; ;pic16f877a.h: 328: asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+[; ;pic16f877a.h: 331: typedef union {
+[; ;pic16f877a.h: 332: struct {
+[; ;pic16f877a.h: 333: unsigned RD0 :1;
+[; ;pic16f877a.h: 334: unsigned RD1 :1;
+[; ;pic16f877a.h: 335: unsigned RD2 :1;
+[; ;pic16f877a.h: 336: unsigned RD3 :1;
+[; ;pic16f877a.h: 337: unsigned RD4 :1;
+[; ;pic16f877a.h: 338: unsigned RD5 :1;
+[; ;pic16f877a.h: 339: unsigned RD6 :1;
+[; ;pic16f877a.h: 340: unsigned RD7 :1;
+[; ;pic16f877a.h: 341: };
+[; ;pic16f877a.h: 342: } PORTDbits_t;
+[; ;pic16f877a.h: 343: extern volatile PORTDbits_t PORTDbits @ 0x008;
+[; ;pic16f877a.h: 387: extern volatile unsigned char PORTE @ 0x009;
+"389
+[; ;pic16f877a.h: 389: asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+[; ;pic16f877a.h: 392: typedef union {
+[; ;pic16f877a.h: 393: struct {
+[; ;pic16f877a.h: 394: unsigned RE0 :1;
+[; ;pic16f877a.h: 395: unsigned RE1 :1;
+[; ;pic16f877a.h: 396: unsigned RE2 :1;
+[; ;pic16f877a.h: 397: };
+[; ;pic16f877a.h: 398: } PORTEbits_t;
+[; ;pic16f877a.h: 399: extern volatile PORTEbits_t PORTEbits @ 0x009;
+[; ;pic16f877a.h: 418: extern volatile unsigned char PCLATH @ 0x00A;
+"420
+[; ;pic16f877a.h: 420: asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+[; ;pic16f877a.h: 423: typedef union {
+[; ;pic16f877a.h: 424: struct {
+[; ;pic16f877a.h: 425: unsigned PCLATH :5;
+[; ;pic16f877a.h: 426: };
+[; ;pic16f877a.h: 427: } PCLATHbits_t;
+[; ;pic16f877a.h: 428: extern volatile PCLATHbits_t PCLATHbits @ 0x00A;
+[; ;pic16f877a.h: 437: extern volatile unsigned char INTCON @ 0x00B;
+"439
+[; ;pic16f877a.h: 439: asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+[; ;pic16f877a.h: 442: typedef union {
+[; ;pic16f877a.h: 443: struct {
+[; ;pic16f877a.h: 444: unsigned RBIF :1;
+[; ;pic16f877a.h: 445: unsigned INTF :1;
+[; ;pic16f877a.h: 446: unsigned TMR0IF :1;
+[; ;pic16f877a.h: 447: unsigned RBIE :1;
+[; ;pic16f877a.h: 448: unsigned INTE :1;
+[; ;pic16f877a.h: 449: unsigned TMR0IE :1;
+[; ;pic16f877a.h: 450: unsigned PEIE :1;
+[; ;pic16f877a.h: 451: unsigned GIE :1;
+[; ;pic16f877a.h: 452: };
+[; ;pic16f877a.h: 453: struct {
+[; ;pic16f877a.h: 454: unsigned :2;
+[; ;pic16f877a.h: 455: unsigned T0IF :1;
+[; ;pic16f877a.h: 456: unsigned :2;
+[; ;pic16f877a.h: 457: unsigned T0IE :1;
+[; ;pic16f877a.h: 458: };
+[; ;pic16f877a.h: 459: } INTCONbits_t;
+[; ;pic16f877a.h: 460: extern volatile INTCONbits_t INTCONbits @ 0x00B;
+[; ;pic16f877a.h: 514: extern volatile unsigned char PIR1 @ 0x00C;
+"516
+[; ;pic16f877a.h: 516: asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+[; ;pic16f877a.h: 519: typedef union {
+[; ;pic16f877a.h: 520: struct {
+[; ;pic16f877a.h: 521: unsigned TMR1IF :1;
+[; ;pic16f877a.h: 522: unsigned TMR2IF :1;
+[; ;pic16f877a.h: 523: unsigned CCP1IF :1;
+[; ;pic16f877a.h: 524: unsigned SSPIF :1;
+[; ;pic16f877a.h: 525: unsigned TXIF :1;
+[; ;pic16f877a.h: 526: unsigned RCIF :1;
+[; ;pic16f877a.h: 527: unsigned ADIF :1;
+[; ;pic16f877a.h: 528: unsigned PSPIF :1;
+[; ;pic16f877a.h: 529: };
+[; ;pic16f877a.h: 530: } PIR1bits_t;
+[; ;pic16f877a.h: 531: extern volatile PIR1bits_t PIR1bits @ 0x00C;
+[; ;pic16f877a.h: 575: extern volatile unsigned char PIR2 @ 0x00D;
+"577
+[; ;pic16f877a.h: 577: asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+[; ;pic16f877a.h: 580: typedef union {
+[; ;pic16f877a.h: 581: struct {
+[; ;pic16f877a.h: 582: unsigned CCP2IF :1;
+[; ;pic16f877a.h: 583: unsigned :2;
+[; ;pic16f877a.h: 584: unsigned BCLIF :1;
+[; ;pic16f877a.h: 585: unsigned EEIF :1;
+[; ;pic16f877a.h: 586: unsigned :1;
+[; ;pic16f877a.h: 587: unsigned CMIF :1;
+[; ;pic16f877a.h: 588: };
+[; ;pic16f877a.h: 589: } PIR2bits_t;
+[; ;pic16f877a.h: 590: extern volatile PIR2bits_t PIR2bits @ 0x00D;
+[; ;pic16f877a.h: 614: extern volatile unsigned short TMR1 @ 0x00E;
+"616
+[; ;pic16f877a.h: 616: asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+[; ;pic16f877a.h: 620: extern volatile unsigned char TMR1L @ 0x00E;
+"622
+[; ;pic16f877a.h: 622: asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+[; ;pic16f877a.h: 626: extern volatile unsigned char TMR1H @ 0x00F;
+"628
+[; ;pic16f877a.h: 628: asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+[; ;pic16f877a.h: 632: extern volatile unsigned char T1CON @ 0x010;
+"634
+[; ;pic16f877a.h: 634: asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+[; ;pic16f877a.h: 637: typedef union {
+[; ;pic16f877a.h: 638: struct {
+[; ;pic16f877a.h: 639: unsigned TMR1ON :1;
+[; ;pic16f877a.h: 640: unsigned TMR1CS :1;
+[; ;pic16f877a.h: 641: unsigned nT1SYNC :1;
+[; ;pic16f877a.h: 642: unsigned T1OSCEN :1;
+[; ;pic16f877a.h: 643: unsigned T1CKPS :2;
+[; ;pic16f877a.h: 644: };
+[; ;pic16f877a.h: 645: struct {
+[; ;pic16f877a.h: 646: unsigned :2;
+[; ;pic16f877a.h: 647: unsigned T1SYNC :1;
+[; ;pic16f877a.h: 648: unsigned :1;
+[; ;pic16f877a.h: 649: unsigned T1CKPS0 :1;
+[; ;pic16f877a.h: 650: unsigned T1CKPS1 :1;
+[; ;pic16f877a.h: 651: };
+[; ;pic16f877a.h: 652: struct {
+[; ;pic16f877a.h: 653: unsigned :2;
+[; ;pic16f877a.h: 654: unsigned T1INSYNC :1;
+[; ;pic16f877a.h: 655: };
+[; ;pic16f877a.h: 656: } T1CONbits_t;
+[; ;pic16f877a.h: 657: extern volatile T1CONbits_t T1CONbits @ 0x010;
+[; ;pic16f877a.h: 706: extern volatile unsigned char TMR2 @ 0x011;
+"708
+[; ;pic16f877a.h: 708: asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+[; ;pic16f877a.h: 712: extern volatile unsigned char T2CON @ 0x012;
+"714
+[; ;pic16f877a.h: 714: asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+[; ;pic16f877a.h: 717: typedef union {
+[; ;pic16f877a.h: 718: struct {
+[; ;pic16f877a.h: 719: unsigned T2CKPS :2;
+[; ;pic16f877a.h: 720: unsigned TMR2ON :1;
+[; ;pic16f877a.h: 721: unsigned TOUTPS :4;
+[; ;pic16f877a.h: 722: };
+[; ;pic16f877a.h: 723: struct {
+[; ;pic16f877a.h: 724: unsigned T2CKPS0 :1;
+[; ;pic16f877a.h: 725: unsigned T2CKPS1 :1;
+[; ;pic16f877a.h: 726: unsigned :1;
+[; ;pic16f877a.h: 727: unsigned TOUTPS0 :1;
+[; ;pic16f877a.h: 728: unsigned TOUTPS1 :1;
+[; ;pic16f877a.h: 729: unsigned TOUTPS2 :1;
+[; ;pic16f877a.h: 730: unsigned TOUTPS3 :1;
+[; ;pic16f877a.h: 731: };
+[; ;pic16f877a.h: 732: } T2CONbits_t;
+[; ;pic16f877a.h: 733: extern volatile T2CONbits_t T2CONbits @ 0x012;
+[; ;pic16f877a.h: 782: extern volatile unsigned char SSPBUF @ 0x013;
+"784
+[; ;pic16f877a.h: 784: asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+[; ;pic16f877a.h: 788: extern volatile unsigned char SSPCON @ 0x014;
+"790
+[; ;pic16f877a.h: 790: asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+[; ;pic16f877a.h: 793: typedef union {
+[; ;pic16f877a.h: 794: struct {
+[; ;pic16f877a.h: 795: unsigned SSPM :4;
+[; ;pic16f877a.h: 796: unsigned CKP :1;
+[; ;pic16f877a.h: 797: unsigned SSPEN :1;
+[; ;pic16f877a.h: 798: unsigned SSPOV :1;
+[; ;pic16f877a.h: 799: unsigned WCOL :1;
+[; ;pic16f877a.h: 800: };
+[; ;pic16f877a.h: 801: struct {
+[; ;pic16f877a.h: 802: unsigned SSPM0 :1;
+[; ;pic16f877a.h: 803: unsigned SSPM1 :1;
+[; ;pic16f877a.h: 804: unsigned SSPM2 :1;
+[; ;pic16f877a.h: 805: unsigned SSPM3 :1;
+[; ;pic16f877a.h: 806: };
+[; ;pic16f877a.h: 807: } SSPCONbits_t;
+[; ;pic16f877a.h: 808: extern volatile SSPCONbits_t SSPCONbits @ 0x014;
+[; ;pic16f877a.h: 857: extern volatile unsigned short CCPR1 @ 0x015;
+"859
+[; ;pic16f877a.h: 859: asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+[; ;pic16f877a.h: 863: extern volatile unsigned char CCPR1L @ 0x015;
+"865
+[; ;pic16f877a.h: 865: asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+[; ;pic16f877a.h: 869: extern volatile unsigned char CCPR1H @ 0x016;
+"871
+[; ;pic16f877a.h: 871: asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+[; ;pic16f877a.h: 875: extern volatile unsigned char CCP1CON @ 0x017;
+"877
+[; ;pic16f877a.h: 877: asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+[; ;pic16f877a.h: 880: typedef union {
+[; ;pic16f877a.h: 881: struct {
+[; ;pic16f877a.h: 882: unsigned CCP1M :4;
+[; ;pic16f877a.h: 883: unsigned CCP1Y :1;
+[; ;pic16f877a.h: 884: unsigned CCP1X :1;
+[; ;pic16f877a.h: 885: };
+[; ;pic16f877a.h: 886: struct {
+[; ;pic16f877a.h: 887: unsigned CCP1M0 :1;
+[; ;pic16f877a.h: 888: unsigned CCP1M1 :1;
+[; ;pic16f877a.h: 889: unsigned CCP1M2 :1;
+[; ;pic16f877a.h: 890: unsigned CCP1M3 :1;
+[; ;pic16f877a.h: 891: };
+[; ;pic16f877a.h: 892: } CCP1CONbits_t;
+[; ;pic16f877a.h: 893: extern volatile CCP1CONbits_t CCP1CONbits @ 0x017;
+[; ;pic16f877a.h: 932: extern volatile unsigned char RCSTA @ 0x018;
+"934
+[; ;pic16f877a.h: 934: asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+[; ;pic16f877a.h: 937: typedef union {
+[; ;pic16f877a.h: 938: struct {
+[; ;pic16f877a.h: 939: unsigned RX9D :1;
+[; ;pic16f877a.h: 940: unsigned OERR :1;
+[; ;pic16f877a.h: 941: unsigned FERR :1;
+[; ;pic16f877a.h: 942: unsigned ADDEN :1;
+[; ;pic16f877a.h: 943: unsigned CREN :1;
+[; ;pic16f877a.h: 944: unsigned SREN :1;
+[; ;pic16f877a.h: 945: unsigned RX9 :1;
+[; ;pic16f877a.h: 946: unsigned SPEN :1;
+[; ;pic16f877a.h: 947: };
+[; ;pic16f877a.h: 948: struct {
+[; ;pic16f877a.h: 949: unsigned RCD8 :1;
+[; ;pic16f877a.h: 950: unsigned :5;
+[; ;pic16f877a.h: 951: unsigned RC9 :1;
+[; ;pic16f877a.h: 952: };
+[; ;pic16f877a.h: 953: struct {
+[; ;pic16f877a.h: 954: unsigned :6;
+[; ;pic16f877a.h: 955: unsigned nRC8 :1;
+[; ;pic16f877a.h: 956: };
+[; ;pic16f877a.h: 957: struct {
+[; ;pic16f877a.h: 958: unsigned :6;
+[; ;pic16f877a.h: 959: unsigned RC8_9 :1;
+[; ;pic16f877a.h: 960: };
+[; ;pic16f877a.h: 961: } RCSTAbits_t;
+[; ;pic16f877a.h: 962: extern volatile RCSTAbits_t RCSTAbits @ 0x018;
+[; ;pic16f877a.h: 1026: extern volatile unsigned char TXREG @ 0x019;
+"1028
+[; ;pic16f877a.h: 1028: asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+[; ;pic16f877a.h: 1032: extern volatile unsigned char RCREG @ 0x01A;
+"1034
+[; ;pic16f877a.h: 1034: asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+[; ;pic16f877a.h: 1038: extern volatile unsigned short CCPR2 @ 0x01B;
+"1040
+[; ;pic16f877a.h: 1040: asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+[; ;pic16f877a.h: 1044: extern volatile unsigned char CCPR2L @ 0x01B;
+"1046
+[; ;pic16f877a.h: 1046: asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+[; ;pic16f877a.h: 1050: extern volatile unsigned char CCPR2H @ 0x01C;
+"1052
+[; ;pic16f877a.h: 1052: asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+[; ;pic16f877a.h: 1056: extern volatile unsigned char CCP2CON @ 0x01D;
+"1058
+[; ;pic16f877a.h: 1058: asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+[; ;pic16f877a.h: 1061: typedef union {
+[; ;pic16f877a.h: 1062: struct {
+[; ;pic16f877a.h: 1063: unsigned CCP2M :4;
+[; ;pic16f877a.h: 1064: unsigned CCP2Y :1;
+[; ;pic16f877a.h: 1065: unsigned CCP2X :1;
+[; ;pic16f877a.h: 1066: };
+[; ;pic16f877a.h: 1067: struct {
+[; ;pic16f877a.h: 1068: unsigned CCP2M0 :1;
+[; ;pic16f877a.h: 1069: unsigned CCP2M1 :1;
+[; ;pic16f877a.h: 1070: unsigned CCP2M2 :1;
+[; ;pic16f877a.h: 1071: unsigned CCP2M3 :1;
+[; ;pic16f877a.h: 1072: };
+[; ;pic16f877a.h: 1073: } CCP2CONbits_t;
+[; ;pic16f877a.h: 1074: extern volatile CCP2CONbits_t CCP2CONbits @ 0x01D;
+[; ;pic16f877a.h: 1113: extern volatile unsigned char ADRESH @ 0x01E;
+"1115
+[; ;pic16f877a.h: 1115: asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+[; ;pic16f877a.h: 1119: extern volatile unsigned char ADCON0 @ 0x01F;
+"1121
+[; ;pic16f877a.h: 1121: asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+[; ;pic16f877a.h: 1124: typedef union {
+[; ;pic16f877a.h: 1125: struct {
+[; ;pic16f877a.h: 1126: unsigned ADON :1;
+[; ;pic16f877a.h: 1127: unsigned :1;
+[; ;pic16f877a.h: 1128: unsigned GO_nDONE :1;
+[; ;pic16f877a.h: 1129: unsigned CHS :3;
+[; ;pic16f877a.h: 1130: unsigned ADCS :2;
+[; ;pic16f877a.h: 1131: };
+[; ;pic16f877a.h: 1132: struct {
+[; ;pic16f877a.h: 1133: unsigned :2;
+[; ;pic16f877a.h: 1134: unsigned GO :1;
+[; ;pic16f877a.h: 1135: unsigned CHS0 :1;
+[; ;pic16f877a.h: 1136: unsigned CHS1 :1;
+[; ;pic16f877a.h: 1137: unsigned CHS2 :1;
+[; ;pic16f877a.h: 1138: unsigned ADCS0 :1;
+[; ;pic16f877a.h: 1139: unsigned ADCS1 :1;
+[; ;pic16f877a.h: 1140: };
+[; ;pic16f877a.h: 1141: struct {
+[; ;pic16f877a.h: 1142: unsigned :2;
+[; ;pic16f877a.h: 1143: unsigned nDONE :1;
+[; ;pic16f877a.h: 1144: };
+[; ;pic16f877a.h: 1145: struct {
+[; ;pic16f877a.h: 1146: unsigned :2;
+[; ;pic16f877a.h: 1147: unsigned GO_DONE :1;
+[; ;pic16f877a.h: 1148: };
+[; ;pic16f877a.h: 1149: } ADCON0bits_t;
+[; ;pic16f877a.h: 1150: extern volatile ADCON0bits_t ADCON0bits @ 0x01F;
+[; ;pic16f877a.h: 1214: extern volatile unsigned char OPTION_REG @ 0x081;
+"1216
+[; ;pic16f877a.h: 1216: asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+[; ;pic16f877a.h: 1219: typedef union {
+[; ;pic16f877a.h: 1220: struct {
+[; ;pic16f877a.h: 1221: unsigned PS :3;
+[; ;pic16f877a.h: 1222: unsigned PSA :1;
+[; ;pic16f877a.h: 1223: unsigned T0SE :1;
+[; ;pic16f877a.h: 1224: unsigned T0CS :1;
+[; ;pic16f877a.h: 1225: unsigned INTEDG :1;
+[; ;pic16f877a.h: 1226: unsigned nRBPU :1;
+[; ;pic16f877a.h: 1227: };
+[; ;pic16f877a.h: 1228: struct {
+[; ;pic16f877a.h: 1229: unsigned PS0 :1;
+[; ;pic16f877a.h: 1230: unsigned PS1 :1;
+[; ;pic16f877a.h: 1231: unsigned PS2 :1;
+[; ;pic16f877a.h: 1232: };
+[; ;pic16f877a.h: 1233: } OPTION_REGbits_t;
+[; ;pic16f877a.h: 1234: extern volatile OPTION_REGbits_t OPTION_REGbits @ 0x081;
+[; ;pic16f877a.h: 1283: extern volatile unsigned char TRISA @ 0x085;
+"1285
+[; ;pic16f877a.h: 1285: asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+[; ;pic16f877a.h: 1288: typedef union {
+[; ;pic16f877a.h: 1289: struct {
+[; ;pic16f877a.h: 1290: unsigned TRISA0 :1;
+[; ;pic16f877a.h: 1291: unsigned TRISA1 :1;
+[; ;pic16f877a.h: 1292: unsigned TRISA2 :1;
+[; ;pic16f877a.h: 1293: unsigned TRISA3 :1;
+[; ;pic16f877a.h: 1294: unsigned TRISA4 :1;
+[; ;pic16f877a.h: 1295: unsigned TRISA5 :1;
+[; ;pic16f877a.h: 1296: };
+[; ;pic16f877a.h: 1297: } TRISAbits_t;
+[; ;pic16f877a.h: 1298: extern volatile TRISAbits_t TRISAbits @ 0x085;
+[; ;pic16f877a.h: 1332: extern volatile unsigned char TRISB @ 0x086;
+"1334
+[; ;pic16f877a.h: 1334: asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+[; ;pic16f877a.h: 1337: typedef union {
+[; ;pic16f877a.h: 1338: struct {
+[; ;pic16f877a.h: 1339: unsigned TRISB0 :1;
+[; ;pic16f877a.h: 1340: unsigned TRISB1 :1;
+[; ;pic16f877a.h: 1341: unsigned TRISB2 :1;
+[; ;pic16f877a.h: 1342: unsigned TRISB3 :1;
+[; ;pic16f877a.h: 1343: unsigned TRISB4 :1;
+[; ;pic16f877a.h: 1344: unsigned TRISB5 :1;
+[; ;pic16f877a.h: 1345: unsigned TRISB6 :1;
+[; ;pic16f877a.h: 1346: unsigned TRISB7 :1;
+[; ;pic16f877a.h: 1347: };
+[; ;pic16f877a.h: 1348: } TRISBbits_t;
+[; ;pic16f877a.h: 1349: extern volatile TRISBbits_t TRISBbits @ 0x086;
+[; ;pic16f877a.h: 1393: extern volatile unsigned char TRISC @ 0x087;
+"1395
+[; ;pic16f877a.h: 1395: asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+[; ;pic16f877a.h: 1398: typedef union {
+[; ;pic16f877a.h: 1399: struct {
+[; ;pic16f877a.h: 1400: unsigned TRISC0 :1;
+[; ;pic16f877a.h: 1401: unsigned TRISC1 :1;
+[; ;pic16f877a.h: 1402: unsigned TRISC2 :1;
+[; ;pic16f877a.h: 1403: unsigned TRISC3 :1;
+[; ;pic16f877a.h: 1404: unsigned TRISC4 :1;
+[; ;pic16f877a.h: 1405: unsigned TRISC5 :1;
+[; ;pic16f877a.h: 1406: unsigned TRISC6 :1;
+[; ;pic16f877a.h: 1407: unsigned TRISC7 :1;
+[; ;pic16f877a.h: 1408: };
+[; ;pic16f877a.h: 1409: } TRISCbits_t;
+[; ;pic16f877a.h: 1410: extern volatile TRISCbits_t TRISCbits @ 0x087;
+[; ;pic16f877a.h: 1454: extern volatile unsigned char TRISD @ 0x088;
+"1456
+[; ;pic16f877a.h: 1456: asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+[; ;pic16f877a.h: 1459: typedef union {
+[; ;pic16f877a.h: 1460: struct {
+[; ;pic16f877a.h: 1461: unsigned TRISD0 :1;
+[; ;pic16f877a.h: 1462: unsigned TRISD1 :1;
+[; ;pic16f877a.h: 1463: unsigned TRISD2 :1;
+[; ;pic16f877a.h: 1464: unsigned TRISD3 :1;
+[; ;pic16f877a.h: 1465: unsigned TRISD4 :1;
+[; ;pic16f877a.h: 1466: unsigned TRISD5 :1;
+[; ;pic16f877a.h: 1467: unsigned TRISD6 :1;
+[; ;pic16f877a.h: 1468: unsigned TRISD7 :1;
+[; ;pic16f877a.h: 1469: };
+[; ;pic16f877a.h: 1470: } TRISDbits_t;
+[; ;pic16f877a.h: 1471: extern volatile TRISDbits_t TRISDbits @ 0x088;
+[; ;pic16f877a.h: 1515: extern volatile unsigned char TRISE @ 0x089;
+"1517
+[; ;pic16f877a.h: 1517: asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+[; ;pic16f877a.h: 1520: typedef union {
+[; ;pic16f877a.h: 1521: struct {
+[; ;pic16f877a.h: 1522: unsigned TRISE0 :1;
+[; ;pic16f877a.h: 1523: unsigned TRISE1 :1;
+[; ;pic16f877a.h: 1524: unsigned TRISE2 :1;
+[; ;pic16f877a.h: 1525: unsigned :1;
+[; ;pic16f877a.h: 1526: unsigned PSPMODE :1;
+[; ;pic16f877a.h: 1527: unsigned IBOV :1;
+[; ;pic16f877a.h: 1528: unsigned OBF :1;
+[; ;pic16f877a.h: 1529: unsigned IBF :1;
+[; ;pic16f877a.h: 1530: };
+[; ;pic16f877a.h: 1531: } TRISEbits_t;
+[; ;pic16f877a.h: 1532: extern volatile TRISEbits_t TRISEbits @ 0x089;
+[; ;pic16f877a.h: 1571: extern volatile unsigned char PIE1 @ 0x08C;
+"1573
+[; ;pic16f877a.h: 1573: asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+[; ;pic16f877a.h: 1576: typedef union {
+[; ;pic16f877a.h: 1577: struct {
+[; ;pic16f877a.h: 1578: unsigned TMR1IE :1;
+[; ;pic16f877a.h: 1579: unsigned TMR2IE :1;
+[; ;pic16f877a.h: 1580: unsigned CCP1IE :1;
+[; ;pic16f877a.h: 1581: unsigned SSPIE :1;
+[; ;pic16f877a.h: 1582: unsigned TXIE :1;
+[; ;pic16f877a.h: 1583: unsigned RCIE :1;
+[; ;pic16f877a.h: 1584: unsigned ADIE :1;
+[; ;pic16f877a.h: 1585: unsigned PSPIE :1;
+[; ;pic16f877a.h: 1586: };
+[; ;pic16f877a.h: 1587: } PIE1bits_t;
+[; ;pic16f877a.h: 1588: extern volatile PIE1bits_t PIE1bits @ 0x08C;
+[; ;pic16f877a.h: 1632: extern volatile unsigned char PIE2 @ 0x08D;
+"1634
+[; ;pic16f877a.h: 1634: asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+[; ;pic16f877a.h: 1637: typedef union {
+[; ;pic16f877a.h: 1638: struct {
+[; ;pic16f877a.h: 1639: unsigned CCP2IE :1;
+[; ;pic16f877a.h: 1640: unsigned :2;
+[; ;pic16f877a.h: 1641: unsigned BCLIE :1;
+[; ;pic16f877a.h: 1642: unsigned EEIE :1;
+[; ;pic16f877a.h: 1643: unsigned :1;
+[; ;pic16f877a.h: 1644: unsigned CMIE :1;
+[; ;pic16f877a.h: 1645: };
+[; ;pic16f877a.h: 1646: } PIE2bits_t;
+[; ;pic16f877a.h: 1647: extern volatile PIE2bits_t PIE2bits @ 0x08D;
+[; ;pic16f877a.h: 1671: extern volatile unsigned char PCON @ 0x08E;
+"1673
+[; ;pic16f877a.h: 1673: asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+[; ;pic16f877a.h: 1676: typedef union {
+[; ;pic16f877a.h: 1677: struct {
+[; ;pic16f877a.h: 1678: unsigned nBOR :1;
+[; ;pic16f877a.h: 1679: unsigned nPOR :1;
+[; ;pic16f877a.h: 1680: };
+[; ;pic16f877a.h: 1681: struct {
+[; ;pic16f877a.h: 1682: unsigned nBO :1;
+[; ;pic16f877a.h: 1683: };
+[; ;pic16f877a.h: 1684: } PCONbits_t;
+[; ;pic16f877a.h: 1685: extern volatile PCONbits_t PCONbits @ 0x08E;
+[; ;pic16f877a.h: 1704: extern volatile unsigned char SSPCON2 @ 0x091;
+"1706
+[; ;pic16f877a.h: 1706: asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+[; ;pic16f877a.h: 1709: typedef union {
+[; ;pic16f877a.h: 1710: struct {
+[; ;pic16f877a.h: 1711: unsigned SEN :1;
+[; ;pic16f877a.h: 1712: unsigned RSEN :1;
+[; ;pic16f877a.h: 1713: unsigned PEN :1;
+[; ;pic16f877a.h: 1714: unsigned RCEN :1;
+[; ;pic16f877a.h: 1715: unsigned ACKEN :1;
+[; ;pic16f877a.h: 1716: unsigned ACKDT :1;
+[; ;pic16f877a.h: 1717: unsigned ACKSTAT :1;
+[; ;pic16f877a.h: 1718: unsigned GCEN :1;
+[; ;pic16f877a.h: 1719: };
+[; ;pic16f877a.h: 1720: } SSPCON2bits_t;
+[; ;pic16f877a.h: 1721: extern volatile SSPCON2bits_t SSPCON2bits @ 0x091;
+[; ;pic16f877a.h: 1765: extern volatile unsigned char PR2 @ 0x092;
+"1767
+[; ;pic16f877a.h: 1767: asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+[; ;pic16f877a.h: 1771: extern volatile unsigned char SSPADD @ 0x093;
+"1773
+[; ;pic16f877a.h: 1773: asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+[; ;pic16f877a.h: 1777: extern volatile unsigned char SSPSTAT @ 0x094;
+"1779
+[; ;pic16f877a.h: 1779: asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+[; ;pic16f877a.h: 1782: typedef union {
+[; ;pic16f877a.h: 1783: struct {
+[; ;pic16f877a.h: 1784: unsigned BF :1;
+[; ;pic16f877a.h: 1785: unsigned UA :1;
+[; ;pic16f877a.h: 1786: unsigned R_nW :1;
+[; ;pic16f877a.h: 1787: unsigned S :1;
+[; ;pic16f877a.h: 1788: unsigned P :1;
+[; ;pic16f877a.h: 1789: unsigned D_nA :1;
+[; ;pic16f877a.h: 1790: unsigned CKE :1;
+[; ;pic16f877a.h: 1791: unsigned SMP :1;
+[; ;pic16f877a.h: 1792: };
+[; ;pic16f877a.h: 1793: struct {
+[; ;pic16f877a.h: 1794: unsigned :2;
+[; ;pic16f877a.h: 1795: unsigned R :1;
+[; ;pic16f877a.h: 1796: unsigned :2;
+[; ;pic16f877a.h: 1797: unsigned D :1;
+[; ;pic16f877a.h: 1798: };
+[; ;pic16f877a.h: 1799: struct {
+[; ;pic16f877a.h: 1800: unsigned :2;
+[; ;pic16f877a.h: 1801: unsigned I2C_READ :1;
+[; ;pic16f877a.h: 1802: unsigned I2C_START :1;
+[; ;pic16f877a.h: 1803: unsigned I2C_STOP :1;
+[; ;pic16f877a.h: 1804: unsigned I2C_DATA :1;
+[; ;pic16f877a.h: 1805: };
+[; ;pic16f877a.h: 1806: struct {
+[; ;pic16f877a.h: 1807: unsigned :2;
+[; ;pic16f877a.h: 1808: unsigned nW :1;
+[; ;pic16f877a.h: 1809: unsigned :2;
+[; ;pic16f877a.h: 1810: unsigned nA :1;
+[; ;pic16f877a.h: 1811: };
+[; ;pic16f877a.h: 1812: struct {
+[; ;pic16f877a.h: 1813: unsigned :2;
+[; ;pic16f877a.h: 1814: unsigned nWRITE :1;
+[; ;pic16f877a.h: 1815: unsigned :2;
+[; ;pic16f877a.h: 1816: unsigned nADDRESS :1;
+[; ;pic16f877a.h: 1817: };
+[; ;pic16f877a.h: 1818: struct {
+[; ;pic16f877a.h: 1819: unsigned :2;
+[; ;pic16f877a.h: 1820: unsigned R_W :1;
+[; ;pic16f877a.h: 1821: unsigned :2;
+[; ;pic16f877a.h: 1822: unsigned D_A :1;
+[; ;pic16f877a.h: 1823: };
+[; ;pic16f877a.h: 1824: struct {
+[; ;pic16f877a.h: 1825: unsigned :2;
+[; ;pic16f877a.h: 1826: unsigned READ_WRITE :1;
+[; ;pic16f877a.h: 1827: unsigned :2;
+[; ;pic16f877a.h: 1828: unsigned DATA_ADDRESS :1;
+[; ;pic16f877a.h: 1829: };
+[; ;pic16f877a.h: 1830: } SSPSTATbits_t;
+[; ;pic16f877a.h: 1831: extern volatile SSPSTATbits_t SSPSTATbits @ 0x094;
+[; ;pic16f877a.h: 1945: extern volatile unsigned char TXSTA @ 0x098;
+"1947
+[; ;pic16f877a.h: 1947: asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+[; ;pic16f877a.h: 1950: typedef union {
+[; ;pic16f877a.h: 1951: struct {
+[; ;pic16f877a.h: 1952: unsigned TX9D :1;
+[; ;pic16f877a.h: 1953: unsigned TRMT :1;
+[; ;pic16f877a.h: 1954: unsigned BRGH :1;
+[; ;pic16f877a.h: 1955: unsigned :1;
+[; ;pic16f877a.h: 1956: unsigned SYNC :1;
+[; ;pic16f877a.h: 1957: unsigned TXEN :1;
+[; ;pic16f877a.h: 1958: unsigned TX9 :1;
+[; ;pic16f877a.h: 1959: unsigned CSRC :1;
+[; ;pic16f877a.h: 1960: };
+[; ;pic16f877a.h: 1961: struct {
+[; ;pic16f877a.h: 1962: unsigned TXD8 :1;
+[; ;pic16f877a.h: 1963: unsigned :5;
+[; ;pic16f877a.h: 1964: unsigned nTX8 :1;
+[; ;pic16f877a.h: 1965: };
+[; ;pic16f877a.h: 1966: struct {
+[; ;pic16f877a.h: 1967: unsigned :6;
+[; ;pic16f877a.h: 1968: unsigned TX8_9 :1;
+[; ;pic16f877a.h: 1969: };
+[; ;pic16f877a.h: 1970: } TXSTAbits_t;
+[; ;pic16f877a.h: 1971: extern volatile TXSTAbits_t TXSTAbits @ 0x098;
+[; ;pic16f877a.h: 2025: extern volatile unsigned char SPBRG @ 0x099;
+"2027
+[; ;pic16f877a.h: 2027: asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+[; ;pic16f877a.h: 2031: extern volatile unsigned char CMCON @ 0x09C;
+"2033
+[; ;pic16f877a.h: 2033: asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+[; ;pic16f877a.h: 2036: typedef union {
+[; ;pic16f877a.h: 2037: struct {
+[; ;pic16f877a.h: 2038: unsigned CM :3;
+[; ;pic16f877a.h: 2039: unsigned CIS :1;
+[; ;pic16f877a.h: 2040: unsigned C1INV :1;
+[; ;pic16f877a.h: 2041: unsigned C2INV :1;
+[; ;pic16f877a.h: 2042: unsigned C1OUT :1;
+[; ;pic16f877a.h: 2043: unsigned C2OUT :1;
+[; ;pic16f877a.h: 2044: };
+[; ;pic16f877a.h: 2045: struct {
+[; ;pic16f877a.h: 2046: unsigned CM0 :1;
+[; ;pic16f877a.h: 2047: unsigned CM1 :1;
+[; ;pic16f877a.h: 2048: unsigned CM2 :1;
+[; ;pic16f877a.h: 2049: };
+[; ;pic16f877a.h: 2050: } CMCONbits_t;
+[; ;pic16f877a.h: 2051: extern volatile CMCONbits_t CMCONbits @ 0x09C;
+[; ;pic16f877a.h: 2100: extern volatile unsigned char CVRCON @ 0x09D;
+"2102
+[; ;pic16f877a.h: 2102: asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+[; ;pic16f877a.h: 2105: typedef union {
+[; ;pic16f877a.h: 2106: struct {
+[; ;pic16f877a.h: 2107: unsigned CVR :4;
+[; ;pic16f877a.h: 2108: unsigned :1;
+[; ;pic16f877a.h: 2109: unsigned CVRR :1;
+[; ;pic16f877a.h: 2110: unsigned CVROE :1;
+[; ;pic16f877a.h: 2111: unsigned CVREN :1;
+[; ;pic16f877a.h: 2112: };
+[; ;pic16f877a.h: 2113: struct {
+[; ;pic16f877a.h: 2114: unsigned CVR0 :1;
+[; ;pic16f877a.h: 2115: unsigned CVR1 :1;
+[; ;pic16f877a.h: 2116: unsigned CVR2 :1;
+[; ;pic16f877a.h: 2117: unsigned CVR3 :1;
+[; ;pic16f877a.h: 2118: };
+[; ;pic16f877a.h: 2119: } CVRCONbits_t;
+[; ;pic16f877a.h: 2120: extern volatile CVRCONbits_t CVRCONbits @ 0x09D;
+[; ;pic16f877a.h: 2164: extern volatile unsigned char ADRESL @ 0x09E;
+"2166
+[; ;pic16f877a.h: 2166: asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+[; ;pic16f877a.h: 2170: extern volatile unsigned char ADCON1 @ 0x09F;
+"2172
+[; ;pic16f877a.h: 2172: asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+[; ;pic16f877a.h: 2175: typedef union {
+[; ;pic16f877a.h: 2176: struct {
+[; ;pic16f877a.h: 2177: unsigned PCFG :4;
+[; ;pic16f877a.h: 2178: unsigned :2;
+[; ;pic16f877a.h: 2179: unsigned ADCS2 :1;
+[; ;pic16f877a.h: 2180: unsigned ADFM :1;
+[; ;pic16f877a.h: 2181: };
+[; ;pic16f877a.h: 2182: struct {
+[; ;pic16f877a.h: 2183: unsigned PCFG0 :1;
+[; ;pic16f877a.h: 2184: unsigned PCFG1 :1;
+[; ;pic16f877a.h: 2185: unsigned PCFG2 :1;
+[; ;pic16f877a.h: 2186: unsigned PCFG3 :1;
+[; ;pic16f877a.h: 2187: };
+[; ;pic16f877a.h: 2188: } ADCON1bits_t;
+[; ;pic16f877a.h: 2189: extern volatile ADCON1bits_t ADCON1bits @ 0x09F;
+[; ;pic16f877a.h: 2228: extern volatile unsigned char EEDATA @ 0x10C;
+"2230
+[; ;pic16f877a.h: 2230: asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+[; ;pic16f877a.h: 2234: extern volatile unsigned char EEADR @ 0x10D;
+"2236
+[; ;pic16f877a.h: 2236: asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+[; ;pic16f877a.h: 2240: extern volatile unsigned char EEDATH @ 0x10E;
+"2242
+[; ;pic16f877a.h: 2242: asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+[; ;pic16f877a.h: 2246: extern volatile unsigned char EEADRH @ 0x10F;
+"2248
+[; ;pic16f877a.h: 2248: asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+[; ;pic16f877a.h: 2252: extern volatile unsigned char EECON1 @ 0x18C;
+"2254
+[; ;pic16f877a.h: 2254: asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+[; ;pic16f877a.h: 2257: typedef union {
+[; ;pic16f877a.h: 2258: struct {
+[; ;pic16f877a.h: 2259: unsigned RD :1;
+[; ;pic16f877a.h: 2260: unsigned WR :1;
+[; ;pic16f877a.h: 2261: unsigned WREN :1;
+[; ;pic16f877a.h: 2262: unsigned WRERR :1;
+[; ;pic16f877a.h: 2263: unsigned :3;
+[; ;pic16f877a.h: 2264: unsigned EEPGD :1;
+[; ;pic16f877a.h: 2265: };
+[; ;pic16f877a.h: 2266: } EECON1bits_t;
+[; ;pic16f877a.h: 2267: extern volatile EECON1bits_t EECON1bits @ 0x18C;
+[; ;pic16f877a.h: 2296: extern volatile unsigned char EECON2 @ 0x18D;
+"2298
+[; ;pic16f877a.h: 2298: asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+[; ;pic16f877a.h: 2308: extern volatile __bit ACKDT @ (((unsigned) &SSPCON2)*8) + 5;
+[; ;pic16f877a.h: 2310: extern volatile __bit ACKEN @ (((unsigned) &SSPCON2)*8) + 4;
+[; ;pic16f877a.h: 2312: extern volatile __bit ACKSTAT @ (((unsigned) &SSPCON2)*8) + 6;
+[; ;pic16f877a.h: 2314: extern volatile __bit ADCS0 @ (((unsigned) &ADCON0)*8) + 6;
+[; ;pic16f877a.h: 2316: extern volatile __bit ADCS1 @ (((unsigned) &ADCON0)*8) + 7;
+[; ;pic16f877a.h: 2318: extern volatile __bit ADCS2 @ (((unsigned) &ADCON1)*8) + 6;
+[; ;pic16f877a.h: 2320: extern volatile __bit ADDEN @ (((unsigned) &RCSTA)*8) + 3;
+[; ;pic16f877a.h: 2322: extern volatile __bit ADFM @ (((unsigned) &ADCON1)*8) + 7;
+[; ;pic16f877a.h: 2324: extern volatile __bit ADIE @ (((unsigned) &PIE1)*8) + 6;
+[; ;pic16f877a.h: 2326: extern volatile __bit ADIF @ (((unsigned) &PIR1)*8) + 6;
+[; ;pic16f877a.h: 2328: extern volatile __bit ADON @ (((unsigned) &ADCON0)*8) + 0;
+[; ;pic16f877a.h: 2330: extern volatile __bit BCLIE @ (((unsigned) &PIE2)*8) + 3;
+[; ;pic16f877a.h: 2332: extern volatile __bit BCLIF @ (((unsigned) &PIR2)*8) + 3;
+[; ;pic16f877a.h: 2334: extern volatile __bit BF @ (((unsigned) &SSPSTAT)*8) + 0;
+[; ;pic16f877a.h: 2336: extern volatile __bit BRGH @ (((unsigned) &TXSTA)*8) + 2;
+[; ;pic16f877a.h: 2338: extern volatile __bit C1INV @ (((unsigned) &CMCON)*8) + 4;
+[; ;pic16f877a.h: 2340: extern volatile __bit C1OUT @ (((unsigned) &CMCON)*8) + 6;
+[; ;pic16f877a.h: 2342: extern volatile __bit C2INV @ (((unsigned) &CMCON)*8) + 5;
+[; ;pic16f877a.h: 2344: extern volatile __bit C2OUT @ (((unsigned) &CMCON)*8) + 7;
+[; ;pic16f877a.h: 2346: extern volatile __bit CARRY @ (((unsigned) &STATUS)*8) + 0;
+[; ;pic16f877a.h: 2348: extern volatile __bit CCP1IE @ (((unsigned) &PIE1)*8) + 2;
+[; ;pic16f877a.h: 2350: extern volatile __bit CCP1IF @ (((unsigned) &PIR1)*8) + 2;
+[; ;pic16f877a.h: 2352: extern volatile __bit CCP1M0 @ (((unsigned) &CCP1CON)*8) + 0;
+[; ;pic16f877a.h: 2354: extern volatile __bit CCP1M1 @ (((unsigned) &CCP1CON)*8) + 1;
+[; ;pic16f877a.h: 2356: extern volatile __bit CCP1M2 @ (((unsigned) &CCP1CON)*8) + 2;
+[; ;pic16f877a.h: 2358: extern volatile __bit CCP1M3 @ (((unsigned) &CCP1CON)*8) + 3;
+[; ;pic16f877a.h: 2360: extern volatile __bit CCP1X @ (((unsigned) &CCP1CON)*8) + 5;
+[; ;pic16f877a.h: 2362: extern volatile __bit CCP1Y @ (((unsigned) &CCP1CON)*8) + 4;
+[; ;pic16f877a.h: 2364: extern volatile __bit CCP2IE @ (((unsigned) &PIE2)*8) + 0;
+[; ;pic16f877a.h: 2366: extern volatile __bit CCP2IF @ (((unsigned) &PIR2)*8) + 0;
+[; ;pic16f877a.h: 2368: extern volatile __bit CCP2M0 @ (((unsigned) &CCP2CON)*8) + 0;
+[; ;pic16f877a.h: 2370: extern volatile __bit CCP2M1 @ (((unsigned) &CCP2CON)*8) + 1;
+[; ;pic16f877a.h: 2372: extern volatile __bit CCP2M2 @ (((unsigned) &CCP2CON)*8) + 2;
+[; ;pic16f877a.h: 2374: extern volatile __bit CCP2M3 @ (((unsigned) &CCP2CON)*8) + 3;
+[; ;pic16f877a.h: 2376: extern volatile __bit CCP2X @ (((unsigned) &CCP2CON)*8) + 5;
+[; ;pic16f877a.h: 2378: extern volatile __bit CCP2Y @ (((unsigned) &CCP2CON)*8) + 4;
+[; ;pic16f877a.h: 2380: extern volatile __bit CHS0 @ (((unsigned) &ADCON0)*8) + 3;
+[; ;pic16f877a.h: 2382: extern volatile __bit CHS1 @ (((unsigned) &ADCON0)*8) + 4;
+[; ;pic16f877a.h: 2384: extern volatile __bit CHS2 @ (((unsigned) &ADCON0)*8) + 5;
+[; ;pic16f877a.h: 2386: extern volatile __bit CIS @ (((unsigned) &CMCON)*8) + 3;
+[; ;pic16f877a.h: 2388: extern volatile __bit CKE @ (((unsigned) &SSPSTAT)*8) + 6;
+[; ;pic16f877a.h: 2390: extern volatile __bit CKP @ (((unsigned) &SSPCON)*8) + 4;
+[; ;pic16f877a.h: 2392: extern volatile __bit CM0 @ (((unsigned) &CMCON)*8) + 0;
+[; ;pic16f877a.h: 2394: extern volatile __bit CM1 @ (((unsigned) &CMCON)*8) + 1;
+[; ;pic16f877a.h: 2396: extern volatile __bit CM2 @ (((unsigned) &CMCON)*8) + 2;
+[; ;pic16f877a.h: 2398: extern volatile __bit CMIE @ (((unsigned) &PIE2)*8) + 6;
+[; ;pic16f877a.h: 2400: extern volatile __bit CMIF @ (((unsigned) &PIR2)*8) + 6;
+[; ;pic16f877a.h: 2402: extern volatile __bit CREN @ (((unsigned) &RCSTA)*8) + 4;
+[; ;pic16f877a.h: 2404: extern volatile __bit CSRC @ (((unsigned) &TXSTA)*8) + 7;
+[; ;pic16f877a.h: 2406: extern volatile __bit CVR0 @ (((unsigned) &CVRCON)*8) + 0;
+[; ;pic16f877a.h: 2408: extern volatile __bit CVR1 @ (((unsigned) &CVRCON)*8) + 1;
+[; ;pic16f877a.h: 2410: extern volatile __bit CVR2 @ (((unsigned) &CVRCON)*8) + 2;
+[; ;pic16f877a.h: 2412: extern volatile __bit CVR3 @ (((unsigned) &CVRCON)*8) + 3;
+[; ;pic16f877a.h: 2414: extern volatile __bit CVREN @ (((unsigned) &CVRCON)*8) + 7;
+[; ;pic16f877a.h: 2416: extern volatile __bit CVROE @ (((unsigned) &CVRCON)*8) + 6;
+[; ;pic16f877a.h: 2418: extern volatile __bit CVRR @ (((unsigned) &CVRCON)*8) + 5;
+[; ;pic16f877a.h: 2420: extern volatile __bit DATA_ADDRESS @ (((unsigned) &SSPSTAT)*8) + 5;
+[; ;pic16f877a.h: 2422: extern volatile __bit DC @ (((unsigned) &STATUS)*8) + 1;
+[; ;pic16f877a.h: 2424: extern volatile __bit D_A @ (((unsigned) &SSPSTAT)*8) + 5;
+[; ;pic16f877a.h: 2426: extern volatile __bit D_nA @ (((unsigned) &SSPSTAT)*8) + 5;
+[; ;pic16f877a.h: 2428: extern volatile __bit EEIE @ (((unsigned) &PIE2)*8) + 4;
+[; ;pic16f877a.h: 2430: extern volatile __bit EEIF @ (((unsigned) &PIR2)*8) + 4;
+[; ;pic16f877a.h: 2432: extern volatile __bit EEPGD @ (((unsigned) &EECON1)*8) + 7;
+[; ;pic16f877a.h: 2434: extern volatile __bit FERR @ (((unsigned) &RCSTA)*8) + 2;
+[; ;pic16f877a.h: 2436: extern volatile __bit GCEN @ (((unsigned) &SSPCON2)*8) + 7;
+[; ;pic16f877a.h: 2438: extern volatile __bit GIE @ (((unsigned) &INTCON)*8) + 7;
+[; ;pic16f877a.h: 2440: extern volatile __bit GO @ (((unsigned) &ADCON0)*8) + 2;
+[; ;pic16f877a.h: 2442: extern volatile __bit GO_DONE @ (((unsigned) &ADCON0)*8) + 2;
+[; ;pic16f877a.h: 2444: extern volatile __bit GO_nDONE @ (((unsigned) &ADCON0)*8) + 2;
+[; ;pic16f877a.h: 2446: extern volatile __bit I2C_DATA @ (((unsigned) &SSPSTAT)*8) + 5;
+[; ;pic16f877a.h: 2448: extern volatile __bit I2C_READ @ (((unsigned) &SSPSTAT)*8) + 2;
+[; ;pic16f877a.h: 2450: extern volatile __bit I2C_START @ (((unsigned) &SSPSTAT)*8) + 3;
+[; ;pic16f877a.h: 2452: extern volatile __bit I2C_STOP @ (((unsigned) &SSPSTAT)*8) + 4;
+[; ;pic16f877a.h: 2454: extern volatile __bit IBF @ (((unsigned) &TRISE)*8) + 7;
+[; ;pic16f877a.h: 2456: extern volatile __bit IBOV @ (((unsigned) &TRISE)*8) + 5;
+[; ;pic16f877a.h: 2458: extern volatile __bit INTE @ (((unsigned) &INTCON)*8) + 4;
+[; ;pic16f877a.h: 2460: extern volatile __bit INTEDG @ (((unsigned) &OPTION_REG)*8) + 6;
+[; ;pic16f877a.h: 2462: extern volatile __bit INTF @ (((unsigned) &INTCON)*8) + 1;
+[; ;pic16f877a.h: 2464: extern volatile __bit IRP @ (((unsigned) &STATUS)*8) + 7;
+[; ;pic16f877a.h: 2466: extern volatile __bit OBF @ (((unsigned) &TRISE)*8) + 6;
+[; ;pic16f877a.h: 2468: extern volatile __bit OERR @ (((unsigned) &RCSTA)*8) + 1;
+[; ;pic16f877a.h: 2470: extern volatile __bit PCFG0 @ (((unsigned) &ADCON1)*8) + 0;
+[; ;pic16f877a.h: 2472: extern volatile __bit PCFG1 @ (((unsigned) &ADCON1)*8) + 1;
+[; ;pic16f877a.h: 2474: extern volatile __bit PCFG2 @ (((unsigned) &ADCON1)*8) + 2;
+[; ;pic16f877a.h: 2476: extern volatile __bit PCFG3 @ (((unsigned) &ADCON1)*8) + 3;
+[; ;pic16f877a.h: 2478: extern volatile __bit PEIE @ (((unsigned) &INTCON)*8) + 6;
+[; ;pic16f877a.h: 2480: extern volatile __bit PEN @ (((unsigned) &SSPCON2)*8) + 2;
+[; ;pic16f877a.h: 2482: extern volatile __bit PS0 @ (((unsigned) &OPTION_REG)*8) + 0;
+[; ;pic16f877a.h: 2484: extern volatile __bit PS1 @ (((unsigned) &OPTION_REG)*8) + 1;
+[; ;pic16f877a.h: 2486: extern volatile __bit PS2 @ (((unsigned) &OPTION_REG)*8) + 2;
+[; ;pic16f877a.h: 2488: extern volatile __bit PSA @ (((unsigned) &OPTION_REG)*8) + 3;
+[; ;pic16f877a.h: 2490: extern volatile __bit PSPIE @ (((unsigned) &PIE1)*8) + 7;
+[; ;pic16f877a.h: 2492: extern volatile __bit PSPIF @ (((unsigned) &PIR1)*8) + 7;
+[; ;pic16f877a.h: 2494: extern volatile __bit PSPMODE @ (((unsigned) &TRISE)*8) + 4;
+[; ;pic16f877a.h: 2496: extern volatile __bit RA0 @ (((unsigned) &PORTA)*8) + 0;
+[; ;pic16f877a.h: 2498: extern volatile __bit RA1 @ (((unsigned) &PORTA)*8) + 1;
+[; ;pic16f877a.h: 2500: extern volatile __bit RA2 @ (((unsigned) &PORTA)*8) + 2;
+[; ;pic16f877a.h: 2502: extern volatile __bit RA3 @ (((unsigned) &PORTA)*8) + 3;
+[; ;pic16f877a.h: 2504: extern volatile __bit RA4 @ (((unsigned) &PORTA)*8) + 4;
+[; ;pic16f877a.h: 2506: extern volatile __bit RA5 @ (((unsigned) &PORTA)*8) + 5;
+[; ;pic16f877a.h: 2508: extern volatile __bit RB0 @ (((unsigned) &PORTB)*8) + 0;
+[; ;pic16f877a.h: 2510: extern volatile __bit RB1 @ (((unsigned) &PORTB)*8) + 1;
+[; ;pic16f877a.h: 2512: extern volatile __bit RB2 @ (((unsigned) &PORTB)*8) + 2;
+[; ;pic16f877a.h: 2514: extern volatile __bit RB3 @ (((unsigned) &PORTB)*8) + 3;
+[; ;pic16f877a.h: 2516: extern volatile __bit RB4 @ (((unsigned) &PORTB)*8) + 4;
+[; ;pic16f877a.h: 2518: extern volatile __bit RB5 @ (((unsigned) &PORTB)*8) + 5;
+[; ;pic16f877a.h: 2520: extern volatile __bit RB6 @ (((unsigned) &PORTB)*8) + 6;
+[; ;pic16f877a.h: 2522: extern volatile __bit RB7 @ (((unsigned) &PORTB)*8) + 7;
+[; ;pic16f877a.h: 2524: extern volatile __bit RBIE @ (((unsigned) &INTCON)*8) + 3;
+[; ;pic16f877a.h: 2526: extern volatile __bit RBIF @ (((unsigned) &INTCON)*8) + 0;
+[; ;pic16f877a.h: 2528: extern volatile __bit RC0 @ (((unsigned) &PORTC)*8) + 0;
+[; ;pic16f877a.h: 2530: extern volatile __bit RC1 @ (((unsigned) &PORTC)*8) + 1;
+[; ;pic16f877a.h: 2532: extern volatile __bit RC2 @ (((unsigned) &PORTC)*8) + 2;
+[; ;pic16f877a.h: 2534: extern volatile __bit RC3 @ (((unsigned) &PORTC)*8) + 3;
+[; ;pic16f877a.h: 2536: extern volatile __bit RC4 @ (((unsigned) &PORTC)*8) + 4;
+[; ;pic16f877a.h: 2538: extern volatile __bit RC5 @ (((unsigned) &PORTC)*8) + 5;
+[; ;pic16f877a.h: 2540: extern volatile __bit RC6 @ (((unsigned) &PORTC)*8) + 6;
+[; ;pic16f877a.h: 2542: extern volatile __bit RC7 @ (((unsigned) &PORTC)*8) + 7;
+[; ;pic16f877a.h: 2544: extern volatile __bit RC8_9 @ (((unsigned) &RCSTA)*8) + 6;
+[; ;pic16f877a.h: 2546: extern volatile __bit RC9 @ (((unsigned) &RCSTA)*8) + 6;
+[; ;pic16f877a.h: 2548: extern volatile __bit RCD8 @ (((unsigned) &RCSTA)*8) + 0;
+[; ;pic16f877a.h: 2550: extern volatile __bit RCEN @ (((unsigned) &SSPCON2)*8) + 3;
+[; ;pic16f877a.h: 2552: extern volatile __bit RCIE @ (((unsigned) &PIE1)*8) + 5;
+[; ;pic16f877a.h: 2554: extern volatile __bit RCIF @ (((unsigned) &PIR1)*8) + 5;
+[; ;pic16f877a.h: 2556: extern volatile __bit RD @ (((unsigned) &EECON1)*8) + 0;
+[; ;pic16f877a.h: 2558: extern volatile __bit RD0 @ (((unsigned) &PORTD)*8) + 0;
+[; ;pic16f877a.h: 2560: extern volatile __bit RD1 @ (((unsigned) &PORTD)*8) + 1;
+[; ;pic16f877a.h: 2562: extern volatile __bit RD2 @ (((unsigned) &PORTD)*8) + 2;
+[; ;pic16f877a.h: 2564: extern volatile __bit RD3 @ (((unsigned) &PORTD)*8) + 3;
+[; ;pic16f877a.h: 2566: extern volatile __bit RD4 @ (((unsigned) &PORTD)*8) + 4;
+[; ;pic16f877a.h: 2568: extern volatile __bit RD5 @ (((unsigned) &PORTD)*8) + 5;
+[; ;pic16f877a.h: 2570: extern volatile __bit RD6 @ (((unsigned) &PORTD)*8) + 6;
+[; ;pic16f877a.h: 2572: extern volatile __bit RD7 @ (((unsigned) &PORTD)*8) + 7;
+[; ;pic16f877a.h: 2574: extern volatile __bit RE0 @ (((unsigned) &PORTE)*8) + 0;
+[; ;pic16f877a.h: 2576: extern volatile __bit RE1 @ (((unsigned) &PORTE)*8) + 1;
+[; ;pic16f877a.h: 2578: extern volatile __bit RE2 @ (((unsigned) &PORTE)*8) + 2;
+[; ;pic16f877a.h: 2580: extern volatile __bit READ_WRITE @ (((unsigned) &SSPSTAT)*8) + 2;
+[; ;pic16f877a.h: 2582: extern volatile __bit RP0 @ (((unsigned) &STATUS)*8) + 5;
+[; ;pic16f877a.h: 2584: extern volatile __bit RP1 @ (((unsigned) &STATUS)*8) + 6;
+[; ;pic16f877a.h: 2586: extern volatile __bit RSEN @ (((unsigned) &SSPCON2)*8) + 1;
+[; ;pic16f877a.h: 2588: extern volatile __bit RX9 @ (((unsigned) &RCSTA)*8) + 6;
+[; ;pic16f877a.h: 2590: extern volatile __bit RX9D @ (((unsigned) &RCSTA)*8) + 0;
+[; ;pic16f877a.h: 2592: extern volatile __bit R_W @ (((unsigned) &SSPSTAT)*8) + 2;
+[; ;pic16f877a.h: 2594: extern volatile __bit R_nW @ (((unsigned) &SSPSTAT)*8) + 2;
+[; ;pic16f877a.h: 2596: extern volatile __bit SEN @ (((unsigned) &SSPCON2)*8) + 0;
+[; ;pic16f877a.h: 2598: extern volatile __bit SMP @ (((unsigned) &SSPSTAT)*8) + 7;
+[; ;pic16f877a.h: 2600: extern volatile __bit SPEN @ (((unsigned) &RCSTA)*8) + 7;
+[; ;pic16f877a.h: 2602: extern volatile __bit SREN @ (((unsigned) &RCSTA)*8) + 5;
+[; ;pic16f877a.h: 2604: extern volatile __bit SSPEN @ (((unsigned) &SSPCON)*8) + 5;
+[; ;pic16f877a.h: 2606: extern volatile __bit SSPIE @ (((unsigned) &PIE1)*8) + 3;
+[; ;pic16f877a.h: 2608: extern volatile __bit SSPIF @ (((unsigned) &PIR1)*8) + 3;
+[; ;pic16f877a.h: 2610: extern volatile __bit SSPM0 @ (((unsigned) &SSPCON)*8) + 0;
+[; ;pic16f877a.h: 2612: extern volatile __bit SSPM1 @ (((unsigned) &SSPCON)*8) + 1;
+[; ;pic16f877a.h: 2614: extern volatile __bit SSPM2 @ (((unsigned) &SSPCON)*8) + 2;
+[; ;pic16f877a.h: 2616: extern volatile __bit SSPM3 @ (((unsigned) &SSPCON)*8) + 3;
+[; ;pic16f877a.h: 2618: extern volatile __bit SSPOV @ (((unsigned) &SSPCON)*8) + 6;
+[; ;pic16f877a.h: 2620: extern volatile __bit SYNC @ (((unsigned) &TXSTA)*8) + 4;
+[; ;pic16f877a.h: 2622: extern volatile __bit T0CS @ (((unsigned) &OPTION_REG)*8) + 5;
+[; ;pic16f877a.h: 2624: extern volatile __bit T0IE @ (((unsigned) &INTCON)*8) + 5;
+[; ;pic16f877a.h: 2626: extern volatile __bit T0IF @ (((unsigned) &INTCON)*8) + 2;
+[; ;pic16f877a.h: 2628: extern volatile __bit T0SE @ (((unsigned) &OPTION_REG)*8) + 4;
+[; ;pic16f877a.h: 2630: extern volatile __bit T1CKPS0 @ (((unsigned) &T1CON)*8) + 4;
+[; ;pic16f877a.h: 2632: extern volatile __bit T1CKPS1 @ (((unsigned) &T1CON)*8) + 5;
+[; ;pic16f877a.h: 2634: extern volatile __bit T1INSYNC @ (((unsigned) &T1CON)*8) + 2;
+[; ;pic16f877a.h: 2636: extern volatile __bit T1OSCEN @ (((unsigned) &T1CON)*8) + 3;
+[; ;pic16f877a.h: 2638: extern volatile __bit T1SYNC @ (((unsigned) &T1CON)*8) + 2;
+[; ;pic16f877a.h: 2640: extern volatile __bit T2CKPS0 @ (((unsigned) &T2CON)*8) + 0;
+[; ;pic16f877a.h: 2642: extern volatile __bit T2CKPS1 @ (((unsigned) &T2CON)*8) + 1;
+[; ;pic16f877a.h: 2644: extern volatile __bit TMR0IE @ (((unsigned) &INTCON)*8) + 5;
+[; ;pic16f877a.h: 2646: extern volatile __bit TMR0IF @ (((unsigned) &INTCON)*8) + 2;
+[; ;pic16f877a.h: 2648: extern volatile __bit TMR1CS @ (((unsigned) &T1CON)*8) + 1;
+[; ;pic16f877a.h: 2650: extern volatile __bit TMR1IE @ (((unsigned) &PIE1)*8) + 0;
+[; ;pic16f877a.h: 2652: extern volatile __bit TMR1IF @ (((unsigned) &PIR1)*8) + 0;
+[; ;pic16f877a.h: 2654: extern volatile __bit TMR1ON @ (((unsigned) &T1CON)*8) + 0;
+[; ;pic16f877a.h: 2656: extern volatile __bit TMR2IE @ (((unsigned) &PIE1)*8) + 1;
+[; ;pic16f877a.h: 2658: extern volatile __bit TMR2IF @ (((unsigned) &PIR1)*8) + 1;
+[; ;pic16f877a.h: 2660: extern volatile __bit TMR2ON @ (((unsigned) &T2CON)*8) + 2;
+[; ;pic16f877a.h: 2662: extern volatile __bit TOUTPS0 @ (((unsigned) &T2CON)*8) + 3;
+[; ;pic16f877a.h: 2664: extern volatile __bit TOUTPS1 @ (((unsigned) &T2CON)*8) + 4;
+[; ;pic16f877a.h: 2666: extern volatile __bit TOUTPS2 @ (((unsigned) &T2CON)*8) + 5;
+[; ;pic16f877a.h: 2668: extern volatile __bit TOUTPS3 @ (((unsigned) &T2CON)*8) + 6;
+[; ;pic16f877a.h: 2670: extern volatile __bit TRISA0 @ (((unsigned) &TRISA)*8) + 0;
+[; ;pic16f877a.h: 2672: extern volatile __bit TRISA1 @ (((unsigned) &TRISA)*8) + 1;
+[; ;pic16f877a.h: 2674: extern volatile __bit TRISA2 @ (((unsigned) &TRISA)*8) + 2;
+[; ;pic16f877a.h: 2676: extern volatile __bit TRISA3 @ (((unsigned) &TRISA)*8) + 3;
+[; ;pic16f877a.h: 2678: extern volatile __bit TRISA4 @ (((unsigned) &TRISA)*8) + 4;
+[; ;pic16f877a.h: 2680: extern volatile __bit TRISA5 @ (((unsigned) &TRISA)*8) + 5;
+[; ;pic16f877a.h: 2682: extern volatile __bit TRISB0 @ (((unsigned) &TRISB)*8) + 0;
+[; ;pic16f877a.h: 2684: extern volatile __bit TRISB1 @ (((unsigned) &TRISB)*8) + 1;
+[; ;pic16f877a.h: 2686: extern volatile __bit TRISB2 @ (((unsigned) &TRISB)*8) + 2;
+[; ;pic16f877a.h: 2688: extern volatile __bit TRISB3 @ (((unsigned) &TRISB)*8) + 3;
+[; ;pic16f877a.h: 2690: extern volatile __bit TRISB4 @ (((unsigned) &TRISB)*8) + 4;
+[; ;pic16f877a.h: 2692: extern volatile __bit TRISB5 @ (((unsigned) &TRISB)*8) + 5;
+[; ;pic16f877a.h: 2694: extern volatile __bit TRISB6 @ (((unsigned) &TRISB)*8) + 6;
+[; ;pic16f877a.h: 2696: extern volatile __bit TRISB7 @ (((unsigned) &TRISB)*8) + 7;
+[; ;pic16f877a.h: 2698: extern volatile __bit TRISC0 @ (((unsigned) &TRISC)*8) + 0;
+[; ;pic16f877a.h: 2700: extern volatile __bit TRISC1 @ (((unsigned) &TRISC)*8) + 1;
+[; ;pic16f877a.h: 2702: extern volatile __bit TRISC2 @ (((unsigned) &TRISC)*8) + 2;
+[; ;pic16f877a.h: 2704: extern volatile __bit TRISC3 @ (((unsigned) &TRISC)*8) + 3;
+[; ;pic16f877a.h: 2706: extern volatile __bit TRISC4 @ (((unsigned) &TRISC)*8) + 4;
+[; ;pic16f877a.h: 2708: extern volatile __bit TRISC5 @ (((unsigned) &TRISC)*8) + 5;
+[; ;pic16f877a.h: 2710: extern volatile __bit TRISC6 @ (((unsigned) &TRISC)*8) + 6;
+[; ;pic16f877a.h: 2712: extern volatile __bit TRISC7 @ (((unsigned) &TRISC)*8) + 7;
+[; ;pic16f877a.h: 2714: extern volatile __bit TRISD0 @ (((unsigned) &TRISD)*8) + 0;
+[; ;pic16f877a.h: 2716: extern volatile __bit TRISD1 @ (((unsigned) &TRISD)*8) + 1;
+[; ;pic16f877a.h: 2718: extern volatile __bit TRISD2 @ (((unsigned) &TRISD)*8) + 2;
+[; ;pic16f877a.h: 2720: extern volatile __bit TRISD3 @ (((unsigned) &TRISD)*8) + 3;
+[; ;pic16f877a.h: 2722: extern volatile __bit TRISD4 @ (((unsigned) &TRISD)*8) + 4;
+[; ;pic16f877a.h: 2724: extern volatile __bit TRISD5 @ (((unsigned) &TRISD)*8) + 5;
+[; ;pic16f877a.h: 2726: extern volatile __bit TRISD6 @ (((unsigned) &TRISD)*8) + 6;
+[; ;pic16f877a.h: 2728: extern volatile __bit TRISD7 @ (((unsigned) &TRISD)*8) + 7;
+[; ;pic16f877a.h: 2730: extern volatile __bit TRISE0 @ (((unsigned) &TRISE)*8) + 0;
+[; ;pic16f877a.h: 2732: extern volatile __bit TRISE1 @ (((unsigned) &TRISE)*8) + 1;
+[; ;pic16f877a.h: 2734: extern volatile __bit TRISE2 @ (((unsigned) &TRISE)*8) + 2;
+[; ;pic16f877a.h: 2736: extern volatile __bit TRMT @ (((unsigned) &TXSTA)*8) + 1;
+[; ;pic16f877a.h: 2738: extern volatile __bit TX8_9 @ (((unsigned) &TXSTA)*8) + 6;
+[; ;pic16f877a.h: 2740: extern volatile __bit TX9 @ (((unsigned) &TXSTA)*8) + 6;
+[; ;pic16f877a.h: 2742: extern volatile __bit TX9D @ (((unsigned) &TXSTA)*8) + 0;
+[; ;pic16f877a.h: 2744: extern volatile __bit TXD8 @ (((unsigned) &TXSTA)*8) + 0;
+[; ;pic16f877a.h: 2746: extern volatile __bit TXEN @ (((unsigned) &TXSTA)*8) + 5;
+[; ;pic16f877a.h: 2748: extern volatile __bit TXIE @ (((unsigned) &PIE1)*8) + 4;
+[; ;pic16f877a.h: 2750: extern volatile __bit TXIF @ (((unsigned) &PIR1)*8) + 4;
+[; ;pic16f877a.h: 2752: extern volatile __bit UA @ (((unsigned) &SSPSTAT)*8) + 1;
+[; ;pic16f877a.h: 2754: extern volatile __bit WCOL @ (((unsigned) &SSPCON)*8) + 7;
+[; ;pic16f877a.h: 2756: extern volatile __bit WR @ (((unsigned) &EECON1)*8) + 1;
+[; ;pic16f877a.h: 2758: extern volatile __bit WREN @ (((unsigned) &EECON1)*8) + 2;
+[; ;pic16f877a.h: 2760: extern volatile __bit WRERR @ (((unsigned) &EECON1)*8) + 3;
+[; ;pic16f877a.h: 2762: extern volatile __bit ZERO @ (((unsigned) &STATUS)*8) + 2;
+[; ;pic16f877a.h: 2764: extern volatile __bit nA @ (((unsigned) &SSPSTAT)*8) + 5;
+[; ;pic16f877a.h: 2766: extern volatile __bit nADDRESS @ (((unsigned) &SSPSTAT)*8) + 5;
+[; ;pic16f877a.h: 2768: extern volatile __bit nBO @ (((unsigned) &PCON)*8) + 0;
+[; ;pic16f877a.h: 2770: extern volatile __bit nBOR @ (((unsigned) &PCON)*8) + 0;
+[; ;pic16f877a.h: 2772: extern volatile __bit nDONE @ (((unsigned) &ADCON0)*8) + 2;
+[; ;pic16f877a.h: 2774: extern volatile __bit nPD @ (((unsigned) &STATUS)*8) + 3;
+[; ;pic16f877a.h: 2776: extern volatile __bit nPOR @ (((unsigned) &PCON)*8) + 1;
+[; ;pic16f877a.h: 2778: extern volatile __bit nRBPU @ (((unsigned) &OPTION_REG)*8) + 7;
+[; ;pic16f877a.h: 2780: extern volatile __bit nRC8 @ (((unsigned) &RCSTA)*8) + 6;
+[; ;pic16f877a.h: 2782: extern volatile __bit nT1SYNC @ (((unsigned) &T1CON)*8) + 2;
+[; ;pic16f877a.h: 2784: extern volatile __bit nTO @ (((unsigned) &STATUS)*8) + 4;
+[; ;pic16f877a.h: 2786: extern volatile __bit nTX8 @ (((unsigned) &TXSTA)*8) + 6;
+[; ;pic16f877a.h: 2788: extern volatile __bit nW @ (((unsigned) &SSPSTAT)*8) + 2;
+[; ;pic16f877a.h: 2790: extern volatile __bit nWRITE @ (((unsigned) &SSPSTAT)*8) + 2;
+[; ;pic.h: 28: extern void _nop(void);
+[; ;pic.h: 77: extern unsigned int flash_read(unsigned short addr);
+[; ;eeprom_routines.h: 41: extern void eeprom_write(unsigned char addr, unsigned char value);
+[; ;eeprom_routines.h: 42: extern unsigned char eeprom_read(unsigned char addr);
+[; ;eeprom_routines.h: 43: extern void eecpymem(volatile unsigned char *to, __eeprom unsigned char *from, unsigned char size);
+[; ;eeprom_routines.h: 44: extern void memcpyee(__eeprom unsigned char *to, const unsigned char *from, unsigned char size);
+[; ;pic.h: 151: extern void _delay(unsigned long);
+"25 PR23.c
+[p x FOSC=HS ]
+"26
+[p x WDTE=OFF ]
+"27
+[p x PWRTE=ON ]
+"28
+[p x BOREN=OFF ]
+"29
+[p x LVP=OFF ]
+"30
+[p x CPD=OFF ]
+"31
+[p x WRT=OFF ]
+"32
+[p x CP=OFF ]
+"112
+[v _data `uc ~T0 @X0 -> 6 `i e ]
+[i _data
+:U ..
+-> -> 0 `i `uc
+..
+]
+[; ;PR23.c: 112: unsigned char data[6] = {0};
+"113
+[v _diy_project `Cuc ~T0 @X0 -> 0 `x e ]
+[i _diy_project
+:U ..
+-> 32 `c
+-> 68 `c
+-> 111 `c
+-> 32 `c
+-> 73 `c
+-> 116 `c
+-> 32 `c
+-> 89 `c
+-> 111 `c
+-> 117 `c
+-> 114 `c
+-> 115 `c
+-> 101 `c
+-> 108 `c
+-> 102 `c
+-> 0 `c
+..
+]
+[; ;PR23.c: 113: const char diy_project [] = " Do It Yourself";
+"114
+[v _multifunction_robot `Cuc ~T0 @X0 -> 0 `x e ]
+[i _multifunction_robot
+:U ..
+-> 77 `c
+-> 117 `c
+-> 108 `c
+-> 116 `c
+-> 105 `c
+-> 102 `c
+-> 117 `c
+-> 110 `c
+-> 99 `c
+-> 116 `c
+-> 105 `c
+-> 111 `c
+-> 110 `c
+-> 32 `c
+-> 77 `c
+-> 82 `c
+-> 0 `c
+..
+]
+[; ;PR23.c: 114: const char multifunction_robot [] = "Multifunction MR";
+"115
+[v _pr23_rev `Cuc ~T0 @X0 -> 0 `x e ]
+[i _pr23_rev
+:U ..
+-> 32 `c
+-> 32 `c
+-> 80 `c
+-> 82 `c
+-> 50 `c
+-> 51 `c
+-> 32 `c
+-> 82 `c
+-> 101 `c
+-> 118 `c
+-> 50 `c
+-> 46 `c
+-> 48 `c
+-> 0 `c
+..
+]
+[; ;PR23.c: 115: const char pr23_rev [] = "  PR23 Rev2.0";
+"116
+[v _cytron_tech `Cuc ~T0 @X0 -> 0 `x e ]
+[i _cytron_tech
+:U ..
+-> 32 `c
+-> 32 `c
+-> 67 `c
+-> 121 `c
+-> 116 `c
+-> 114 `c
+-> 111 `c
+-> 110 `c
+-> 32 `c
+-> 84 `c
+-> 101 `c
+-> 99 `c
+-> 104 `c
+-> 0 `c
+..
+]
+[; ;PR23.c: 116: const char cytron_tech [] = "  Cytron Tech";
+"117
+[v _cytron_website `Cuc ~T0 @X0 -> 0 `x e ]
+[i _cytron_website
+:U ..
+-> 32 `c
+-> 99 `c
+-> 121 `c
+-> 116 `c
+-> 114 `c
+-> 111 `c
+-> 110 `c
+-> 46 `c
+-> 99 `c
+-> 111 `c
+-> 109 `c
+-> 46 `c
+-> 109 `c
+-> 121 `c
+-> 0 `c
+..
+]
+[; ;PR23.c: 117: const char cytron_website [] = " cytron.com.my";
+"118
+[v _code_version `Cuc ~T0 @X0 -> 0 `x e ]
+[i _code_version
+:U ..
+-> 83 `c
+-> 97 `c
+-> 109 `c
+-> 112 `c
+-> 108 `c
+-> 101 `c
+-> 32 `c
+-> 67 `c
+-> 111 `c
+-> 100 `c
+-> 101 `c
+-> 32 `c
+-> 118 `c
+-> 50 `c
+-> 46 `c
+-> 50 `c
+-> 0 `c
+..
+]
+[; ;PR23.c: 118: const char code_version [] = "Sample Code v2.2";
+"119
+[v _line `Cuc ~T0 @X0 -> 0 `x e ]
+[i _line
+:U ..
+-> 49 `c
+-> 46 `c
+-> 76 `c
+-> 105 `c
+-> 110 `c
+-> 101 `c
+-> 32 `c
+-> 70 `c
+-> 111 `c
+-> 108 `c
+-> 108 `c
+-> 111 `c
+-> 119 `c
+-> 105 `c
+-> 110 `c
+-> 103 `c
+-> 0 `c
+..
+]
+[; ;PR23.c: 119: const char line [] = "1.Line Following";
+"120
+[v _US `Cuc ~T0 @X0 -> 0 `x e ]
+[i _US
+:U ..
+-> 50 `c
+-> 46 `c
+-> 85 `c
+-> 108 `c
+-> 116 `c
+-> 114 `c
+-> 97 `c
+-> 115 `c
+-> 111 `c
+-> 110 `c
+-> 105 `c
+-> 99 `c
+-> 32 `c
+-> 69 `c
+-> 90 `c
+-> 49 `c
+-> 0 `c
+..
+]
+[; ;PR23.c: 120: const char US[] = "2.Ultrasonic EZ1";
+"121
+[v _AS `Cuc ~T0 @X0 -> 0 `x e ]
+[i _AS
+:U ..
+-> 51 `c
+-> 46 `c
+-> 65 `c
+-> 110 `c
+-> 97 `c
+-> 108 `c
+-> 111 `c
+-> 103 `c
+-> 32 `c
+-> 83 `c
+-> 101 `c
+-> 110 `c
+-> 115 `c
+-> 111 `c
+-> 114 `c
+-> 0 `c
+..
+]
+[; ;PR23.c: 121: const char AS[] = "3.Analog Sensor";
+"122
+[v _XB `Cuc ~T0 @X0 -> 0 `x e ]
+[i _XB
+:U ..
+-> 52 `c
+-> 46 `c
+-> 83 `c
+-> 75 `c
+-> 88 `c
+-> 66 `c
+-> 69 `c
+-> 69 `c
+-> 0 `c
+..
+]
+[; ;PR23.c: 122: const char XB[] = "4.SKXBEE";
+"123
+[v _SKPS `Cuc ~T0 @X0 -> 0 `x e ]
+[i _SKPS
+:U ..
+-> 53 `c
+-> 46 `c
+-> 83 `c
+-> 75 `c
+-> 80 `c
+-> 83 `c
+-> 0 `c
+..
+]
+[; ;PR23.c: 123: const char SKPS[] = "5.SKPS";
+"124
+[v _mode_string `*Cuc ~T0 @X0 -> 5 `i e ]
+[i _mode_string
+:U ..
+&U *U + &U _line * -> -> -> 0 `i `ui `ux -> -> # *U &U _line `ui `ux
+&U *U + &U _US * -> -> -> 0 `i `ui `ux -> -> # *U &U _US `ui `ux
+&U *U + &U _AS * -> -> -> 0 `i `ui `ux -> -> # *U &U _AS `ui `ux
+&U *U + &U _XB * -> -> -> 0 `i `ui `ux -> -> # *U &U _XB `ui `ux
+&U *U + &U _SKPS * -> -> -> 0 `i `ui `ux -> -> # *U &U _SKPS `ui `ux
+..
+]
+[; ;PR23.c: 124: const char *mode_string [5] = {&line[0],&US[0],&AS[0],&XB[0],&SKPS[0]};
+"126
+[v _pulse_width `ui ~T0 @X0 1 e ]
+[i _pulse_width
+-> -> 0 `i `ui
+]
+[; ;PR23.c: 126: unsigned int pulse_width = 0;
+[; ;PR23.c: 130: void init(void);
+[; ;PR23.c: 131: void delay(unsigned long data);
+[; ;PR23.c: 132: void delay_ms(unsigned long data);
+[; ;PR23.c: 133: void beep(unsigned char count);
+[; ;PR23.c: 136: void lcd_init(void);
+[; ;PR23.c: 137: void lcd_config(unsigned char data);
+[; ;PR23.c: 138: void lcd_char(unsigned char data);
+[; ;PR23.c: 139: void e_pulse(void);
+[; ;PR23.c: 140: void lcd_goto(unsigned char data);
+[; ;PR23.c: 141: void lcd_home(void);
+[; ;PR23.c: 142: void lcd_2ndline(void);
+[; ;PR23.c: 143: void lcd_clr(void);
+[; ;PR23.c: 144: void lcd_clr_line(unsigned char line);
+[; ;PR23.c: 145: void lcd_string(const char* s);
+[; ;PR23.c: 146: void lcd_dis_num(unsigned char num_digit, unsigned int value);
+[; ;PR23.c: 149: void line_follow(void);
+[; ;PR23.c: 150: void ultrasonic(void);
+[; ;PR23.c: 151: void analog_sen(void);
+[; ;PR23.c: 152: void wireless_xbee(void);
+[; ;PR23.c: 153: void SKPS_PScon(void);
+[; ;PR23.c: 156: void forward(void);
+[; ;PR23.c: 157: void stop (void);
+[; ;PR23.c: 158: void backward (void);
+[; ;PR23.c: 159: void reverse (void);
+[; ;PR23.c: 160: void left(void);
+[; ;PR23.c: 161: void right(void);
+[; ;PR23.c: 164: void uart_init(void);
+[; ;PR23.c: 165: void uart_send(unsigned char data);
+[; ;PR23.c: 166: void uart_string(const char* string);
+[; ;PR23.c: 167: void uart_string_nl(const char* string);
+[; ;PR23.c: 168: unsigned char uart_rec(void);
+[; ;PR23.c: 169: unsigned char skps(unsigned char data);
+[; ;PR23.c: 170: void skps_vibrate(unsigned char motor, unsigned char value);
+[; ;PR23.c: 173: void adc_init(void);
+[; ;PR23.c: 174: unsigned int read_adc(unsigned char channel);
+[; ;PR23.c: 177: void timer1_init(void);
+[; ;PR23.c: 178: void interrupt_init(void);
+[; ;PR23.c: 179: void enable_global_int(void);
+[; ;PR23.c: 180: void disable_global_int(void);
+[; ;PR23.c: 181: unsigned int us_value (unsigned char mode);
+"186
+[v F1184 `(v ~T0 @X0 1 tf ]
+[v _isr `IF1184 ~T0 @X0 1 e ]
+{
+[; ;PR23.c: 185: void interrupt isr(void)
+[; ;PR23.c: 186: {
+[e :U _isr ]
+[f ]
+"187
+[v F1185 `uc ~T0 @X0 1 s i ]
+"188
+[v _receive_data `uc ~T0 @X0 1 a ]
+[; ;PR23.c: 187: static unsigned char i;
+[; ;PR23.c: 188: unsigned char receive_data = 0;
+[e = _receive_data -> -> 0 `i `uc ]
+[; ;PR23.c: 191: if(RBIF)
+"191
+[e $ ! _RBIF 97  ]
+[; ;PR23.c: 192: {
+"192
+{
+[; ;PR23.c: 194: if (RB4 == 1)
+"194
+[e $ ! == -> _RB4 `i -> 1 `i 98  ]
+[; ;PR23.c: 195: {
+"195
+{
+[; ;PR23.c: 196: TMR1H = 0;
+"196
+[e = _TMR1H -> -> 0 `i `uc ]
+[; ;PR23.c: 197: TMR1L = 0;
+"197
+[e = _TMR1L -> -> 0 `i `uc ]
+[; ;PR23.c: 198: TMR1ON = 1;
+"198
+[e = _TMR1ON -> -> 1 `i `b ]
+"199
+}
+[; ;PR23.c: 199: }
+[e $U 99  ]
+"200
+[e :U 98 ]
+[; ;PR23.c: 200: else
+[; ;PR23.c: 201: {
+"201
+{
+[; ;PR23.c: 202: TMR1ON = 0;
+"202
+[e = _TMR1ON -> -> 0 `i `b ]
+[; ;PR23.c: 203: pulse_width = TMR1H;
+"203
+[e = _pulse_width -> _TMR1H `ui ]
+[; ;PR23.c: 204: pulse_width = (pulse_width << 8) + TMR1L;
+"204
+[e = _pulse_width + << _pulse_width -> 8 `i -> _TMR1L `ui ]
+"205
+}
+[e :U 99 ]
+[; ;PR23.c: 205: }
+[; ;PR23.c: 207: RBIF = 0;
+"207
+[e = _RBIF -> -> 0 `i `b ]
+"208
+}
+[e :U 97 ]
+[; ;PR23.c: 208: }
+[; ;PR23.c: 210: if(RCIF)
+"210
+[e $ ! _RCIF 100  ]
+[; ;PR23.c: 211: {
+"211
+{
+[; ;PR23.c: 212: if(OERR == 1)
+"212
+[e $ ! == -> _OERR `i -> 1 `i 101  ]
+[; ;PR23.c: 213: {
+"213
+{
+[; ;PR23.c: 214: CREN = 0;
+"214
+[e = _CREN -> -> 0 `i `b ]
+[; ;PR23.c: 215: CREN = 1;
+"215
+[e = _CREN -> -> 1 `i `b ]
+[; ;PR23.c: 216: if(RCREG);
+"216
+[e $ ! != -> _RCREG `i -> -> -> 0 `i `Vuc `i 102  ]
+[e :U 102 ]
+"217
+}
+[; ;PR23.c: 217: }
+[e $U 103  ]
+"218
+[e :U 101 ]
+[; ;PR23.c: 218: else
+[; ;PR23.c: 219: {
+"219
+{
+[; ;PR23.c: 220: receive_data = RCREG;
+"220
+[e = _receive_data _RCREG ]
+[; ;PR23.c: 221: if (receive_data == 'R') data[i=0] = receive_data;
+"221
+[e $ ! == -> _receive_data `ui -> 82 `ui 104  ]
+[e = *U + &U _data * -> = F1185 -> -> 0 `i `uc `ux -> -> # *U &U _data `ui `ux _receive_data ]
+[e $U 105  ]
+"222
+[e :U 104 ]
+[; ;PR23.c: 222: else if (data[0] == 'R') data [++i] = receive_data;
+[e $ ! == -> *U + &U _data * -> -> -> 0 `i `ui `ux -> -> # *U &U _data `ui `ux `ui -> 82 `ui 106  ]
+[e = *U + &U _data * -> =+ F1185 -> -> 1 `i `uc `ux -> -> # *U &U _data `ui `ux _receive_data ]
+[e :U 106 ]
+"223
+[e :U 105 ]
+}
+[e :U 103 ]
+"224
+}
+[e :U 100 ]
+[; ;PR23.c: 223: }
+[; ;PR23.c: 224: }
+[; ;PR23.c: 225: }
+"225
+[e :UE 96 ]
+}
+"231
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 230: void main(void)
+[; ;PR23.c: 231: {
+[e :U _main ]
+[f ]
+"232
+[v _mode `uc ~T0 @X0 1 a ]
+[; ;PR23.c: 232: unsigned char mode = 0, i = 0;
+[e = _mode -> -> 0 `i `uc ]
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[; ;PR23.c: 233: init();
+"233
+[e ( _init ..  ]
+[; ;PR23.c: 234: lcd_init();
+"234
+[e ( _lcd_init ..  ]
+[; ;PR23.c: 235: beep(2);
+"235
+[e ( _beep (1 -> -> 2 `i `uc ]
+[; ;PR23.c: 236: RB5 = 1;
+"236
+[e = _RB5 -> -> 1 `i `b ]
+[; ;PR23.c: 237: lcd_clr();
+"237
+[e ( _lcd_clr ..  ]
+[; ;PR23.c: 238: lcd_string(cytron_tech);
+"238
+[e ( _lcd_string (1 &U _cytron_tech ]
+[; ;PR23.c: 239: lcd_2ndline();
+"239
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 240: lcd_string(cytron_website);
+"240
+[e ( _lcd_string (1 &U _cytron_website ]
+[; ;PR23.c: 241: delay_ms(800);
+"241
+[e ( _delay_ms (1 -> -> -> 800 `i `l `ul ]
+[; ;PR23.c: 243: lcd_clr();
+"243
+[e ( _lcd_clr ..  ]
+[; ;PR23.c: 244: lcd_string(diy_project);
+"244
+[e ( _lcd_string (1 &U _diy_project ]
+[; ;PR23.c: 245: lcd_2ndline();
+"245
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 246: lcd_string(multifunction_robot);
+"246
+[e ( _lcd_string (1 &U _multifunction_robot ]
+[; ;PR23.c: 247: delay_ms(800);
+"247
+[e ( _delay_ms (1 -> -> -> 800 `i `l `ul ]
+[; ;PR23.c: 249: lcd_clr();
+"249
+[e ( _lcd_clr ..  ]
+[; ;PR23.c: 250: lcd_string(pr23_rev);
+"250
+[e ( _lcd_string (1 &U _pr23_rev ]
+[; ;PR23.c: 251: lcd_2ndline();
+"251
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 252: lcd_string(code_version);
+"252
+[e ( _lcd_string (1 &U _code_version ]
+[; ;PR23.c: 253: delay_ms(800);
+"253
+[e ( _delay_ms (1 -> -> -> 800 `i `l `ul ]
+[; ;PR23.c: 255: lcd_clr();
+"255
+[e ( _lcd_clr ..  ]
+[; ;PR23.c: 256: lcd_string(mode_string[mode]);
+"256
+[e ( _lcd_string (1 *U + &U _mode_string * -> _mode `ux -> -> # *U &U _mode_string `ui `ux ]
+[; ;PR23.c: 257: lcd_2ndline();
+"257
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 258: lcd_string("SW1++  SW2->Run");
+"258
+[e ( _lcd_string (1 :s 1C ]
+[; ;PR23.c: 259: beep(1);
+"259
+[e ( _beep (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 261: while(1)
+"261
+[e :U 109 ]
+[; ;PR23.c: 262: {
+"262
+{
+[; ;PR23.c: 263: if(RE0 == 0)
+"263
+[e $ ! == -> _RE0 `i -> 0 `i 111  ]
+[; ;PR23.c: 264: {
+"264
+{
+[; ;PR23.c: 265: while(RE0 == 0);
+"265
+[e $U 112  ]
+[e :U 113 ]
+[e :U 112 ]
+[e $ == -> _RE0 `i -> 0 `i 113  ]
+[e :U 114 ]
+[; ;PR23.c: 266: beep(1);
+"266
+[e ( _beep (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 267: mode ++;
+"267
+[e ++ _mode -> -> 1 `i `uc ]
+[; ;PR23.c: 268: if ( mode > 4) mode = 0;
+"268
+[e $ ! > -> _mode `i -> 4 `i 115  ]
+[e = _mode -> -> 0 `i `uc ]
+[e :U 115 ]
+[; ;PR23.c: 269: lcd_clr_line(0);
+"269
+[e ( _lcd_clr_line (1 -> -> 0 `i `uc ]
+[; ;PR23.c: 270: lcd_home();
+"270
+[e ( _lcd_home ..  ]
+[; ;PR23.c: 271: lcd_string(mode_string[mode]);
+"271
+[e ( _lcd_string (1 *U + &U _mode_string * -> _mode `ux -> -> # *U &U _mode_string `ui `ux ]
+"272
+}
+[e :U 111 ]
+[; ;PR23.c: 272: }
+[; ;PR23.c: 274: if (RE1 == 0)
+"274
+[e $ ! == -> _RE1 `i -> 0 `i 116  ]
+[; ;PR23.c: 275: {
+"275
+{
+[; ;PR23.c: 276: while(RE1 == 0);
+"276
+[e $U 117  ]
+[e :U 118 ]
+[e :U 117 ]
+[e $ == -> _RE1 `i -> 0 `i 118  ]
+[e :U 119 ]
+[; ;PR23.c: 277: beep(1);
+"277
+[e ( _beep (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 279: switch(mode)
+"279
+[e $U 121  ]
+[; ;PR23.c: 280: {
+"280
+{
+[; ;PR23.c: 281: case 0 :
+"281
+[e :U 122 ]
+[; ;PR23.c: 282: line_follow();
+"282
+[e ( _line_follow ..  ]
+[; ;PR23.c: 283: break;
+"283
+[e $U 120  ]
+[; ;PR23.c: 285: case 1 :
+"285
+[e :U 123 ]
+[; ;PR23.c: 286: ultrasonic();
+"286
+[e ( _ultrasonic ..  ]
+[; ;PR23.c: 287: break;
+"287
+[e $U 120  ]
+[; ;PR23.c: 289: case 2 :
+"289
+[e :U 124 ]
+[; ;PR23.c: 290: analog_sen();
+"290
+[e ( _analog_sen ..  ]
+[; ;PR23.c: 291: break;
+"291
+[e $U 120  ]
+[; ;PR23.c: 293: case 3 :
+"293
+[e :U 125 ]
+[; ;PR23.c: 294: wireless_xbee();
+"294
+[e ( _wireless_xbee ..  ]
+[; ;PR23.c: 295: break;
+"295
+[e $U 120  ]
+[; ;PR23.c: 297: case 4 :
+"297
+[e :U 126 ]
+[; ;PR23.c: 298: SKPS_PScon();
+"298
+[e ( _SKPS_PScon ..  ]
+"299
+}
+[; ;PR23.c: 299: }
+[e $U 120  ]
+"279
+[e :U 121 ]
+[e [\ _mode , $ -> -> 0 `i `uc 122
+ , $ -> -> 1 `i `uc 123
+ , $ -> -> 2 `i `uc 124
+ , $ -> -> 3 `i `uc 125
+ , $ -> -> 4 `i `uc 126
+ 120 ]
+"299
+[e :U 120 ]
+"300
+}
+[e :U 116 ]
+"301
+}
+[e :U 108 ]
+"261
+[e $U 109  ]
+[e :U 110 ]
+[; ;PR23.c: 300: }
+[; ;PR23.c: 301: }
+[; ;PR23.c: 302: }
+"302
+[e :UE 107 ]
+}
+"307
+[v _delay `(v ~T0 @X0 1 ef1`ul ]
+{
+[; ;PR23.c: 306: void delay(unsigned long data)
+[; ;PR23.c: 307: {
+[e :U _delay ]
+[v _data `ul ~T0 @X0 1 r1 ]
+[f ]
+[; ;PR23.c: 308: for( ;data>0;data-=1);
+"308
+{
+[e $ > _data -> -> -> 0 `i `l `ul 128  ]
+[e $U 129  ]
+[e :U 128 ]
+[e =- _data -> -> -> 1 `i `l `ul ]
+[e $ > _data -> -> -> 0 `i `l `ul 128  ]
+[e :U 129 ]
+}
+[; ;PR23.c: 309: }
+"309
+[e :UE 127 ]
+}
+"313
+[v _delay_ms `(v ~T0 @X0 1 ef1`ul ]
+{
+[; ;PR23.c: 312: void delay_ms(unsigned long data)
+[; ;PR23.c: 313: {
+[e :U _delay_ms ]
+[v _data `ul ~T0 @X0 1 r1 ]
+[f ]
+[; ;PR23.c: 314: while(data -- > 0)
+"314
+[e $U 132  ]
+[e :U 133 ]
+[; ;PR23.c: 315: _delay((unsigned long)((1)*(20000000/4000.0)));
+"315
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+[e :U 132 ]
+"314
+[e $ > -- _data -> -> -> 1 `i `l `ul -> -> -> 0 `i `l `ul 133  ]
+[e :U 134 ]
+[; ;PR23.c: 316: }
+"316
+[e :UE 131 ]
+}
+"319
+[v _beep `(v ~T0 @X0 1 ef1`uc ]
+{
+[; ;PR23.c: 318: void beep(unsigned char count)
+[; ;PR23.c: 319: {
+[e :U _beep ]
+[v _count `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;PR23.c: 320: while(count-- > 0)
+"320
+[e $U 136  ]
+[e :U 137 ]
+[; ;PR23.c: 321: {
+"321
+{
+[; ;PR23.c: 322: RE2 = 1;
+"322
+[e = _RE2 -> -> 1 `i `b ]
+[; ;PR23.c: 323: delay_ms(45);
+"323
+[e ( _delay_ms (1 -> -> -> 45 `i `l `ul ]
+[; ;PR23.c: 324: RE2 = 0;
+"324
+[e = _RE2 -> -> 0 `i `b ]
+[; ;PR23.c: 325: delay_ms(30);
+"325
+[e ( _delay_ms (1 -> -> -> 30 `i `l `ul ]
+"326
+}
+[e :U 136 ]
+"320
+[e $ > -> -- _count -> -> 1 `i `uc `i -> 0 `i 137  ]
+[e :U 138 ]
+[; ;PR23.c: 326: }
+[; ;PR23.c: 327: }
+"327
+[e :UE 135 ]
+}
+"332
+[v _lcd_init `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 331: void lcd_init(void)
+[; ;PR23.c: 332: {
+[e :U _lcd_init ]
+[f ]
+[; ;PR23.c: 333: RB6 = 1;
+"333
+[e = _RB6 -> -> 1 `i `b ]
+[; ;PR23.c: 334: delay_ms(15);
+"334
+[e ( _delay_ms (1 -> -> -> 15 `i `l `ul ]
+[; ;PR23.c: 335: lcd_config(0b00111000);
+"335
+[e ( _lcd_config (1 -> -> 56 `i `uc ]
+[; ;PR23.c: 336: lcd_config(0b00000110);
+"336
+[e ( _lcd_config (1 -> -> 6 `i `uc ]
+[; ;PR23.c: 337: lcd_config(0b00001100);
+"337
+[e ( _lcd_config (1 -> -> 12 `i `uc ]
+[; ;PR23.c: 338: lcd_config(0b00000001);
+"338
+[e ( _lcd_config (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 339: delay_ms(1);
+"339
+[e ( _delay_ms (1 -> -> -> 1 `i `l `ul ]
+[; ;PR23.c: 340: }
+"340
+[e :UE 139 ]
+}
+"342
+[v _lcd_config `(v ~T0 @X0 1 ef1`uc ]
+{
+[; ;PR23.c: 341: void lcd_config(unsigned char data)
+[; ;PR23.c: 342: {
+[e :U _lcd_config ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;PR23.c: 343: RB7 = 0;
+"343
+[e = _RB7 -> -> 0 `i `b ]
+[; ;PR23.c: 344: PORTD = data;
+"344
+[e = _PORTD _data ]
+[; ;PR23.c: 345: delay_ms(1);
+"345
+[e ( _delay_ms (1 -> -> -> 1 `i `l `ul ]
+[; ;PR23.c: 346: e_pulse();
+"346
+[e ( _e_pulse ..  ]
+[; ;PR23.c: 347: }
+"347
+[e :UE 140 ]
+}
+"350
+[v _lcd_char `(v ~T0 @X0 1 ef1`uc ]
+{
+[; ;PR23.c: 349: void lcd_char(unsigned char data)
+[; ;PR23.c: 350: {
+[e :U _lcd_char ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;PR23.c: 351: RB7 = 1;
+"351
+[e = _RB7 -> -> 1 `i `b ]
+[; ;PR23.c: 352: PORTD = data;
+"352
+[e = _PORTD _data ]
+[; ;PR23.c: 353: delay_ms(1);
+"353
+[e ( _delay_ms (1 -> -> -> 1 `i `l `ul ]
+[; ;PR23.c: 354: e_pulse();
+"354
+[e ( _e_pulse ..  ]
+[; ;PR23.c: 355: }
+"355
+[e :UE 141 ]
+}
+"358
+[v _e_pulse `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 357: void e_pulse(void)
+[; ;PR23.c: 358: {
+[e :U _e_pulse ]
+[f ]
+[; ;PR23.c: 359: RB6 = 1;
+"359
+[e = _RB6 -> -> 1 `i `b ]
+[; ;PR23.c: 360: delay_ms(1);
+"360
+[e ( _delay_ms (1 -> -> -> 1 `i `l `ul ]
+[; ;PR23.c: 361: RB6 = 0;
+"361
+[e = _RB6 -> -> 0 `i `b ]
+[; ;PR23.c: 362: delay_ms(1);
+"362
+[e ( _delay_ms (1 -> -> -> 1 `i `l `ul ]
+[; ;PR23.c: 363: }
+"363
+[e :UE 142 ]
+}
+"366
+[v _lcd_goto `(v ~T0 @X0 1 ef1`uc ]
+{
+[; ;PR23.c: 365: void lcd_goto(unsigned char data)
+[; ;PR23.c: 366: {
+[e :U _lcd_goto ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;PR23.c: 367: lcd_config(0x80 + data);
+"367
+[e ( _lcd_config (1 -> + -> 128 `i -> _data `i `uc ]
+[; ;PR23.c: 373: }
+"373
+[e :UE 143 ]
+}
+"375
+[v _lcd_home `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 374: void lcd_home(void)
+[; ;PR23.c: 375: {
+[e :U _lcd_home ]
+[f ]
+[; ;PR23.c: 376: lcd_config(0x02);
+"376
+[e ( _lcd_config (1 -> -> 2 `i `uc ]
+[; ;PR23.c: 377: }
+"377
+[e :UE 144 ]
+}
+"380
+[v _lcd_2ndline `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 379: void lcd_2ndline(void)
+[; ;PR23.c: 380: {
+[e :U _lcd_2ndline ]
+[f ]
+[; ;PR23.c: 381: lcd_config(0x80 + 0x40);
+"381
+[e ( _lcd_config (1 -> + -> 128 `i -> 64 `i `uc ]
+[; ;PR23.c: 382: }
+"382
+[e :UE 145 ]
+}
+"385
+[v _lcd_clr `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 384: void lcd_clr(void)
+[; ;PR23.c: 385: {
+[e :U _lcd_clr ]
+[f ]
+[; ;PR23.c: 386: lcd_config(0x01);
+"386
+[e ( _lcd_config (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 387: delay_ms(1);
+"387
+[e ( _delay_ms (1 -> -> -> 1 `i `l `ul ]
+[; ;PR23.c: 388: }
+"388
+[e :UE 146 ]
+}
+"391
+[v _lcd_clr_line `(v ~T0 @X0 1 ef1`uc ]
+{
+[; ;PR23.c: 390: void lcd_clr_line(unsigned char line)
+[; ;PR23.c: 391: {
+[e :U _lcd_clr_line ]
+[v _line `uc ~T0 @X0 1 r1 ]
+[f ]
+"392
+[v _i `uc ~T0 @X0 1 a ]
+[; ;PR23.c: 392: unsigned char i = 0;
+[e = _i -> -> 0 `i `uc ]
+[; ;PR23.c: 393: if(line == 0)lcd_home();
+"393
+[e $ ! == -> _line `i -> 0 `i 148  ]
+[e ( _lcd_home ..  ]
+[e $U 149  ]
+"394
+[e :U 148 ]
+[; ;PR23.c: 394: else if(line == 1)lcd_2ndline();
+[e $ ! == -> _line `i -> 1 `i 150  ]
+[e ( _lcd_2ndline ..  ]
+[e :U 150 ]
+"396
+[e :U 149 ]
+[; ;PR23.c: 396: for(i = 16; i > 0; i--) lcd_char(' ');
+{
+[e = _i -> -> 16 `i `uc ]
+[e $ > -> _i `i -> 0 `i 151  ]
+[e $U 152  ]
+[e :U 151 ]
+[e ( _lcd_char (1 -> -> 32 `ui `uc ]
+[e -- _i -> -> 1 `i `uc ]
+[e $ > -> _i `i -> 0 `i 151  ]
+[e :U 152 ]
+}
+[; ;PR23.c: 397: }
+"397
+[e :UE 147 ]
+}
+"399
+[v _lcd_string `(v ~T0 @X0 1 ef1`*Cuc ]
+{
+[; ;PR23.c: 398: void lcd_string(const char* s)
+[; ;PR23.c: 399: {
+[e :U _lcd_string ]
+[v _s `*Cuc ~T0 @X0 1 r1 ]
+[f ]
+[; ;PR23.c: 400: while (s && *s)lcd_char (*s++);
+"400
+[e $U 155  ]
+[e :U 156 ]
+[e ( _lcd_char (1 *U ++ _s * -> -> 1 `i `x -> -> # *U _s `i `x ]
+[e :U 155 ]
+[e $ && != _s -> -> 0 `i `*Cuc != -> *U _s `i -> -> -> 0 `i `Cuc `i 156  ]
+[e :U 157 ]
+[; ;PR23.c: 401: }
+"401
+[e :UE 154 ]
+}
+"404
+[v _lcd_dis_num `(v ~T0 @X0 1 ef2`uc`ui ]
+{
+[; ;PR23.c: 403: void lcd_dis_num(unsigned char num_digit, unsigned int value)
+[; ;PR23.c: 404: {
+[e :U _lcd_dis_num ]
+[v _num_digit `uc ~T0 @X0 1 r1 ]
+[v _value `ui ~T0 @X0 1 r2 ]
+[f ]
+"405
+[v F1209 `uc ~T0 @X0 -> 5 `i s ]
+[i F1209
+:U ..
+-> -> 0 `i `uc
+..
+]
+[v _digit `uc ~T0 @X0 -> 5 `i a ]
+[; ;PR23.c: 405: unsigned char digit[5] = {0};
+[e = _digit F1209 ]
+"406
+[v _i `uc ~T0 @X0 1 a ]
+[; ;PR23.c: 406: unsigned char i = 0, j = 0, non_zero = 0;
+[e = _i -> -> 0 `i `uc ]
+[v _j `uc ~T0 @X0 1 a ]
+[e = _j -> -> 0 `i `uc ]
+[v _non_zero `uc ~T0 @X0 1 a ]
+[e = _non_zero -> -> 0 `i `uc ]
+"407
+[v _base `ui ~T0 @X0 1 a ]
+[; ;PR23.c: 407: unsigned int base = 10000;
+[e = _base -> -> 10000 `i `ui ]
+[; ;PR23.c: 409: for(j = 4; j > 0; j--)
+"409
+{
+[e = _j -> -> 4 `i `uc ]
+[e $ > -> _j `i -> 0 `i 159  ]
+[e $U 160  ]
+"410
+[e :U 159 ]
+[; ;PR23.c: 410: {
+{
+[; ;PR23.c: 411: digit[j] = value / base;
+"411
+[e = *U + &U _digit * -> _j `ux -> -> # *U &U _digit `ui `ux -> / _value _base `uc ]
+[; ;PR23.c: 412: if(j == 1)
+"412
+[e $ ! == -> _j `i -> 1 `i 162  ]
+[; ;PR23.c: 413: {
+"413
+{
+[; ;PR23.c: 414: digit[0] = value % 10;
+"414
+[e = *U + &U _digit * -> -> -> 0 `i `ui `ux -> -> # *U &U _digit `ui `ux -> % _value -> -> 10 `i `ui `uc ]
+[; ;PR23.c: 415: continue;
+"415
+[e $U 161  ]
+"416
+}
+[e :U 162 ]
+[; ;PR23.c: 416: }
+[; ;PR23.c: 417: value = value % base;
+"417
+[e = _value % _value _base ]
+[; ;PR23.c: 418: base = base / 10;
+"418
+[e = _base / _base -> -> 10 `i `ui ]
+"419
+}
+"409
+[e :U 161 ]
+[e -- _j -> -> 1 `i `uc ]
+[e $ > -> _j `i -> 0 `i 159  ]
+[e :U 160 ]
+"419
+}
+[; ;PR23.c: 419: }
+[; ;PR23.c: 422: if(num_digit > 5) num_digit = 5;
+"422
+[e $ ! > -> _num_digit `i -> 5 `i 163  ]
+[e = _num_digit -> -> 5 `i `uc ]
+[e :U 163 ]
+[; ;PR23.c: 423: for(i = num_digit; i > 0; i--)
+"423
+{
+[e = _i _num_digit ]
+[e $ > -> _i `i -> 0 `i 164  ]
+[e $U 165  ]
+"424
+[e :U 164 ]
+[; ;PR23.c: 424: {
+{
+[; ;PR23.c: 425: if(i == 1)
+"425
+[e $ ! == -> _i `i -> 1 `i 167  ]
+[; ;PR23.c: 426: {
+"426
+{
+[; ;PR23.c: 427: lcd_char(digit[i-1]+0x30);
+"427
+[e ( _lcd_char (1 -> + -> *U + &U _digit * -> -> - -> _i `i -> 1 `i `ui `ux -> -> # *U &U _digit `ui `ux `i -> 48 `i `uc ]
+"428
+}
+[; ;PR23.c: 428: }
+[e $U 168  ]
+"429
+[e :U 167 ]
+[; ;PR23.c: 429: else
+[; ;PR23.c: 430: {
+"430
+{
+[; ;PR23.c: 431: if((digit[i-1] == 0) && (non_zero == 0))lcd_char(' ');
+"431
+[e $ ! && == -> *U + &U _digit * -> -> - -> _i `i -> 1 `i `ui `ux -> -> # *U &U _digit `ui `ux `i -> 0 `i == -> _non_zero `i -> 0 `i 169  ]
+[e ( _lcd_char (1 -> -> 32 `ui `uc ]
+[e $U 170  ]
+"432
+[e :U 169 ]
+[; ;PR23.c: 432: else
+[; ;PR23.c: 433: {
+"433
+{
+[; ;PR23.c: 434: lcd_char(digit[i-1]+0x30);
+"434
+[e ( _lcd_char (1 -> + -> *U + &U _digit * -> -> - -> _i `i -> 1 `i `ui `ux -> -> # *U &U _digit `ui `ux `i -> 48 `i `uc ]
+[; ;PR23.c: 435: non_zero ++;
+"435
+[e ++ _non_zero -> -> 1 `i `uc ]
+"436
+}
+[e :U 170 ]
+"437
+}
+[e :U 168 ]
+"438
+}
+"423
+[e -- _i -> -> 1 `i `uc ]
+[e $ > -> _i `i -> 0 `i 164  ]
+[e :U 165 ]
+"438
+}
+[; ;PR23.c: 436: }
+[; ;PR23.c: 437: }
+[; ;PR23.c: 438: }
+[; ;PR23.c: 440: }
+"440
+[e :UE 158 ]
+}
+"446
+[v _uart_init `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 445: void uart_init(void)
+[; ;PR23.c: 446: {
+[e :U _uart_init ]
+[f ]
+[; ;PR23.c: 448: SPBRG = 0x81;
+"448
+[e = _SPBRG -> -> 129 `i `uc ]
+[; ;PR23.c: 449: BRGH = 1;
+"449
+[e = _BRGH -> -> 1 `i `b ]
+[; ;PR23.c: 450: TXEN = 1;
+"450
+[e = _TXEN -> -> 1 `i `b ]
+[; ;PR23.c: 451: TX9 = 0;
+"451
+[e = _TX9 -> -> 0 `i `b ]
+[; ;PR23.c: 452: CREN = 1;
+"452
+[e = _CREN -> -> 1 `i `b ]
+[; ;PR23.c: 453: SPEN = 1;
+"453
+[e = _SPEN -> -> 1 `i `b ]
+[; ;PR23.c: 454: RX9 = 0;
+"454
+[e = _RX9 -> -> 0 `i `b ]
+[; ;PR23.c: 455: if(OERR == 1)
+"455
+[e $ ! == -> _OERR `i -> 1 `i 172  ]
+[; ;PR23.c: 456: {
+"456
+{
+[; ;PR23.c: 457: CREN = 0;
+"457
+[e = _CREN -> -> 0 `i `b ]
+[; ;PR23.c: 458: CREN = 1;
+"458
+[e = _CREN -> -> 1 `i `b ]
+"459
+}
+[e :U 172 ]
+[; ;PR23.c: 459: }
+[; ;PR23.c: 460: if(RCREG);
+"460
+[e $ ! != -> _RCREG `i -> -> -> 0 `i `Vuc `i 173  ]
+[e :U 173 ]
+[; ;PR23.c: 461: if(RCREG);
+"461
+[e $ ! != -> _RCREG `i -> -> -> 0 `i `Vuc `i 174  ]
+[e :U 174 ]
+[; ;PR23.c: 462: RCIE = 0;
+"462
+[e = _RCIE -> -> 0 `i `b ]
+[; ;PR23.c: 463: }
+"463
+[e :UE 171 ]
+}
+"467
+[v _uart_send `(v ~T0 @X0 1 ef1`uc ]
+{
+[; ;PR23.c: 466: void uart_send(unsigned char data)
+[; ;PR23.c: 467: {
+[e :U _uart_send ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;PR23.c: 468: while(TXIF == 0);
+"468
+[e $U 176  ]
+[e :U 177 ]
+[e :U 176 ]
+[e $ == -> _TXIF `i -> 0 `i 177  ]
+[e :U 178 ]
+[; ;PR23.c: 469: TXREG = data;
+"469
+[e = _TXREG _data ]
+[; ;PR23.c: 470: }
+"470
+[e :UE 175 ]
+}
+"474
+[v _uart_string `(v ~T0 @X0 1 ef1`*Cuc ]
+{
+[; ;PR23.c: 473: void uart_string(const char* string)
+[; ;PR23.c: 474: {
+[e :U _uart_string ]
+[v _string `*Cuc ~T0 @X0 1 r1 ]
+[f ]
+[; ;PR23.c: 475: while (*string != '\0')
+"475
+[e $U 180  ]
+[e :U 181 ]
+[; ;PR23.c: 476: {
+"476
+{
+[; ;PR23.c: 477: uart_send(*string++);
+"477
+[e ( _uart_send (1 *U ++ _string * -> -> 1 `i `x -> -> # *U _string `i `x ]
+"479
+}
+[e :U 180 ]
+"475
+[e $ != -> *U _string `ui -> 0 `ui 181  ]
+[e :U 182 ]
+[; ;PR23.c: 479: }
+[; ;PR23.c: 480: }
+"480
+[e :UE 179 ]
+}
+"484
+[v _uart_string_nl `(v ~T0 @X0 1 ef1`*Cuc ]
+{
+[; ;PR23.c: 483: void uart_string_nl(const char* string)
+[; ;PR23.c: 484: {
+[e :U _uart_string_nl ]
+[v _string `*Cuc ~T0 @X0 1 r1 ]
+[f ]
+[; ;PR23.c: 485: uart_string(string);
+"485
+[e ( _uart_string (1 _string ]
+[; ;PR23.c: 486: uart_send('\r');
+"486
+[e ( _uart_send (1 -> -> 13 `ui `uc ]
+[; ;PR23.c: 487: uart_send('\n');
+"487
+[e ( _uart_send (1 -> -> 10 `ui `uc ]
+[; ;PR23.c: 488: }
+"488
+[e :UE 183 ]
+}
+"492
+[v _uart_rec `(uc ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 491: unsigned char uart_rec(void)
+[; ;PR23.c: 492: {
+[e :U _uart_rec ]
+[f ]
+[; ;PR23.c: 493: if(OERR == 1)
+"493
+[e $ ! == -> _OERR `i -> 1 `i 185  ]
+[; ;PR23.c: 494: {
+"494
+{
+[; ;PR23.c: 495: CREN = 0;
+"495
+[e = _CREN -> -> 0 `i `b ]
+[; ;PR23.c: 496: CREN = 1;
+"496
+[e = _CREN -> -> 1 `i `b ]
+[; ;PR23.c: 497: if(RCREG);
+"497
+[e $ ! != -> _RCREG `i -> -> -> 0 `i `Vuc `i 186  ]
+[e :U 186 ]
+[; ;PR23.c: 498: if(RCREG);
+"498
+[e $ ! != -> _RCREG `i -> -> -> 0 `i `Vuc `i 187  ]
+[e :U 187 ]
+"499
+}
+[e :U 185 ]
+[; ;PR23.c: 499: }
+[; ;PR23.c: 500: while(RCIF==0);
+"500
+[e $U 188  ]
+[e :U 189 ]
+[e :U 188 ]
+[e $ == -> _RCIF `i -> 0 `i 189  ]
+[e :U 190 ]
+[; ;PR23.c: 501: return RCREG;
+"501
+[e ) _RCREG ]
+[e $UE 184  ]
+[; ;PR23.c: 502: }
+"502
+[e :UE 184 ]
+}
+"509
+[v _skps `(uc ~T0 @X0 1 ef1`uc ]
+{
+[; ;PR23.c: 508: unsigned char skps(unsigned char data)
+[; ;PR23.c: 509: {
+[e :U _skps ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;PR23.c: 510: uart_send(data);
+"510
+[e ( _uart_send (1 _data ]
+[; ;PR23.c: 511: return uart_rec();
+"511
+[e ) ( _uart_rec ..  ]
+[e $UE 191  ]
+[; ;PR23.c: 512: }
+"512
+[e :UE 191 ]
+}
+"516
+[v _skps_vibrate `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[; ;PR23.c: 515: void skps_vibrate(unsigned char motor, unsigned char value)
+[; ;PR23.c: 516: {
+[e :U _skps_vibrate ]
+[v _motor `uc ~T0 @X0 1 r1 ]
+[v _value `uc ~T0 @X0 1 r2 ]
+[f ]
+[; ;PR23.c: 517: uart_send(motor);
+"517
+[e ( _uart_send (1 _motor ]
+[; ;PR23.c: 518: uart_send(value);
+"518
+[e ( _uart_send (1 _value ]
+[; ;PR23.c: 519: }
+"519
+[e :UE 192 ]
+}
+"523
+[v _adc_init `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 522: void adc_init(void)
+[; ;PR23.c: 523: {
+[e :U _adc_init ]
+[f ]
+[; ;PR23.c: 525: ADCON0 = 0b10000000;
+"525
+[e = _ADCON0 -> -> 128 `i `uc ]
+[; ;PR23.c: 526: ADCON1 = 0b10000100;
+"526
+[e = _ADCON1 -> -> 132 `i `uc ]
+[; ;PR23.c: 528: }
+"528
+[e :UE 193 ]
+}
+"535
+[v _read_adc `(ui ~T0 @X0 1 ef1`uc ]
+{
+[; ;PR23.c: 534: unsigned int read_adc(unsigned char channel)
+[; ;PR23.c: 535: {
+[e :U _read_adc ]
+[v _channel `uc ~T0 @X0 1 r1 ]
+[f ]
+"536
+[v _i `uc ~T0 @X0 1 a ]
+"537
+[v _temp_result `ui ~T0 @X0 1 a ]
+[; ;PR23.c: 536: unsigned char i;
+[; ;PR23.c: 537: unsigned int temp_result = 0;
+[e = _temp_result -> -> 0 `i `ui ]
+"538
+[v _result `ul ~T0 @X0 1 a ]
+[; ;PR23.c: 538: unsigned long result = 0;
+[e = _result -> -> -> 0 `i `l `ul ]
+[; ;PR23.c: 539: if(channel == 0) ADCON0 = 0b10000001;
+"539
+[e $ ! == -> _channel `i -> 0 `i 195  ]
+[e = _ADCON0 -> -> 129 `i `uc ]
+[e $U 196  ]
+"540
+[e :U 195 ]
+[; ;PR23.c: 540: else if(channel == 1) ADCON0 = 0b10001001;
+[e $ ! == -> _channel `i -> 1 `i 197  ]
+[e = _ADCON0 -> -> 137 `i `uc ]
+[e :U 197 ]
+"542
+[e :U 196 ]
+[; ;PR23.c: 542: delay_ms(1);
+[e ( _delay_ms (1 -> -> -> 1 `i `l `ul ]
+[; ;PR23.c: 543: for(i = 200; i > 0; i--)
+"543
+{
+[e = _i -> -> 200 `i `uc ]
+[e $ > -> _i `i -> 0 `i 198  ]
+[e $U 199  ]
+"544
+[e :U 198 ]
+[; ;PR23.c: 544: {
+{
+[; ;PR23.c: 549: GO_DONE = 1;
+"549
+[e = _GO_DONE -> -> 1 `i `b ]
+[; ;PR23.c: 550: while(GO_DONE==1);
+"550
+[e $U 201  ]
+[e :U 202 ]
+[e :U 201 ]
+[e $ == -> _GO_DONE `i -> 1 `i 202  ]
+[e :U 203 ]
+[; ;PR23.c: 552: temp_result = ADRESH;
+"552
+[e = _temp_result -> _ADRESH `ui ]
+[; ;PR23.c: 553: temp_result = temp_result<<8;
+"553
+[e = _temp_result << _temp_result -> 8 `i ]
+[; ;PR23.c: 554: temp_result = temp_result|ADRESL;
+"554
+[e = _temp_result | _temp_result -> _ADRESL `ui ]
+[; ;PR23.c: 556: result = result + temp_result;
+"556
+[e = _result + _result -> _temp_result `ul ]
+"557
+}
+"543
+[e -- _i -> -> 1 `i `uc ]
+[e $ > -> _i `i -> 0 `i 198  ]
+[e :U 199 ]
+"557
+}
+[; ;PR23.c: 557: }
+[; ;PR23.c: 558: result = result/200;
+"558
+[e = _result / _result -> -> -> 200 `i `l `ul ]
+[; ;PR23.c: 559: ADON = 0;
+"559
+[e = _ADON -> -> 0 `i `b ]
+[; ;PR23.c: 560: return (unsigned int)result;
+"560
+[e ) -> _result `ui ]
+[e $UE 194  ]
+[; ;PR23.c: 561: }
+"561
+[e :UE 194 ]
+}
+"566
+[v _timer1_init `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 565: void timer1_init(void)
+[; ;PR23.c: 566: {
+[e :U _timer1_init ]
+[f ]
+[; ;PR23.c: 567: TMR1H = 0;
+"567
+[e = _TMR1H -> -> 0 `i `uc ]
+[; ;PR23.c: 568: TMR1L = 0;
+"568
+[e = _TMR1L -> -> 0 `i `uc ]
+[; ;PR23.c: 569: T1CON = 0b00100001;
+"569
+[e = _T1CON -> -> 33 `i `uc ]
+[; ;PR23.c: 570: }
+"570
+[e :UE 204 ]
+}
+"574
+[v _interrupt_init `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 573: void interrupt_init(void)
+[; ;PR23.c: 574: {
+[e :U _interrupt_init ]
+[f ]
+[; ;PR23.c: 575: RCIE = 0;
+"575
+[e = _RCIE -> -> 0 `i `b ]
+[; ;PR23.c: 576: RBIE = 0;
+"576
+[e = _RBIE -> -> 0 `i `b ]
+[; ;PR23.c: 577: TMR1IE = 0;
+"577
+[e = _TMR1IE -> -> 0 `i `b ]
+[; ;PR23.c: 578: }
+"578
+[e :UE 205 ]
+}
+"582
+[v _enable_global_int `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 581: void enable_global_int(void)
+[; ;PR23.c: 582: {
+[e :U _enable_global_int ]
+[f ]
+[; ;PR23.c: 583: GIE = 1;
+"583
+[e = _GIE -> -> 1 `i `b ]
+[; ;PR23.c: 584: PEIE = 1;
+"584
+[e = _PEIE -> -> 1 `i `b ]
+[; ;PR23.c: 585: }
+"585
+[e :UE 206 ]
+}
+"589
+[v _disable_global_int `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 588: void disable_global_int(void)
+[; ;PR23.c: 589: {
+[e :U _disable_global_int ]
+[f ]
+[; ;PR23.c: 590: GIE = 0;
+"590
+[e = _GIE -> -> 0 `i `b ]
+[; ;PR23.c: 591: PEIE = 0;
+"591
+[e = _PEIE -> -> 0 `i `b ]
+[; ;PR23.c: 592: }
+"592
+[e :UE 207 ]
+}
+"599
+[v _init `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 598: void init()
+[; ;PR23.c: 599: {
+[e :U _init ]
+[f ]
+[; ;PR23.c: 600: PORTA = 0;
+"600
+[e = _PORTA -> -> 0 `i `uc ]
+[; ;PR23.c: 601: PORTB = 0;
+"601
+[e = _PORTB -> -> 0 `i `uc ]
+[; ;PR23.c: 602: PORTC = 0;
+"602
+[e = _PORTC -> -> 0 `i `uc ]
+[; ;PR23.c: 603: PORTD = 0;
+"603
+[e = _PORTD -> -> 0 `i `uc ]
+[; ;PR23.c: 604: PORTE = 0;
+"604
+[e = _PORTE -> -> 0 `i `uc ]
+[; ;PR23.c: 607: TRISA = 0b00110011;
+"607
+[e = _TRISA -> -> 51 `i `uc ]
+[; ;PR23.c: 609: TRISB = 0b00011111;
+"609
+[e = _TRISB -> -> 31 `i `uc ]
+[; ;PR23.c: 610: TRISC = 0b10000000;
+"610
+[e = _TRISC -> -> 128 `i `uc ]
+[; ;PR23.c: 611: TRISD = 0b00000000;
+"611
+[e = _TRISD -> -> 0 `i `uc ]
+[; ;PR23.c: 612: TRISE = 0b00000011;
+"612
+[e = _TRISE -> -> 3 `i `uc ]
+[; ;PR23.c: 615: adc_init();
+"615
+[e ( _adc_init ..  ]
+[; ;PR23.c: 616: interrupt_init();
+"616
+[e ( _interrupt_init ..  ]
+[; ;PR23.c: 619: PR2 = 255;
+"619
+[e = _PR2 -> -> 255 `i `uc ]
+[; ;PR23.c: 620: T2CON = 0b00000100;
+"620
+[e = _T2CON -> -> 4 `i `uc ]
+[; ;PR23.c: 621: CCP1CON = 0b00001100;
+"621
+[e = _CCP1CON -> -> 12 `i `uc ]
+[; ;PR23.c: 622: CCP2CON = 0b00001100;
+"622
+[e = _CCP2CON -> -> 12 `i `uc ]
+[; ;PR23.c: 623: CCPR1L = 0;
+"623
+[e = _CCPR1L -> -> 0 `i `uc ]
+[; ;PR23.c: 624: CCPR2L = 0;
+"624
+[e = _CCPR2L -> -> 0 `i `uc ]
+[; ;PR23.c: 626: disable_global_int();
+"626
+[e ( _disable_global_int ..  ]
+[; ;PR23.c: 627: lcd_init();
+"627
+[e ( _lcd_init ..  ]
+[; ;PR23.c: 628: stop();
+"628
+[e ( _stop ..  ]
+[; ;PR23.c: 629: }
+"629
+[e :UE 208 ]
+}
+"639
+[v _line_follow `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 638: void line_follow()
+[; ;PR23.c: 639: {
+[e :U _line_follow ]
+[f ]
+"640
+[v _memory `uc ~T0 @X0 1 a ]
+[; ;PR23.c: 640: unsigned char memory = 0;
+[e = _memory -> -> 0 `i `uc ]
+[; ;PR23.c: 642: lcd_clr();
+"642
+[e ( _lcd_clr ..  ]
+[; ;PR23.c: 643: lcd_string(" Line Position");
+"643
+[e ( _lcd_string (1 :s 2C ]
+[; ;PR23.c: 646: while(1)
+"646
+[e :U 211 ]
+[; ;PR23.c: 647: {
+"647
+{
+[; ;PR23.c: 648: forward();
+"648
+[e ( _forward ..  ]
+[; ;PR23.c: 649: if ((RB0==1)&&(RB1==0)&&(RB2==0)&&(RB3==0))
+"649
+[e $ ! && && && == -> _RB0 `i -> 1 `i == -> _RB1 `i -> 0 `i == -> _RB2 `i -> 0 `i == -> _RB3 `i -> 0 `i 213  ]
+[; ;PR23.c: 650: {
+"650
+{
+[; ;PR23.c: 651: CCPR1L = 0;
+"651
+[e = _CCPR1L -> -> 0 `i `uc ]
+[; ;PR23.c: 652: CCPR2L = 255;
+"652
+[e = _CCPR2L -> -> 255 `i `uc ]
+[; ;PR23.c: 653: memory = 1;
+"653
+[e = _memory -> -> 1 `i `uc ]
+[; ;PR23.c: 654: lcd_2ndline();
+"654
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 655: lcd_string ("right  ");
+"655
+[e ( _lcd_string (1 :s 3C ]
+"656
+}
+[; ;PR23.c: 656: }
+[e $U 214  ]
+"657
+[e :U 213 ]
+[; ;PR23.c: 657: else if ((RB0==1)&&(RB1==1)&&(RB2==0)&&(RB3==0))
+[e $ ! && && && == -> _RB0 `i -> 1 `i == -> _RB1 `i -> 1 `i == -> _RB2 `i -> 0 `i == -> _RB3 `i -> 0 `i 215  ]
+[; ;PR23.c: 658: {
+"658
+{
+[; ;PR23.c: 659: CCPR1L = 180;
+"659
+[e = _CCPR1L -> -> 180 `i `uc ]
+[; ;PR23.c: 660: CCPR2L = 255;
+"660
+[e = _CCPR2L -> -> 255 `i `uc ]
+[; ;PR23.c: 661: memory = 1;
+"661
+[e = _memory -> -> 1 `i `uc ]
+[; ;PR23.c: 662: lcd_2ndline();
+"662
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 663: lcd_string ("m_right2");
+"663
+[e ( _lcd_string (1 :s 4C ]
+"664
+}
+[; ;PR23.c: 664: }
+[e $U 216  ]
+"665
+[e :U 215 ]
+[; ;PR23.c: 665: else if ((RB0==0)&&(RB1==1)&&(RB2==0)&&(RB3==0))
+[e $ ! && && && == -> _RB0 `i -> 0 `i == -> _RB1 `i -> 1 `i == -> _RB2 `i -> 0 `i == -> _RB3 `i -> 0 `i 217  ]
+[; ;PR23.c: 666: {
+"666
+{
+[; ;PR23.c: 667: CCPR1L = 200;
+"667
+[e = _CCPR1L -> -> 200 `i `uc ]
+[; ;PR23.c: 668: CCPR2L = 255;
+"668
+[e = _CCPR2L -> -> 255 `i `uc ]
+[; ;PR23.c: 669: memory = 1;
+"669
+[e = _memory -> -> 1 `i `uc ]
+[; ;PR23.c: 670: lcd_2ndline();
+"670
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 671: lcd_string ("m_right1  ");
+"671
+[e ( _lcd_string (1 :s 5C ]
+"672
+}
+[; ;PR23.c: 672: }
+[e $U 218  ]
+"673
+[e :U 217 ]
+[; ;PR23.c: 673: else if ((RB0==1)&&(RB1==1)&&(RB2==1)&&(RB3==0))
+[e $ ! && && && == -> _RB0 `i -> 1 `i == -> _RB1 `i -> 1 `i == -> _RB2 `i -> 1 `i == -> _RB3 `i -> 0 `i 219  ]
+[; ;PR23.c: 675: {
+"675
+{
+[; ;PR23.c: 676: CCPR1L = 200;
+"676
+[e = _CCPR1L -> -> 200 `i `uc ]
+[; ;PR23.c: 677: CCPR2L = 255;
+"677
+[e = _CCPR2L -> -> 255 `i `uc ]
+[; ;PR23.c: 678: memory = 1;
+"678
+[e = _memory -> -> 1 `i `uc ]
+[; ;PR23.c: 679: lcd_2ndline();
+"679
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 680: lcd_string ("m_right1  ");
+"680
+[e ( _lcd_string (1 :s 6C ]
+"681
+}
+[; ;PR23.c: 681: }
+[e $U 220  ]
+"682
+[e :U 219 ]
+[; ;PR23.c: 682: else if ((RB0==0)&&(RB1==1)&&(RB2==1)&&(RB3==0))
+[e $ ! && && && == -> _RB0 `i -> 0 `i == -> _RB1 `i -> 1 `i == -> _RB2 `i -> 1 `i == -> _RB3 `i -> 0 `i 221  ]
+[; ;PR23.c: 683: {
+"683
+{
+[; ;PR23.c: 684: CCPR1L = 255;
+"684
+[e = _CCPR1L -> -> 255 `i `uc ]
+[; ;PR23.c: 685: CCPR2L = 255;
+"685
+[e = _CCPR2L -> -> 255 `i `uc ]
+[; ;PR23.c: 686: memory = 2;
+"686
+[e = _memory -> -> 2 `i `uc ]
+[; ;PR23.c: 687: lcd_2ndline();
+"687
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 688: lcd_string ("middle ");
+"688
+[e ( _lcd_string (1 :s 7C ]
+"689
+}
+[; ;PR23.c: 689: }
+[e $U 222  ]
+"690
+[e :U 221 ]
+[; ;PR23.c: 690: else if ((RB0==0)&&(RB1==0)&&(RB2==1)&&(RB3==0))
+[e $ ! && && && == -> _RB0 `i -> 0 `i == -> _RB1 `i -> 0 `i == -> _RB2 `i -> 1 `i == -> _RB3 `i -> 0 `i 223  ]
+[; ;PR23.c: 691: {
+"691
+{
+[; ;PR23.c: 692: CCPR1L = 255;
+"692
+[e = _CCPR1L -> -> 255 `i `uc ]
+[; ;PR23.c: 693: CCPR2L = 200;
+"693
+[e = _CCPR2L -> -> 200 `i `uc ]
+[; ;PR23.c: 694: memory = 3;
+"694
+[e = _memory -> -> 3 `i `uc ]
+[; ;PR23.c: 695: lcd_2ndline();
+"695
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 696: lcd_string ("m_left1   ");
+"696
+[e ( _lcd_string (1 :s 8C ]
+"697
+}
+[; ;PR23.c: 697: }
+[e $U 224  ]
+"698
+[e :U 223 ]
+[; ;PR23.c: 698: else if ((RB0==0)&&(RB1==1)&&(RB2==1)&&(RB3==1))
+[e $ ! && && && == -> _RB0 `i -> 0 `i == -> _RB1 `i -> 1 `i == -> _RB2 `i -> 1 `i == -> _RB3 `i -> 1 `i 225  ]
+[; ;PR23.c: 699: {
+"699
+{
+[; ;PR23.c: 700: CCPR1L = 255;
+"700
+[e = _CCPR1L -> -> 255 `i `uc ]
+[; ;PR23.c: 701: CCPR2L = 200;
+"701
+[e = _CCPR2L -> -> 200 `i `uc ]
+[; ;PR23.c: 702: memory = 3;
+"702
+[e = _memory -> -> 3 `i `uc ]
+[; ;PR23.c: 703: lcd_2ndline();
+"703
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 704: lcd_string ("m_left1   ");
+"704
+[e ( _lcd_string (1 :s 9C ]
+"705
+}
+[; ;PR23.c: 705: }
+[e $U 226  ]
+"706
+[e :U 225 ]
+[; ;PR23.c: 706: else if ((RB0==0)&&(RB1==0)&&(RB2==1)&&(RB3==1))
+[e $ ! && && && == -> _RB0 `i -> 0 `i == -> _RB1 `i -> 0 `i == -> _RB2 `i -> 1 `i == -> _RB3 `i -> 1 `i 227  ]
+[; ;PR23.c: 707: {
+"707
+{
+[; ;PR23.c: 708: CCPR1L = 255;
+"708
+[e = _CCPR1L -> -> 255 `i `uc ]
+[; ;PR23.c: 709: CCPR2L = 180;
+"709
+[e = _CCPR2L -> -> 180 `i `uc ]
+[; ;PR23.c: 710: memory = 3;
+"710
+[e = _memory -> -> 3 `i `uc ]
+[; ;PR23.c: 711: lcd_2ndline();
+"711
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 712: lcd_string ("m_left2 ");
+"712
+[e ( _lcd_string (1 :s 10C ]
+"713
+}
+[; ;PR23.c: 713: }
+[e $U 228  ]
+"714
+[e :U 227 ]
+[; ;PR23.c: 714: else if ((RB0==0)&&(RB1==0)&&(RB2==0)&&(RB3==1))
+[e $ ! && && && == -> _RB0 `i -> 0 `i == -> _RB1 `i -> 0 `i == -> _RB2 `i -> 0 `i == -> _RB3 `i -> 1 `i 229  ]
+[; ;PR23.c: 715: {
+"715
+{
+[; ;PR23.c: 716: CCPR1L = 255;
+"716
+[e = _CCPR1L -> -> 255 `i `uc ]
+[; ;PR23.c: 717: CCPR2L = 0;
+"717
+[e = _CCPR2L -> -> 0 `i `uc ]
+[; ;PR23.c: 718: memory = 3;
+"718
+[e = _memory -> -> 3 `i `uc ]
+[; ;PR23.c: 719: lcd_2ndline();
+"719
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 720: lcd_string ("left   ");
+"720
+[e ( _lcd_string (1 :s 11C ]
+"721
+}
+[; ;PR23.c: 721: }
+[e $U 230  ]
+"722
+[e :U 229 ]
+[; ;PR23.c: 722: else if ((RB0==0)&&(RB1==0)&&(RB2==0)&&(RB3==0))
+[e $ ! && && && == -> _RB0 `i -> 0 `i == -> _RB1 `i -> 0 `i == -> _RB2 `i -> 0 `i == -> _RB3 `i -> 0 `i 231  ]
+[; ;PR23.c: 723: {
+"723
+{
+[; ;PR23.c: 724: if (memory == 1 )
+"724
+[e $ ! == -> _memory `i -> 1 `i 232  ]
+[; ;PR23.c: 725: {
+"725
+{
+[; ;PR23.c: 726: CCPR1L = 0;
+"726
+[e = _CCPR1L -> -> 0 `i `uc ]
+[; ;PR23.c: 727: CCPR2L = 255;
+"727
+[e = _CCPR2L -> -> 255 `i `uc ]
+"728
+}
+[; ;PR23.c: 728: }
+[e $U 233  ]
+"729
+[e :U 232 ]
+[; ;PR23.c: 729: else if (memory == 3)
+[e $ ! == -> _memory `i -> 3 `i 234  ]
+[; ;PR23.c: 730: {
+"730
+{
+[; ;PR23.c: 731: CCPR1L = 255;
+"731
+[e = _CCPR1L -> -> 255 `i `uc ]
+[; ;PR23.c: 732: CCPR2L = 0;
+"732
+[e = _CCPR2L -> -> 0 `i `uc ]
+"733
+}
+[e :U 234 ]
+"734
+[e :U 233 ]
+}
+[e :U 231 ]
+"735
+[e :U 230 ]
+[e :U 228 ]
+[e :U 226 ]
+[e :U 224 ]
+[e :U 222 ]
+[e :U 220 ]
+[e :U 218 ]
+[e :U 216 ]
+[e :U 214 ]
+}
+[e :U 210 ]
+"646
+[e $U 211  ]
+[e :U 212 ]
+[; ;PR23.c: 733: }
+[; ;PR23.c: 734: }
+[; ;PR23.c: 735: }
+[; ;PR23.c: 736: }
+"736
+[e :UE 209 ]
+}
+"743
+[v _ultrasonic `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 742: void ultrasonic(void)
+[; ;PR23.c: 743: {
+[e :U _ultrasonic ]
+[f ]
+"744
+[v _distance `ui ~T0 @X0 1 a ]
+[; ;PR23.c: 744: unsigned int distance = 0;
+[e = _distance -> -> 0 `i `ui ]
+"745
+[v _ez1_mode `uc ~T0 @X0 1 a ]
+[; ;PR23.c: 745: char ez1_mode = 1;
+[e = _ez1_mode -> -> 1 `i `uc ]
+[; ;PR23.c: 746: lcd_clr();
+"746
+[e ( _lcd_clr ..  ]
+[; ;PR23.c: 747: lcd_string("Measure : ");
+"747
+[e ( _lcd_string (1 :s 12C ]
+[; ;PR23.c: 748: lcd_goto(0x09);
+"748
+[e ( _lcd_goto (1 -> -> 9 `i `uc ]
+[; ;PR23.c: 749: lcd_string("ADC");
+"749
+[e ( _lcd_string (1 :s 13C ]
+[; ;PR23.c: 750: lcd_2ndline();
+"750
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 751: lcd_string("SW1++  SW2->Run");
+"751
+[e ( _lcd_string (1 :s 14C ]
+[; ;PR23.c: 756: while(RE1 == 1)
+"756
+[e $U 236  ]
+[e :U 237 ]
+[; ;PR23.c: 757: {
+"757
+{
+[; ;PR23.c: 758: if(RE0 == 0)
+"758
+[e $ ! == -> _RE0 `i -> 0 `i 239  ]
+[; ;PR23.c: 759: {
+"759
+{
+[; ;PR23.c: 760: while(RE0==0);
+"760
+[e $U 240  ]
+[e :U 241 ]
+[e :U 240 ]
+[e $ == -> _RE0 `i -> 0 `i 241  ]
+[e :U 242 ]
+[; ;PR23.c: 761: beep(1);
+"761
+[e ( _beep (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 762: ez1_mode++;
+"762
+[e ++ _ez1_mode -> -> 1 `i `uc ]
+[; ;PR23.c: 763: lcd_goto(0x09);
+"763
+[e ( _lcd_goto (1 -> -> 9 `i `uc ]
+[; ;PR23.c: 764: switch (ez1_mode)
+"764
+[e $U 244  ]
+[; ;PR23.c: 765: {
+"765
+{
+[; ;PR23.c: 766: case 2:
+"766
+[e :U 245 ]
+[; ;PR23.c: 767: lcd_string("PWM ");
+"767
+[e ( _lcd_string (1 :s 15C ]
+[; ;PR23.c: 768: break;
+"768
+[e $U 243  ]
+[; ;PR23.c: 770: case 3:
+"770
+[e :U 246 ]
+[; ;PR23.c: 771: lcd_string("UART");
+"771
+[e ( _lcd_string (1 :s 16C ]
+[; ;PR23.c: 772: break;
+"772
+[e $U 243  ]
+[; ;PR23.c: 774: default:
+"774
+[e :U 247 ]
+[; ;PR23.c: 775: lcd_string("ADC ");
+"775
+[e ( _lcd_string (1 :s 17C ]
+[; ;PR23.c: 776: ez1_mode = 1;
+"776
+[e = _ez1_mode -> -> 1 `i `uc ]
+"777
+}
+[; ;PR23.c: 777: }
+[e $U 243  ]
+"764
+[e :U 244 ]
+[e [\ _ez1_mode , $ -> -> 2 `i `uc 245
+ , $ -> -> 3 `i `uc 246
+ 247 ]
+"777
+[e :U 243 ]
+"778
+}
+[e :U 239 ]
+"779
+}
+[e :U 236 ]
+"756
+[e $ == -> _RE1 `i -> 1 `i 237  ]
+[e :U 238 ]
+[; ;PR23.c: 778: }
+[; ;PR23.c: 779: }
+[; ;PR23.c: 780: while(RE1 == 0);
+"780
+[e $U 248  ]
+[e :U 249 ]
+[e :U 248 ]
+[e $ == -> _RE1 `i -> 0 `i 249  ]
+[e :U 250 ]
+[; ;PR23.c: 782: lcd_clr_line(1);
+"782
+[e ( _lcd_clr_line (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 783: lcd_2ndline();
+"783
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 784: lcd_string("Range:");
+"784
+[e ( _lcd_string (1 :s 18C ]
+[; ;PR23.c: 785: lcd_goto(0x4B);
+"785
+[e ( _lcd_goto (1 -> -> 75 `i `uc ]
+[; ;PR23.c: 786: lcd_string("inch");
+"786
+[e ( _lcd_string (1 :s 19C ]
+[; ;PR23.c: 787: if(ez1_mode == 2)
+"787
+[e $ ! == -> _ez1_mode `i -> 2 `i 251  ]
+[; ;PR23.c: 788: {
+"788
+{
+[; ;PR23.c: 789: timer1_init();
+"789
+[e ( _timer1_init ..  ]
+[; ;PR23.c: 790: if(RB4);
+"790
+[e $ ! _RB4 252  ]
+[e :U 252 ]
+[; ;PR23.c: 791: TMR1ON = 1;
+"791
+[e = _TMR1ON -> -> 1 `i `b ]
+[; ;PR23.c: 792: RBIF = 0;
+"792
+[e = _RBIF -> -> 0 `i `b ]
+[; ;PR23.c: 793: RBIE = 1;
+"793
+[e = _RBIE -> -> 1 `i `b ]
+[; ;PR23.c: 794: enable_global_int();
+"794
+[e ( _enable_global_int ..  ]
+"795
+}
+[; ;PR23.c: 795: }
+[e $U 253  ]
+"796
+[e :U 251 ]
+[; ;PR23.c: 796: else if(ez1_mode == 3)
+[e $ ! == -> _ez1_mode `i -> 3 `i 254  ]
+[; ;PR23.c: 797: {
+"797
+{
+[; ;PR23.c: 798: uart_init();
+"798
+[e ( _uart_init ..  ]
+[; ;PR23.c: 799: RCIE = 1;
+"799
+[e = _RCIE -> -> 1 `i `b ]
+[; ;PR23.c: 800: enable_global_int();
+"800
+[e ( _enable_global_int ..  ]
+[; ;PR23.c: 801: delay_ms(60);
+"801
+[e ( _delay_ms (1 -> -> -> 60 `i `l `ul ]
+"802
+}
+[; ;PR23.c: 802: }
+[e $U 255  ]
+"803
+[e :U 254 ]
+[; ;PR23.c: 803: else
+[; ;PR23.c: 804: {
+"804
+{
+[; ;PR23.c: 805: RBIE = 0;
+"805
+[e = _RBIE -> -> 0 `i `b ]
+[; ;PR23.c: 806: RCIE = 0;
+"806
+[e = _RCIE -> -> 0 `i `b ]
+[; ;PR23.c: 807: disable_global_int();
+"807
+[e ( _disable_global_int ..  ]
+"808
+}
+[e :U 255 ]
+[e :U 253 ]
+[; ;PR23.c: 808: }
+[; ;PR23.c: 810: while(1)
+"810
+[e :U 257 ]
+[; ;PR23.c: 811: {
+"811
+{
+[; ;PR23.c: 812: distance = us_value(ez1_mode);
+"812
+[e = _distance ( _us_value (1 _ez1_mode ]
+[; ;PR23.c: 813: lcd_goto(0x47);
+"813
+[e ( _lcd_goto (1 -> -> 71 `i `uc ]
+[; ;PR23.c: 814: if(distance < 5)
+"814
+[e $ ! < _distance -> -> 5 `i `ui 259  ]
+[; ;PR23.c: 815: {
+"815
+{
+[; ;PR23.c: 816: lcd_string("XXX");
+"816
+[e ( _lcd_string (1 :s 20C ]
+[; ;PR23.c: 817: stop();
+"817
+[e ( _stop ..  ]
+[; ;PR23.c: 818: CCPR1L = 0;
+"818
+[e = _CCPR1L -> -> 0 `i `uc ]
+[; ;PR23.c: 819: CCPR2L = 0;
+"819
+[e = _CCPR2L -> -> 0 `i `uc ]
+[; ;PR23.c: 820: continue;
+"820
+[e $U 256  ]
+"821
+}
+[; ;PR23.c: 821: }
+[e $U 260  ]
+"822
+[e :U 259 ]
+[; ;PR23.c: 822: else lcd_dis_num( 3, distance);
+[e ( _lcd_dis_num (2 , -> -> 3 `i `uc _distance ]
+[e :U 260 ]
+[; ;PR23.c: 825: if (distance > 20)
+"825
+[e $ ! > _distance -> -> 20 `i `ui 261  ]
+[; ;PR23.c: 826: {
+"826
+{
+[; ;PR23.c: 827: forward();
+"827
+[e ( _forward ..  ]
+[; ;PR23.c: 828: CCPR1L = 255;
+"828
+[e = _CCPR1L -> -> 255 `i `uc ]
+[; ;PR23.c: 829: CCPR2L = 255;
+"829
+[e = _CCPR2L -> -> 255 `i `uc ]
+[; ;PR23.c: 830: RE2 = 0;
+"830
+[e = _RE2 -> -> 0 `i `b ]
+"831
+}
+[; ;PR23.c: 831: }
+[e $U 262  ]
+"832
+[e :U 261 ]
+[; ;PR23.c: 832: else if (distance > 12)
+[e $ ! > _distance -> -> 12 `i `ui 263  ]
+[; ;PR23.c: 833: {
+"833
+{
+[; ;PR23.c: 834: forward();
+"834
+[e ( _forward ..  ]
+[; ;PR23.c: 835: CCPR1L = 180;
+"835
+[e = _CCPR1L -> -> 180 `i `uc ]
+[; ;PR23.c: 836: CCPR2L = 180;
+"836
+[e = _CCPR2L -> -> 180 `i `uc ]
+[; ;PR23.c: 837: RE2 = 0;
+"837
+[e = _RE2 -> -> 0 `i `b ]
+"838
+}
+[; ;PR23.c: 838: }
+[e $U 264  ]
+"839
+[e :U 263 ]
+[; ;PR23.c: 839: else if( distance > 8)
+[e $ ! > _distance -> -> 8 `i `ui 265  ]
+[; ;PR23.c: 840: {
+"840
+{
+[; ;PR23.c: 841: stop();
+"841
+[e ( _stop ..  ]
+[; ;PR23.c: 842: CCPR1L = 0;
+"842
+[e = _CCPR1L -> -> 0 `i `uc ]
+[; ;PR23.c: 843: CCPR2L = 0;
+"843
+[e = _CCPR2L -> -> 0 `i `uc ]
+[; ;PR23.c: 844: RE2 = 0;
+"844
+[e = _RE2 -> -> 0 `i `b ]
+"845
+}
+[; ;PR23.c: 845: }
+[e $U 266  ]
+"846
+[e :U 265 ]
+[; ;PR23.c: 846: else
+[; ;PR23.c: 847: {
+"847
+{
+[; ;PR23.c: 848: backward();
+"848
+[e ( _backward ..  ]
+[; ;PR23.c: 849: CCPR1L = 200;
+"849
+[e = _CCPR1L -> -> 200 `i `uc ]
+[; ;PR23.c: 850: CCPR2L = 200;
+"850
+[e = _CCPR2L -> -> 200 `i `uc ]
+[; ;PR23.c: 851: RE2 = 1;
+"851
+[e = _RE2 -> -> 1 `i `b ]
+"852
+}
+[e :U 266 ]
+[e :U 264 ]
+[e :U 262 ]
+"853
+}
+[e :U 256 ]
+"810
+[e $U 257  ]
+[e :U 258 ]
+[; ;PR23.c: 852: }
+[; ;PR23.c: 853: }
+[; ;PR23.c: 854: }
+"854
+[e :UE 235 ]
+}
+"861
+[v _analog_sen `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 860: void analog_sen(void)
+[; ;PR23.c: 861: {
+[e :U _analog_sen ]
+[f ]
+"862
+[v _voltage `ul ~T0 @X0 1 a ]
+[; ;PR23.c: 862: unsigned long voltage = 0;
+[e = _voltage -> -> -> 0 `i `l `ul ]
+"863
+[v _distance `uc ~T0 @X0 1 a ]
+[; ;PR23.c: 863: unsigned char distance = 0;
+[e = _distance -> -> 0 `i `uc ]
+[; ;PR23.c: 864: lcd_clr();
+"864
+[e ( _lcd_clr ..  ]
+[; ;PR23.c: 865: lcd_string("Sharp GP2Y0A21");
+"865
+[e ( _lcd_string (1 :s 21C ]
+[; ;PR23.c: 866: lcd_2ndline();
+"866
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 867: lcd_string("Range:");
+"867
+[e ( _lcd_string (1 :s 22C ]
+[; ;PR23.c: 868: lcd_goto(0x4A);
+"868
+[e ( _lcd_goto (1 -> -> 74 `i `uc ]
+[; ;PR23.c: 869: lcd_string("cm");
+"869
+[e ( _lcd_string (1 :s 23C ]
+[; ;PR23.c: 871: while(1)
+"871
+[e :U 269 ]
+[; ;PR23.c: 872: {
+"872
+{
+[; ;PR23.c: 873: lcd_goto(0x47);
+"873
+[e ( _lcd_goto (1 -> -> 71 `i `uc ]
+[; ;PR23.c: 874: voltage = read_adc(1);
+"874
+[e = _voltage -> ( _read_adc (1 -> -> 1 `i `uc `ul ]
+[; ;PR23.c: 889: voltage = (voltage * 48828)/10000;
+"889
+[e = _voltage / * _voltage -> -> 48828 `l `ul -> -> -> 10000 `i `l `ul ]
+[; ;PR23.c: 890: if((voltage > 400) && (voltage < 2800))
+"890
+[e $ ! && > _voltage -> -> -> 400 `i `l `ul < _voltage -> -> -> 2800 `i `l `ul 271  ]
+[; ;PR23.c: 891: {
+"891
+{
+[; ;PR23.c: 892: voltage = voltage - 190;
+"892
+[e = _voltage - _voltage -> -> -> 190 `i `l `ul ]
+[; ;PR23.c: 893: distance = 20990 / voltage ;
+"893
+[e = _distance -> / -> -> -> 20990 `i `l `ul _voltage `uc ]
+[; ;PR23.c: 894: lcd_dis_num(2,distance);
+"894
+[e ( _lcd_dis_num (2 , -> -> 2 `i `uc -> _distance `ui ]
+[; ;PR23.c: 895: lcd_char(' ');
+"895
+[e ( _lcd_char (1 -> -> 32 `ui `uc ]
+[; ;PR23.c: 897: if (distance > 30)
+"897
+[e $ ! > -> _distance `i -> 30 `i 272  ]
+[; ;PR23.c: 898: {
+"898
+{
+[; ;PR23.c: 899: backward();
+"899
+[e ( _backward ..  ]
+[; ;PR23.c: 900: CCPR1L = 255;
+"900
+[e = _CCPR1L -> -> 255 `i `uc ]
+[; ;PR23.c: 901: CCPR2L = 255;
+"901
+[e = _CCPR2L -> -> 255 `i `uc ]
+[; ;PR23.c: 902: RE2 = 0;
+"902
+[e = _RE2 -> -> 0 `i `b ]
+"903
+}
+[; ;PR23.c: 903: }
+[e $U 273  ]
+"904
+[e :U 272 ]
+[; ;PR23.c: 904: else if (distance > 20)
+[e $ ! > -> _distance `i -> 20 `i 274  ]
+[; ;PR23.c: 905: {
+"905
+{
+[; ;PR23.c: 906: backward();
+"906
+[e ( _backward ..  ]
+[; ;PR23.c: 907: CCPR1L = 200;
+"907
+[e = _CCPR1L -> -> 200 `i `uc ]
+[; ;PR23.c: 908: CCPR2L = 200;
+"908
+[e = _CCPR2L -> -> 200 `i `uc ]
+[; ;PR23.c: 909: RE2 = 0;
+"909
+[e = _RE2 -> -> 0 `i `b ]
+"910
+}
+[; ;PR23.c: 910: }
+[e $U 275  ]
+"911
+[e :U 274 ]
+[; ;PR23.c: 911: else if( distance > 15)
+[e $ ! > -> _distance `i -> 15 `i 276  ]
+[; ;PR23.c: 912: {
+"912
+{
+[; ;PR23.c: 913: stop();
+"913
+[e ( _stop ..  ]
+[; ;PR23.c: 914: RE2 = 0;
+"914
+[e = _RE2 -> -> 0 `i `b ]
+"915
+}
+[; ;PR23.c: 915: }
+[e $U 277  ]
+"916
+[e :U 276 ]
+[; ;PR23.c: 916: else
+[; ;PR23.c: 917: {
+"917
+{
+[; ;PR23.c: 918: forward();
+"918
+[e ( _forward ..  ]
+[; ;PR23.c: 919: CCPR1L = 200;
+"919
+[e = _CCPR1L -> -> 200 `i `uc ]
+[; ;PR23.c: 920: CCPR2L = 200;
+"920
+[e = _CCPR2L -> -> 200 `i `uc ]
+[; ;PR23.c: 921: RE2 = 1;
+"921
+[e = _RE2 -> -> 1 `i `b ]
+"922
+}
+[e :U 277 ]
+[e :U 275 ]
+[e :U 273 ]
+"923
+}
+[; ;PR23.c: 922: }
+[; ;PR23.c: 923: }
+[e $U 278  ]
+"924
+[e :U 271 ]
+[; ;PR23.c: 924: else
+[; ;PR23.c: 925: {
+"925
+{
+[; ;PR23.c: 926: lcd_string ("Out");
+"926
+[e ( _lcd_string (1 :s 24C ]
+[; ;PR23.c: 927: stop();
+"927
+[e ( _stop ..  ]
+"929
+}
+[e :U 278 ]
+"930
+}
+[e :U 268 ]
+"871
+[e $U 269  ]
+[e :U 270 ]
+[; ;PR23.c: 929: }
+[; ;PR23.c: 930: }
+[; ;PR23.c: 931: }
+"931
+[e :UE 267 ]
+}
+"941
+[v _wireless_xbee `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 940: void wireless_xbee (void)
+[; ;PR23.c: 941: {
+[e :U _wireless_xbee ]
+[f ]
+"942
+[v _uart_data `uc ~T0 @X0 1 a ]
+[; ;PR23.c: 942: unsigned char uart_data = 0;
+[e = _uart_data -> -> 0 `i `uc ]
+[; ;PR23.c: 943: disable_global_int();
+"943
+[e ( _disable_global_int ..  ]
+[; ;PR23.c: 944: uart_init();
+"944
+[e ( _uart_init ..  ]
+[; ;PR23.c: 945: lcd_clr();
+"945
+[e ( _lcd_clr ..  ]
+[; ;PR23.c: 946: lcd_string(" SKXBee Control");
+"946
+[e ( _lcd_string (1 :s 25C ]
+[; ;PR23.c: 947: lcd_2ndline();
+"947
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 948: lcd_string("JP7 to UC");
+"948
+[e ( _lcd_string (1 :s 26C ]
+[; ;PR23.c: 949: delay_ms(1000);
+"949
+[e ( _delay_ms (1 -> -> -> 1000 `i `l `ul ]
+[; ;PR23.c: 950: lcd_clr_line(1);
+"950
+[e ( _lcd_clr_line (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 951: lcd_2ndline();
+"951
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 952: lcd_string(" d on computer");
+"952
+[e ( _lcd_string (1 :s 27C ]
+[; ;PR23.c: 954: while(uart_rec() != 'd');
+"954
+[e $U 280  ]
+[e :U 281 ]
+[e :U 280 ]
+[e $ != -> ( _uart_rec ..  `ui -> 100 `ui 281  ]
+[e :U 282 ]
+[; ;PR23.c: 955: lcd_clr_line(1);
+"955
+[e ( _lcd_clr_line (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 956: lcd_2ndline();
+"956
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 957: lcd_string("Ready to control!");
+"957
+[e ( _lcd_string (1 :s 28C ]
+[; ;PR23.c: 958: beep(2);
+"958
+[e ( _beep (1 -> -> 2 `i `uc ]
+[; ;PR23.c: 960: uart_string_nl("Congrats!");
+"960
+[e ( _uart_string_nl (1 :s 29C ]
+[; ;PR23.c: 961: uart_string_nl("Connected with XBee wireless");
+"961
+[e ( _uart_string_nl (1 :s 30C ]
+[; ;PR23.c: 962: uart_string_nl("number 8 = forward");
+"962
+[e ( _uart_string_nl (1 :s 31C ]
+[; ;PR23.c: 963: uart_string_nl("number 2 = backward");
+"963
+[e ( _uart_string_nl (1 :s 32C ]
+[; ;PR23.c: 964: uart_string_nl("number 6 = turn right");
+"964
+[e ( _uart_string_nl (1 :s 33C ]
+[; ;PR23.c: 965: uart_string_nl("number 4 = turn left");
+"965
+[e ( _uart_string_nl (1 :s 34C ]
+[; ;PR23.c: 966: uart_string_nl("Other = stop and invalid command");
+"966
+[e ( _uart_string_nl (1 :s 35C ]
+[; ;PR23.c: 968: CCPR1L = 200;
+"968
+[e = _CCPR1L -> -> 200 `i `uc ]
+[; ;PR23.c: 969: CCPR2L = 200;
+"969
+[e = _CCPR2L -> -> 200 `i `uc ]
+[; ;PR23.c: 971: stop();
+"971
+[e ( _stop ..  ]
+[; ;PR23.c: 973: while(1)
+"973
+[e :U 284 ]
+[; ;PR23.c: 974: {
+"974
+{
+[; ;PR23.c: 975: uart_data = uart_rec();
+"975
+[e = _uart_data ( _uart_rec ..  ]
+[; ;PR23.c: 976: lcd_2ndline();
+"976
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 977: if (uart_data == '8')
+"977
+[e $ ! == -> _uart_data `ui -> 56 `ui 286  ]
+[; ;PR23.c: 978: {
+"978
+{
+[; ;PR23.c: 979: forward();
+"979
+[e ( _forward ..  ]
+[; ;PR23.c: 980: lcd_clr_line(1);
+"980
+[e ( _lcd_clr_line (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 981: lcd_goto(0x44);
+"981
+[e ( _lcd_goto (1 -> -> 68 `i `uc ]
+[; ;PR23.c: 982: lcd_string("Forward");
+"982
+[e ( _lcd_string (1 :s 36C ]
+[; ;PR23.c: 983: uart_string_nl("Forward!");
+"983
+[e ( _uart_string_nl (1 :s 37C ]
+"984
+}
+[; ;PR23.c: 984: }
+[e $U 287  ]
+"985
+[e :U 286 ]
+[; ;PR23.c: 985: else if (uart_data == '2')
+[e $ ! == -> _uart_data `ui -> 50 `ui 288  ]
+[; ;PR23.c: 986: {
+"986
+{
+[; ;PR23.c: 987: backward();
+"987
+[e ( _backward ..  ]
+[; ;PR23.c: 988: lcd_clr_line(1);
+"988
+[e ( _lcd_clr_line (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 989: lcd_goto(0x44);
+"989
+[e ( _lcd_goto (1 -> -> 68 `i `uc ]
+[; ;PR23.c: 990: lcd_string("BACKWARD");
+"990
+[e ( _lcd_string (1 :s 38C ]
+[; ;PR23.c: 991: uart_string_nl("Backward!");
+"991
+[e ( _uart_string_nl (1 :s 39C ]
+"992
+}
+[; ;PR23.c: 992: }
+[e $U 289  ]
+"993
+[e :U 288 ]
+[; ;PR23.c: 993: else if (uart_data == '6')
+[e $ ! == -> _uart_data `ui -> 54 `ui 290  ]
+[; ;PR23.c: 994: {
+"994
+{
+[; ;PR23.c: 995: right();
+"995
+[e ( _right ..  ]
+[; ;PR23.c: 996: lcd_clr_line(1);
+"996
+[e ( _lcd_clr_line (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 997: lcd_goto(0x43);
+"997
+[e ( _lcd_goto (1 -> -> 67 `i `uc ]
+[; ;PR23.c: 998: lcd_string("TURN RIGHT");
+"998
+[e ( _lcd_string (1 :s 40C ]
+[; ;PR23.c: 999: uart_string_nl("Turn Right!");
+"999
+[e ( _uart_string_nl (1 :s 41C ]
+"1000
+}
+[; ;PR23.c: 1000: }
+[e $U 291  ]
+"1001
+[e :U 290 ]
+[; ;PR23.c: 1001: else if (uart_data == '4')
+[e $ ! == -> _uart_data `ui -> 52 `ui 292  ]
+[; ;PR23.c: 1002: {
+"1002
+{
+[; ;PR23.c: 1003: left();
+"1003
+[e ( _left ..  ]
+[; ;PR23.c: 1004: lcd_clr_line(1);
+"1004
+[e ( _lcd_clr_line (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 1005: lcd_goto(0x43);
+"1005
+[e ( _lcd_goto (1 -> -> 67 `i `uc ]
+[; ;PR23.c: 1006: lcd_string("TURN LEFT");
+"1006
+[e ( _lcd_string (1 :s 42C ]
+[; ;PR23.c: 1007: uart_string_nl("Turn Left!");
+"1007
+[e ( _uart_string_nl (1 :s 43C ]
+"1008
+}
+[; ;PR23.c: 1008: }
+[e $U 293  ]
+"1009
+[e :U 292 ]
+[; ;PR23.c: 1009: else
+[; ;PR23.c: 1010: {
+"1010
+{
+[; ;PR23.c: 1011: stop();
+"1011
+[e ( _stop ..  ]
+[; ;PR23.c: 1012: lcd_clr_line(1);
+"1012
+[e ( _lcd_clr_line (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 1013: lcd_goto(0x40);
+"1013
+[e ( _lcd_goto (1 -> -> 64 `i `uc ]
+[; ;PR23.c: 1014: lcd_string("INVALID COMMAND");
+"1014
+[e ( _lcd_string (1 :s 44C ]
+[; ;PR23.c: 1015: uart_string_nl("Invalid Command!");
+"1015
+[e ( _uart_string_nl (1 :s 45C ]
+"1016
+}
+[e :U 293 ]
+[e :U 291 ]
+[e :U 289 ]
+[e :U 287 ]
+"1017
+}
+[e :U 283 ]
+"973
+[e $U 284  ]
+[e :U 285 ]
+[; ;PR23.c: 1016: }
+[; ;PR23.c: 1017: }
+[; ;PR23.c: 1018: }
+"1018
+[e :UE 279 ]
+}
+"1025
+[v _SKPS_PScon `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 1024: void SKPS_PScon()
+[; ;PR23.c: 1025: {
+[e :U _SKPS_PScon ]
+[f ]
+"1026
+[v _up_v `uc ~T0 @X0 1 a ]
+[v _down_v `uc ~T0 @X0 1 a ]
+[v _left_v `uc ~T0 @X0 1 a ]
+[v _right_v `uc ~T0 @X0 1 a ]
+[; ;PR23.c: 1026: unsigned char up_v, down_v, left_v, right_v;
+[; ;PR23.c: 1029: disable_global_int();
+"1029
+[e ( _disable_global_int ..  ]
+[; ;PR23.c: 1030: stop();
+"1030
+[e ( _stop ..  ]
+[; ;PR23.c: 1032: lcd_clr();
+"1032
+[e ( _lcd_clr ..  ]
+[; ;PR23.c: 1033: lcd_string("  Control PR23");
+"1033
+[e ( _lcd_string (1 :s 46C ]
+[; ;PR23.c: 1034: lcd_2ndline();
+"1034
+[e ( _lcd_2ndline ..  ]
+[; ;PR23.c: 1035: lcd_string("   with SKPS");
+"1035
+[e ( _lcd_string (1 :s 47C ]
+[; ;PR23.c: 1036: delay_ms(500);
+"1036
+[e ( _delay_ms (1 -> -> -> 500 `i `l `ul ]
+[; ;PR23.c: 1037: lcd_clr_line(1);
+"1037
+[e ( _lcd_clr_line (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 1038: lcd_goto(0x43);
+"1038
+[e ( _lcd_goto (1 -> -> 67 `i `uc ]
+[; ;PR23.c: 1039: lcd_string("JP7 to UC");
+"1039
+[e ( _lcd_string (1 :s 48C ]
+[; ;PR23.c: 1040: delay_ms(1000);
+"1040
+[e ( _delay_ms (1 -> -> -> 1000 `i `l `ul ]
+[; ;PR23.c: 1041: uart_init();
+"1041
+[e ( _uart_init ..  ]
+[; ;PR23.c: 1042: beep(2);
+"1042
+[e ( _beep (1 -> -> 2 `i `uc ]
+[; ;PR23.c: 1044: lcd_clr_line(1);
+"1044
+[e ( _lcd_clr_line (1 -> -> 1 `i `uc ]
+[; ;PR23.c: 1045: lcd_goto(0x45);
+"1045
+[e ( _lcd_goto (1 -> -> 69 `i `uc ]
+[; ;PR23.c: 1046: lcd_string("Ready!");
+"1046
+[e ( _lcd_string (1 :s 49C ]
+[; ;PR23.c: 1047: while(1)
+"1047
+[e :U 296 ]
+[; ;PR23.c: 1048: {
+"1048
+{
+[; ;PR23.c: 1050: if((skps(10)== 0) || (skps(8)== 0) || (skps(11)== 0) || (skps(9)== 0))RE2 = 1;
+"1050
+[e $ ! || || || == -> ( _skps (1 -> -> 10 `i `uc `i -> 0 `i == -> ( _skps (1 -> -> 8 `i `uc `i -> 0 `i == -> ( _skps (1 -> -> 11 `i `uc `i -> 0 `i == -> ( _skps (1 -> -> 9 `i `uc `i -> 0 `i 298  ]
+[e = _RE2 -> -> 1 `i `b ]
+[e $U 299  ]
+"1051
+[e :U 298 ]
+[; ;PR23.c: 1051: else RE2 = 0;
+[e = _RE2 -> -> 0 `i `b ]
+[e :U 299 ]
+[; ;PR23.c: 1054: up_v = skps(24);
+"1054
+[e = _up_v ( _skps (1 -> -> 24 `i `uc ]
+[; ;PR23.c: 1055: down_v = skps(25);
+"1055
+[e = _down_v ( _skps (1 -> -> 25 `i `uc ]
+[; ;PR23.c: 1056: left_v = skps(22);
+"1056
+[e = _left_v ( _skps (1 -> -> 22 `i `uc ]
+[; ;PR23.c: 1057: right_v = skps(23);
+"1057
+[e = _right_v ( _skps (1 -> -> 23 `i `uc ]
+[; ;PR23.c: 1060: if(skps(4)==0)
+"1060
+[e $ ! == -> ( _skps (1 -> -> 4 `i `uc `i -> 0 `i 300  ]
+[; ;PR23.c: 1061: {
+"1061
+{
+[; ;PR23.c: 1062: forward();
+"1062
+[e ( _forward ..  ]
+[; ;PR23.c: 1063: CCPR1L=230;
+"1063
+[e = _CCPR1L -> -> 230 `i `uc ]
+[; ;PR23.c: 1064: CCPR2L=230;
+"1064
+[e = _CCPR2L -> -> 230 `i `uc ]
+"1065
+}
+[; ;PR23.c: 1065: }
+[e $U 301  ]
+"1066
+[e :U 300 ]
+[; ;PR23.c: 1066: else if(skps(6)==0)
+[e $ ! == -> ( _skps (1 -> -> 6 `i `uc `i -> 0 `i 302  ]
+[; ;PR23.c: 1067: {
+"1067
+{
+[; ;PR23.c: 1068: backward();
+"1068
+[e ( _backward ..  ]
+[; ;PR23.c: 1069: CCPR1L=230;
+"1069
+[e = _CCPR1L -> -> 230 `i `uc ]
+[; ;PR23.c: 1070: CCPR2L=230;
+"1070
+[e = _CCPR2L -> -> 230 `i `uc ]
+"1071
+}
+[; ;PR23.c: 1071: }
+[e $U 303  ]
+"1072
+[e :U 302 ]
+[; ;PR23.c: 1072: else if(skps(7)==0)
+[e $ ! == -> ( _skps (1 -> -> 7 `i `uc `i -> 0 `i 304  ]
+[; ;PR23.c: 1073: {
+"1073
+{
+[; ;PR23.c: 1074: left();
+"1074
+[e ( _left ..  ]
+[; ;PR23.c: 1075: CCPR1L=230;
+"1075
+[e = _CCPR1L -> -> 230 `i `uc ]
+[; ;PR23.c: 1076: CCPR2L=230;
+"1076
+[e = _CCPR2L -> -> 230 `i `uc ]
+"1077
+}
+[; ;PR23.c: 1077: }
+[e $U 305  ]
+"1078
+[e :U 304 ]
+[; ;PR23.c: 1078: else if(skps(5)==0)
+[e $ ! == -> ( _skps (1 -> -> 5 `i `uc `i -> 0 `i 306  ]
+[; ;PR23.c: 1079: {
+"1079
+{
+[; ;PR23.c: 1080: right();
+"1080
+[e ( _right ..  ]
+[; ;PR23.c: 1081: CCPR1L=230;
+"1081
+[e = _CCPR1L -> -> 230 `i `uc ]
+[; ;PR23.c: 1082: CCPR2L=230;
+"1082
+[e = _CCPR2L -> -> 230 `i `uc ]
+"1083
+}
+[; ;PR23.c: 1083: }
+[e $U 307  ]
+"1086
+[e :U 306 ]
+[; ;PR23.c: 1086: else if(up_v > 0)
+[e $ ! > -> _up_v `i -> 0 `i 308  ]
+[; ;PR23.c: 1087: {
+"1087
+{
+[; ;PR23.c: 1088: forward();
+"1088
+[e ( _forward ..  ]
+[; ;PR23.c: 1089: if(left_v > 0)
+"1089
+[e $ ! > -> _left_v `i -> 0 `i 309  ]
+[; ;PR23.c: 1090: {
+"1090
+{
+[; ;PR23.c: 1091: if(up_v > left_v) CCPR1L = up_v - left_v + 140;
+"1091
+[e $ ! > -> _up_v `i -> _left_v `i 310  ]
+[e = _CCPR1L -> + - -> _up_v `i -> _left_v `i -> 140 `i `uc ]
+[e $U 311  ]
+"1092
+[e :U 310 ]
+[; ;PR23.c: 1092: else CCPR1L = 140;
+[e = _CCPR1L -> -> 140 `i `uc ]
+[e :U 311 ]
+[; ;PR23.c: 1093: CCPR2L = up_v + 140;
+"1093
+[e = _CCPR2L -> + -> _up_v `i -> 140 `i `uc ]
+"1094
+}
+[; ;PR23.c: 1094: }
+[e $U 312  ]
+"1095
+[e :U 309 ]
+[; ;PR23.c: 1095: else if(right_v > 0)
+[e $ ! > -> _right_v `i -> 0 `i 313  ]
+[; ;PR23.c: 1096: {
+"1096
+{
+[; ;PR23.c: 1097: if(up_v > right_v) CCPR2L = up_v - right_v + 140;
+"1097
+[e $ ! > -> _up_v `i -> _right_v `i 314  ]
+[e = _CCPR2L -> + - -> _up_v `i -> _right_v `i -> 140 `i `uc ]
+[e $U 315  ]
+"1098
+[e :U 314 ]
+[; ;PR23.c: 1098: else CCPR2L = 140;
+[e = _CCPR2L -> -> 140 `i `uc ]
+[e :U 315 ]
+[; ;PR23.c: 1099: CCPR1L = up_v + 140;
+"1099
+[e = _CCPR1L -> + -> _up_v `i -> 140 `i `uc ]
+"1100
+}
+[; ;PR23.c: 1100: }
+[e $U 316  ]
+"1101
+[e :U 313 ]
+[; ;PR23.c: 1101: else
+[; ;PR23.c: 1102: {
+"1102
+{
+[; ;PR23.c: 1103: CCPR1L = up_v + 140;
+"1103
+[e = _CCPR1L -> + -> _up_v `i -> 140 `i `uc ]
+[; ;PR23.c: 1104: CCPR2L = up_v + 140;
+"1104
+[e = _CCPR2L -> + -> _up_v `i -> 140 `i `uc ]
+"1105
+}
+[e :U 316 ]
+[e :U 312 ]
+"1106
+}
+[; ;PR23.c: 1105: }
+[; ;PR23.c: 1106: }
+[e $U 317  ]
+"1107
+[e :U 308 ]
+[; ;PR23.c: 1107: else if(down_v > 0)
+[e $ ! > -> _down_v `i -> 0 `i 318  ]
+[; ;PR23.c: 1108: {
+"1108
+{
+[; ;PR23.c: 1109: backward();
+"1109
+[e ( _backward ..  ]
+[; ;PR23.c: 1110: if(left_v > 0)
+"1110
+[e $ ! > -> _left_v `i -> 0 `i 319  ]
+[; ;PR23.c: 1111: {
+"1111
+{
+[; ;PR23.c: 1112: if(down_v > left_v) CCPR2L = down_v - left_v + 140;
+"1112
+[e $ ! > -> _down_v `i -> _left_v `i 320  ]
+[e = _CCPR2L -> + - -> _down_v `i -> _left_v `i -> 140 `i `uc ]
+[e $U 321  ]
+"1113
+[e :U 320 ]
+[; ;PR23.c: 1113: else CCPR2L = 140;
+[e = _CCPR2L -> -> 140 `i `uc ]
+[e :U 321 ]
+[; ;PR23.c: 1114: CCPR1L = down_v + 140;
+"1114
+[e = _CCPR1L -> + -> _down_v `i -> 140 `i `uc ]
+"1115
+}
+[; ;PR23.c: 1115: }
+[e $U 322  ]
+"1116
+[e :U 319 ]
+[; ;PR23.c: 1116: else if(right_v > 0)
+[e $ ! > -> _right_v `i -> 0 `i 323  ]
+[; ;PR23.c: 1117: {
+"1117
+{
+[; ;PR23.c: 1118: if(down_v > right_v) CCPR1L = down_v - right_v + 140;
+"1118
+[e $ ! > -> _down_v `i -> _right_v `i 324  ]
+[e = _CCPR1L -> + - -> _down_v `i -> _right_v `i -> 140 `i `uc ]
+[e $U 325  ]
+"1119
+[e :U 324 ]
+[; ;PR23.c: 1119: else CCPR1L = 140;
+[e = _CCPR1L -> -> 140 `i `uc ]
+[e :U 325 ]
+[; ;PR23.c: 1120: CCPR2L = down_v + 140;
+"1120
+[e = _CCPR2L -> + -> _down_v `i -> 140 `i `uc ]
+"1121
+}
+[; ;PR23.c: 1121: }
+[e $U 326  ]
+"1122
+[e :U 323 ]
+[; ;PR23.c: 1122: else
+[; ;PR23.c: 1123: {
+"1123
+{
+[; ;PR23.c: 1124: CCPR1L = down_v + 140;
+"1124
+[e = _CCPR1L -> + -> _down_v `i -> 140 `i `uc ]
+[; ;PR23.c: 1125: CCPR2L = down_v + 140;
+"1125
+[e = _CCPR2L -> + -> _down_v `i -> 140 `i `uc ]
+"1126
+}
+[e :U 326 ]
+[e :U 322 ]
+"1127
+}
+[; ;PR23.c: 1126: }
+[; ;PR23.c: 1127: }
+[e $U 327  ]
+"1128
+[e :U 318 ]
+[; ;PR23.c: 1128: else if(left_v > 0)
+[e $ ! > -> _left_v `i -> 0 `i 328  ]
+[; ;PR23.c: 1129: {
+"1129
+{
+[; ;PR23.c: 1130: left();
+"1130
+[e ( _left ..  ]
+[; ;PR23.c: 1131: CCPR1L = left_v + 120;
+"1131
+[e = _CCPR1L -> + -> _left_v `i -> 120 `i `uc ]
+[; ;PR23.c: 1132: CCPR2L = left_v + 120;
+"1132
+[e = _CCPR2L -> + -> _left_v `i -> 120 `i `uc ]
+"1133
+}
+[; ;PR23.c: 1133: }
+[e $U 329  ]
+"1134
+[e :U 328 ]
+[; ;PR23.c: 1134: else if(right_v > 0)
+[e $ ! > -> _right_v `i -> 0 `i 330  ]
+[; ;PR23.c: 1135: {
+"1135
+{
+[; ;PR23.c: 1136: right();
+"1136
+[e ( _right ..  ]
+[; ;PR23.c: 1137: CCPR1L = right_v + 120;
+"1137
+[e = _CCPR1L -> + -> _right_v `i -> 120 `i `uc ]
+[; ;PR23.c: 1138: CCPR2L = right_v + 120;
+"1138
+[e = _CCPR2L -> + -> _right_v `i -> 120 `i `uc ]
+"1139
+}
+[; ;PR23.c: 1139: }
+[e $U 331  ]
+"1140
+[e :U 330 ]
+[; ;PR23.c: 1140: else
+[; ;PR23.c: 1141: {
+"1141
+{
+[; ;PR23.c: 1142: stop();
+"1142
+[e ( _stop ..  ]
+[; ;PR23.c: 1143: CCPR1L = 0;
+"1143
+[e = _CCPR1L -> -> 0 `i `uc ]
+[; ;PR23.c: 1144: CCPR2L = 0;
+"1144
+[e = _CCPR2L -> -> 0 `i `uc ]
+"1145
+}
+[e :U 331 ]
+[e :U 329 ]
+[e :U 327 ]
+[e :U 317 ]
+[e :U 307 ]
+[e :U 305 ]
+[e :U 303 ]
+[e :U 301 ]
+"1146
+}
+[e :U 295 ]
+"1047
+[e $U 296  ]
+[e :U 297 ]
+[; ;PR23.c: 1145: }
+[; ;PR23.c: 1146: }
+[; ;PR23.c: 1147: }
+"1147
+[e :UE 294 ]
+}
+"1157
+[v _us_value `(ui ~T0 @X0 1 ef1`uc ]
+{
+[; ;PR23.c: 1156: unsigned int us_value (unsigned char mode)
+[; ;PR23.c: 1157: {
+[e :U _us_value ]
+[v _mode `uc ~T0 @X0 1 r1 ]
+[f ]
+"1158
+[v _value `ul ~T0 @X0 1 a ]
+[; ;PR23.c: 1158: unsigned long value;
+[; ;PR23.c: 1159: switch (mode)
+"1159
+[e $U 334  ]
+[; ;PR23.c: 1160: {
+"1160
+{
+[; ;PR23.c: 1162: case 1:
+"1162
+[e :U 335 ]
+[; ;PR23.c: 1163: value = read_adc(0);
+"1163
+[e = _value -> ( _read_adc (1 -> -> 0 `i `uc `ul ]
+[; ;PR23.c: 1169: value = value / 2;
+"1169
+[e = _value / _value -> -> -> 2 `i `l `ul ]
+[; ;PR23.c: 1170: break;
+"1170
+[e $U 333  ]
+[; ;PR23.c: 1173: case 2:
+"1173
+[e :U 336 ]
+[; ;PR23.c: 1175: value = pulse_width;
+"1175
+[e = _value -> _pulse_width `ul ]
+[; ;PR23.c: 1178: value = (value * 5442) / 1000000;
+"1178
+[e = _value / * _value -> -> -> 5442 `i `l `ul -> -> 1000000 `l `ul ]
+[; ;PR23.c: 1179: break;
+"1179
+[e $U 333  ]
+[; ;PR23.c: 1182: case 3:
+"1182
+[e :U 337 ]
+[; ;PR23.c: 1184: if(data[0] == 'R')
+"1184
+[e $ ! == -> *U + &U _data * -> -> -> 0 `i `ui `ux -> -> # *U &U _data `ui `ux `ui -> 82 `ui 338  ]
+[; ;PR23.c: 1185: {
+"1185
+{
+[; ;PR23.c: 1186: value = ((data[1] - 0x30)*100) + ((data[2] - 0x30)*10) + (data[3] - 0x30);
+"1186
+[e = _value -> -> + + * - -> *U + &U _data * -> -> -> 1 `i `ui `ux -> -> # *U &U _data `ui `ux `i -> 48 `i -> 100 `i * - -> *U + &U _data * -> -> -> 2 `i `ui `ux -> -> # *U &U _data `ui `ux `i -> 48 `i -> 10 `i - -> *U + &U _data * -> -> -> 3 `i `ui `ux -> -> # *U &U _data `ui `ux `i -> 48 `i `l `ul ]
+"1187
+}
+[; ;PR23.c: 1187: }
+[e $U 339  ]
+"1188
+[e :U 338 ]
+[; ;PR23.c: 1188: else
+[; ;PR23.c: 1189: {
+"1189
+{
+[; ;PR23.c: 1190: value = 0;
+"1190
+[e = _value -> -> -> 0 `i `l `ul ]
+"1191
+}
+[e :U 339 ]
+"1192
+}
+[; ;PR23.c: 1191: }
+[; ;PR23.c: 1192: }
+[e $U 333  ]
+"1159
+[e :U 334 ]
+[e [\ _mode , $ -> -> 1 `i `uc 335
+ , $ -> -> 2 `i `uc 336
+ , $ -> -> 3 `i `uc 337
+ 333 ]
+"1192
+[e :U 333 ]
+[; ;PR23.c: 1193: return (unsigned int)value;
+"1193
+[e ) -> _value `ui ]
+[e $UE 332  ]
+[; ;PR23.c: 1194: }
+"1194
+[e :UE 332 ]
+}
+"1201
+[v _forward `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 1200: void forward ()
+[; ;PR23.c: 1201: {
+[e :U _forward ]
+[f ]
+[; ;PR23.c: 1202: RC0 = 0;
+"1202
+[e = _RC0 -> -> 0 `i `b ]
+[; ;PR23.c: 1203: RC3 = 1;
+"1203
+[e = _RC3 -> -> 1 `i `b ]
+[; ;PR23.c: 1204: RC4 = 0;
+"1204
+[e = _RC4 -> -> 0 `i `b ]
+[; ;PR23.c: 1205: RC5 = 1;
+"1205
+[e = _RC5 -> -> 1 `i `b ]
+[; ;PR23.c: 1206: }
+"1206
+[e :UE 340 ]
+}
+"1209
+[v _backward `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 1208: void backward ()
+[; ;PR23.c: 1209: {
+[e :U _backward ]
+[f ]
+[; ;PR23.c: 1210: RC0 = 1;
+"1210
+[e = _RC0 -> -> 1 `i `b ]
+[; ;PR23.c: 1211: RC3 = 0;
+"1211
+[e = _RC3 -> -> 0 `i `b ]
+[; ;PR23.c: 1212: RC4 = 1;
+"1212
+[e = _RC4 -> -> 1 `i `b ]
+[; ;PR23.c: 1213: RC5 = 0;
+"1213
+[e = _RC5 -> -> 0 `i `b ]
+[; ;PR23.c: 1214: }
+"1214
+[e :UE 341 ]
+}
+"1217
+[v _left `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 1216: void left()
+[; ;PR23.c: 1217: {
+[e :U _left ]
+[f ]
+[; ;PR23.c: 1218: RC0 = 0;
+"1218
+[e = _RC0 -> -> 0 `i `b ]
+[; ;PR23.c: 1219: RC3 = 1;
+"1219
+[e = _RC3 -> -> 1 `i `b ]
+[; ;PR23.c: 1220: RC4 = 1;
+"1220
+[e = _RC4 -> -> 1 `i `b ]
+[; ;PR23.c: 1221: RC5 = 0;
+"1221
+[e = _RC5 -> -> 0 `i `b ]
+[; ;PR23.c: 1222: }
+"1222
+[e :UE 342 ]
+}
+"1225
+[v _right `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 1224: void right()
+[; ;PR23.c: 1225: {
+[e :U _right ]
+[f ]
+[; ;PR23.c: 1226: RC0 = 1;
+"1226
+[e = _RC0 -> -> 1 `i `b ]
+[; ;PR23.c: 1227: RC3 = 0;
+"1227
+[e = _RC3 -> -> 0 `i `b ]
+[; ;PR23.c: 1228: RC4 = 0;
+"1228
+[e = _RC4 -> -> 0 `i `b ]
+[; ;PR23.c: 1229: RC5 = 1;
+"1229
+[e = _RC5 -> -> 1 `i `b ]
+[; ;PR23.c: 1230: }
+"1230
+[e :UE 343 ]
+}
+"1233
+[v _stop `(v ~T0 @X0 1 ef ]
+{
+[; ;PR23.c: 1232: void stop()
+[; ;PR23.c: 1233: {
+[e :U _stop ]
+[f ]
+[; ;PR23.c: 1234: RC0 = 0;
+"1234
+[e = _RC0 -> -> 0 `i `b ]
+[; ;PR23.c: 1235: RC3 = 0;
+"1235
+[e = _RC3 -> -> 0 `i `b ]
+[; ;PR23.c: 1236: RC4 = 0;
+"1236
+[e = _RC4 -> -> 0 `i `b ]
+[; ;PR23.c: 1237: RC5 = 0;
+"1237
+[e = _RC5 -> -> 0 `i `b ]
+[; ;PR23.c: 1238: }
+"1238
+[e :UE 344 ]
+}
+[a 24C 79 117 116 0 ]
+[a 33C 110 117 109 98 101 114 32 54 32 61 32 116 117 114 110 32 114 105 103 104 116 0 ]
+[a 34C 110 117 109 98 101 114 32 52 32 61 32 116 117 114 110 32 108 101 102 116 0 ]
+[a 30C 67 111 110 110 101 99 116 101 100 32 119 105 116 104 32 88 66 101 101 32 119 105 114 101 108 101 115 115 0 ]
+[a 27C 32 100 32 111 110 32 99 111 109 112 117 116 101 114 0 ]
+[a 1C 83 87 49 43 43 32 32 83 87 50 45 62 82 117 110 0 ]
+[a 14C 83 87 49 43 43 32 32 83 87 50 45 62 82 117 110 0 ]
+[a 2C 32 76 105 110 101 32 80 111 115 105 116 105 111 110 0 ]
+[a 23C 99 109 0 ]
+[a 25C 32 83 75 88 66 101 101 32 67 111 110 116 114 111 108 0 ]
+[a 19C 105 110 99 104 0 ]
+[a 31C 110 117 109 98 101 114 32 56 32 61 32 102 111 114 119 97 114 100 0 ]
+[a 36C 70 111 114 119 97 114 100 0 ]
+[a 32C 110 117 109 98 101 114 32 50 32 61 32 98 97 99 107 119 97 114 100 0 ]
+[a 35C 79 116 104 101 114 32 61 32 115 116 111 112 32 97 110 100 32 105 110 118 97 108 105 100 32 99 111 109 109 97 110 100 0 ]
+[a 20C 88 88 88 0 ]
+[a 16C 85 65 82 84 0 ]
+[a 40C 84 85 82 78 32 82 73 71 72 84 0 ]
+[a 42C 84 85 82 78 32 76 69 70 84 0 ]
+[a 47C 32 32 32 119 105 116 104 32 83 75 80 83 0 ]
+[a 38C 66 65 67 75 87 65 82 68 0 ]
+[a 44C 73 78 86 65 76 73 68 32 67 79 77 77 65 78 68 0 ]
+[a 26C 74 80 55 32 116 111 32 85 67 0 ]
+[a 48C 74 80 55 32 116 111 32 85 67 0 ]
+[a 13C 65 68 67 0 ]
+[a 18C 82 97 110 103 101 58 0 ]
+[a 22C 82 97 110 103 101 58 0 ]
+[a 46C 32 32 67 111 110 116 114 111 108 32 80 82 50 51 0 ]
+[a 4C 109 95 114 105 103 104 116 50 0 ]
+[a 21C 83 104 97 114 112 32 71 80 50 89 48 65 50 49 0 ]
+[a 49C 82 101 97 100 121 33 0 ]
+[a 41C 84 117 114 110 32 82 105 103 104 116 33 0 ]
+[a 43C 84 117 114 110 32 76 101 102 116 33 0 ]
+[a 29C 67 111 110 103 114 97 116 115 33 0 ]
+[a 28C 82 101 97 100 121 32 116 111 32 99 111 110 116 114 111 108 33 0 ]
+[a 37C 70 111 114 119 97 114 100 33 0 ]
+[a 39C 66 97 99 107 119 97 114 100 33 0 ]
+[a 45C 73 110 118 97 108 105 100 32 67 111 109 109 97 110 100 33 0 ]
+[a 7C 109 105 100 100 108 101 32 0 ]
+[a 15C 80 87 77 32 0 ]
+[a 17C 65 68 67 32 0 ]
+[a 12C 77 101 97 115 117 114 101 32 58 32 0 ]
+[a 10C 109 95 108 101 102 116 50 32 0 ]
+[a 3C 114 105 103 104 116 32 32 0 ]
+[a 5C 109 95 114 105 103 104 116 49 32 32 0 ]
+[a 6C 109 95 114 105 103 104 116 49 32 32 0 ]
+[a 11C 108 101 102 116 32 32 32 0 ]
+[a 8C 109 95 108 101 102 116 49 32 32 32 0 ]
+[a 9C 109 95 108 101 102 116 49 32 32 32 0 ]
